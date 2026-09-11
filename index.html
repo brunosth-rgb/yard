@@ -36,23 +36,13 @@ body.dark{
 *{box-sizing:border-box}
 html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
 body{padding:0}
-.tv-stage{
-  position:fixed;
-  inset:0;
-  overflow:hidden;
-  background:var(--bg);
-}
 .screen{
-  position:absolute;
-  left:0;
-  top:0;
-  width:1920px;
-  height:1080px;
-  padding:14px;
+  width:100vw;
+  height:100vh;
+  padding:1.2vh 1vw;
   display:grid;
-  grid-template-rows:64px 138px 112px 1fr 34px;
-  gap:12px;
-  transform-origin:top left;
+  grid-template-rows:9vh 18vh 15vh minmax(0,1fr) 3vh;
+  gap:1vh;
 }
 .header{
   display:flex;align-items:center;justify-content:space-between;
@@ -406,10 +396,104 @@ body.dark .status.stale{color:#fbbf24}
 .status.error{color:#b91c1c}
 body.dark .status.error{color:#f87171}
 
+
+/* TV fullscreen responsive layout */
+.header{padding:.8vh 1vw}
+.brand-logo{width:5.8vw;height:5.2vh}
+.title{font-size:clamp(16px,1.35vw,26px)}
+.subtitle{font-size:clamp(8px,.62vw,12px)}
+.head-right{gap:.65vw}
+.period{padding-right:.65vw}
+.period b{font-size:clamp(13px,1vw,20px)}
+.period small{font-size:clamp(7px,.52vw,10px)}
+.import-btn,.theme-btn{
+  padding:.65vh .55vw;
+  font-size:clamp(7px,.55vw,11px)
+}
+.auto-meta{min-width:7vw}
+.auto-meta .last-update,.import-status{font-size:clamp(6px,.45vw,9px)}
+.status{font-size:clamp(7px,.55vw,11px)}
+
+.top-grid{gap:.55vw}
+.card{border-radius:clamp(7px,.7vw,14px)}
+.kpi{padding:1.1vh .8vw}
+.kpi .label{font-size:clamp(8px,.62vw,12px)}
+.kpi .value{font-size:clamp(23px,2vw,38px)}
+.kpi .foot{font-size:clamp(7px,.54vw,11px)}
+.resource{padding:1vh .7vw}
+.resource .big{font-size:clamp(28px,2.3vw,44px)}
+.resource .sub{font-size:clamp(8px,.62vw,12px)}
+.resource-icon{width:2.6vw;height:3vh;margin-bottom:.5vh}
+
+.gauge-card{padding:.8vh .65vw;grid-template-columns:minmax(88px,7vw) 1fr;gap:.5vw}
+.gauge-wrap{width:7vw;height:9vh;min-width:88px}
+.gauge{
+  left:.25vw;top:.5vh;
+  width:6.5vw;height:6.5vh;
+  min-width:82px;
+  border-radius:100px 100px 0 0
+}
+.gauge:after{
+  left:.9vw;top:1.5vh;width:4.7vw;height:4.7vh;
+  min-width:58px;border-radius:100px 100px 0 0
+}
+.needle{left:3.45vw;bottom:1.5vh;height:4.8vh}
+.gauge-info .label{font-size:clamp(7px,.55vw,11px)}
+.gauge-info .value{font-size:clamp(20px,1.7vw,31px)}
+.gauge-info .meta{font-size:clamp(7px,.5vw,10px)}
+.gauge-label{font-size:clamp(6px,.45vw,9px)}
+
+.flow-section{gap:.65vh}
+.flow-row{grid-template-columns:9.5vw repeat(4,minmax(0,1fr));gap:.45vw}
+.flow-label{padding:.7vh .7vw;border-radius:.6vw}
+.flow-label b{font-size:clamp(8px,.62vw,12px)}
+.flow-label span{font-size:clamp(6px,.46vw,9px)}
+.flow-card{padding:.65vh .65vw;border-radius:.6vw}
+.flow-card .metric-label b{font-size:clamp(7px,.54vw,10px)}
+.flow-card .metric-label small{font-size:clamp(6px,.42vw,8px)}
+.flow-card .metric-value{font-size:clamp(17px,1.35vw,25px)}
+
+.main{gap:.6vw}
+.rank-column{gap:1vh}
+.panel{padding:.8vh .65vw}
+.panel-title{font-size:clamp(8px,.62vw,12px);margin-bottom:.55vh}
+.panel-title span:last-child{font-size:clamp(6px,.48vw,9px)}
+.table{font-size:clamp(7px,.52vw,10px)}
+.table th{padding:.55vh .25vw}
+.table td{padding:.65vh .25vw}
+.empty-row td{font-size:clamp(7px,.5vw,10px)!important}
+
+.idle-panel{gap:.4vh}
+.idle-list{gap:.55vh}
+.idle-item{
+  grid-template-columns:3.5vw 1fr 4.6vw;
+  gap:.4vw;
+  padding:.65vh .5vw;
+  border-radius:.5vw
+}
+.idle-op b{font-size:clamp(7px,.55vw,11px)}
+.idle-op small{font-size:clamp(6px,.43vw,9px)}
+.idle-time{font-size:clamp(11px,.85vw,16px)}
+.idle-time small{font-size:clamp(6px,.4vw,8px)}
+.idle-summary{gap:.5vw}
+.idle-box{padding:.7vh .5vw;border-radius:.6vw}
+.idle-box b{font-size:clamp(20px,1.8vw,32px)}
+.idle-box span{font-size:clamp(7px,.52vw,10px)}
+.idle-box small{font-size:clamp(6px,.4vw,8px)}
+
+.footer{font-size:clamp(6px,.45vw,9px);padding:0 .3vw}
+
+/* Keep the whole dashboard inside the viewport even on TVs with unusual CSS scaling */
+@media (max-aspect-ratio: 16/10){
+  .screen{
+    grid-template-rows:8.5vh 17.5vh 14.5vh minmax(0,1fr) 3vh;
+  }
+}
+
 </style>
 </head>
 <body>
-<div class="tv-stage"><div class="screen">
+<div class="screen">
   <header class="header">
     <div class="brand-wrap">
       <div class="brand-logo" aria-label="JBS Terminais">
