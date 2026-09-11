@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-11T16:10:36.225Z",
+  "reportReferenceTime": "2026-09-11T16:04:09.000Z",
+  "timezone": "America/Sao_Paulo",
+  "source": {
+    "occupancy": {
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-13469035.csv",
+      "receivedAt": "2026-09-11T16:04:10.000Z",
+      "messageSubject": "YARD DASHBOARD"
+    },
+    "moveHistory": {
+      "fileName": "REP_YARDDASHBOARDMOVES_-70702511.csv",
+      "receivedAt": "2026-09-11T16:04:10.000Z",
+      "messageSubject": "YARD DASHBOARD"
+    }
+  },
+  "operationalPeriod": {
+    "code": "13x19",
+    "start": "2026-09-11T16:00:00.000Z",
+    "end": "2026-09-11T22:00:00.000Z"
+  },
+  "occupancy": {
+    "general": {
+      "occupiedTeus": 9401,
+      "capacityTeus": 10955,
+      "occupancyPct": 0.8581
+    },
+    "reefer": {
+      "occupiedUnits": 693,
+      "capacityPlugs": 1198,
+      "occupancyPct": 0.5785
+    },
+    "imo": {
+      "occupiedTeus": 102,
+      "capacityTeus": 254,
+      "occupancyPct": 0.4016
+    }
+  },
+  "resources": {
+    "rsInOperation": 1,
+    "ttInOperation": 0
+  },
+  "rs": {
+    "target": 15,
+    "averageProductivity": 19.05,
+    "top": [],
+    "lowest": []
+  },
+  "tt": {
+    "top": [],
+    "lowest": []
+  },
+  "idle": {
+    "alertMinutes": 15,
+    "rsCount": 0,
+    "ttCount": 0,
+    "equipment": []
+  },
+  "dailyFlows": {
+    "export": {
+      "receival": 196,
+      "load": 0,
+      "housekeeping": 112,
+      "housekeepingRatio": null
+    },
+    "import": {
+      "discharge": 295,
+      "delivery": 136,
+      "housekeeping": 72,
+      "housekeepingRatio": 0.53
+    }
+  },
+  "stats": {
+    "moveRowsInput": 2356,
+    "rsEventsCurrentPeriod": 1,
+    "ttEventsCurrentPeriod": 0
+  }
+}
