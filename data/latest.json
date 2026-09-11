@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T23:13:37.044Z",
-  "reportReferenceTime": "2026-09-11T23:12:03.000Z",
+  "generatedAt": "2026-09-11T23:18:25.651Z",
+  "reportReferenceTime": "2026-09-11T23:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_222311189.csv",
-      "receivedAt": "2026-09-11T23:12:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_916126543.csv",
+      "receivedAt": "2026-09-11T23:16:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-30836973.csv",
-      "receivedAt": "2026-09-11T23:12:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_638951896.csv",
+      "receivedAt": "2026-09-11T23:16:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9390,
+      "occupiedTeus": 9392,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8571
+      "occupancyPct": 0.8573
     },
     "reefer": {
       "occupiedUnits": 720,
@@ -39,50 +39,41 @@
   },
   "resources": {
     "rsInOperation": 12,
-    "ttInOperation": 2
+    "ttInOperation": 3
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.72,
+    "averageProductivity": 17.26,
     "top": [
       {
         "equipment": "R07",
         "login": "EJN",
         "operator": "EDMILSON JOSE NASCI",
-        "moves": 48,
+        "moves": 49,
         "firstMove": "2026-09-11T22:00:00.000Z",
-        "lastMove": "2026-09-11T23:07:00.000Z",
-        "productivity": 39.97
+        "lastMove": "2026-09-11T23:09:00.000Z",
+        "productivity": 38.65
       },
       {
         "equipment": "R04",
         "login": "EDB",
         "operator": "EDISON BRANCO",
-        "moves": 22,
+        "moves": 24,
         "firstMove": "2026-09-11T22:25:00.000Z",
-        "lastMove": "2026-09-11T23:10:00.000Z",
-        "productivity": 28.06
+        "lastMove": "2026-09-11T23:14:00.000Z",
+        "productivity": 28.2
       },
       {
         "equipment": "R03",
         "login": "DJB",
         "operator": "DAVID JAIR BROCKVELD",
-        "moves": 24,
+        "moves": 26,
         "firstMove": "2026-09-11T22:19:00.000Z",
-        "lastMove": "2026-09-11T23:08:00.000Z",
-        "productivity": 27.14
+        "lastMove": "2026-09-11T23:12:00.000Z",
+        "productivity": 27.34
       }
     ],
     "lowest": [
-      {
-        "equipment": "R01",
-        "login": "FJL",
-        "operator": "FABIANO JOSE LIMA",
-        "moves": 5,
-        "firstMove": "2026-09-11T22:29:00.000Z",
-        "lastMove": "2026-09-11T23:01:00.000Z",
-        "productivity": 6.97
-      },
       {
         "equipment": "R09",
         "login": "VCS",
@@ -90,16 +81,25 @@
         "moves": 7,
         "firstMove": "2026-09-11T22:17:00.000Z",
         "lastMove": "2026-09-11T23:10:00.000Z",
-        "productivity": 7.63
+        "productivity": 7.11
+      },
+      {
+        "equipment": "R01",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 6,
+        "firstMove": "2026-09-11T22:29:00.000Z",
+        "lastMove": "2026-09-11T23:14:00.000Z",
+        "productivity": 7.65
       },
       {
         "equipment": "R11",
         "login": "SSI",
         "operator": "SERGIO RENATO LAUDI",
-        "moves": 9,
+        "moves": 10,
         "firstMove": "2026-09-11T22:12:00.000Z",
-        "lastMove": "2026-09-11T22:32:00.000Z",
-        "productivity": 8.99
+        "lastMove": "2026-09-11T23:12:00.000Z",
+        "productivity": 9.37
       }
     ]
   },
@@ -112,7 +112,7 @@
         "moves": 8,
         "firstMove": "2026-09-11T22:35:00.000Z",
         "lastMove": "2026-09-11T23:11:00.000Z",
-        "productivity": 12.96
+        "productivity": 11.69
       }
     ],
     "lowest": [
@@ -123,44 +123,33 @@
         "moves": 8,
         "firstMove": "2026-09-11T22:35:00.000Z",
         "lastMove": "2026-09-11T23:11:00.000Z",
-        "productivity": 12.96
+        "productivity": 11.69
       }
     ]
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
+    "rsCount": 0,
     "ttCount": 0,
-    "equipment": [
-      {
-        "equipment": "R11",
-        "login": "SSI",
-        "operator": "SERGIO RENATO LAUDI",
-        "moves": 9,
-        "productivity": 8.99,
-        "firstMove": "2026-09-11T22:12:00.000Z",
-        "lastMove": "2026-09-11T22:32:00.000Z",
-        "idleMinutes": 40
-      }
-    ]
+    "equipment": []
   },
   "dailyFlows": {
     "export": {
-      "receival": 275,
+      "receival": 276,
       "load": 0,
-      "housekeeping": 148,
+      "housekeeping": 149,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 295,
-      "delivery": 228,
-      "housekeeping": 194,
-      "housekeepingRatio": 0.85
+      "delivery": 230,
+      "housekeeping": 198,
+      "housekeepingRatio": 0.86
     }
   },
   "stats": {
-    "moveRowsInput": 2081,
-    "rsEventsCurrentPeriod": 178,
-    "ttEventsCurrentPeriod": 9
+    "moveRowsInput": 2080,
+    "rsEventsCurrentPeriod": 191,
+    "ttEventsCurrentPeriod": 10
   }
 }
