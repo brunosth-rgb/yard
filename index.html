@@ -369,6 +369,26 @@ body.dark .import-btn.loaded{color:var(--green)}
   padding:12px 5px !important;
 }
 
+
+.auto-meta{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  align-items:flex-end;
+  min-width:120px;
+}
+.auto-meta .last-update{
+  font-size:9px;
+  color:var(--muted);
+  white-space:nowrap;
+}
+.status.stale .dot{background:#f59e0b}
+.status.stale{color:#b45309}
+body.dark .status.stale{color:#fbbf24}
+.status.error .dot{background:#ef4444}
+.status.error{color:#b91c1c}
+body.dark .status.error{color:#f87171}
+
 </style>
 </head>
 <body>
@@ -394,9 +414,10 @@ body.dark .import-btn.loaded{color:var(--green)}
       <input id="movesInput" type="file" accept=".csv,text/csv" hidden>
       <button id="occBtn" class="import-btn" onclick="document.getElementById('occInput').click()">Importar Occupancy</button>
       <button id="movesBtn" class="import-btn" onclick="document.getElementById('movesInput').click()">Importar Move History</button>
-      <div>
-        <div id="dataStatus" class="status manual"><span class="dot"></span><span>MANUAL</span></div>
-        <div id="importStatus" class="import-status">0/2 arquivos</div>
+      <div class="auto-meta">
+        <div id="dataStatus" class="status manual"><span class="dot"></span><span>CARREGANDO</span></div>
+        <div id="lastUpdate" class="last-update">Última atualização: --</div>
+        <div id="importStatus" class="import-status">Fallback manual disponível</div>
       </div>
       <button class="theme-btn" onclick="document.body.classList.toggle('dark')">Modo Claro/Escuro</button>
     </div>
@@ -620,7 +641,7 @@ body.dark .import-btn.loaded{color:var(--green)}
   </main>
 
   <footer class="footer">
-    <span>Fonte: <span id="sourceLabel" class="simulated">IMPORTAÇÃO MANUAL</span> | Validação V7</span>
+    <span>Fonte: <span id="sourceLabel" class="simulated">LATEST.JSON</span> | Automático V8</span>
     <span>JBS Terminais - Yard Operations Dashboard</span>
   </footer>
 </div>
@@ -741,7 +762,12 @@ function buildStats(events,ref){
 function renderRank(bodyId,items,good){
   const body=document.getElementById(bodyId);
   if(!items.length){ body.innerHTML='<tr class="empty-row"><td colspan="5">Sem dados elegíveis</td></tr>'; return; }
-  body.innerHTML=items.slice(0,3).map((x,i)=>`<tr class="${good?'good':'bad'}"><td class="pos">${i+1}</td><td>${x.name}</td><td class="eq">${x.eq}</td><td>${x.moves}</td><td class="prod">${fmt1(x.prod)}</td></tr>`).join('');
+  body.innerHTML=items.slice(0,3).map((x,i)=>{
+    const name=x.name ?? x.operator ?? x.login ?? '';
+    const eq=x.eq ?? x.equipment ?? '';
+    const prod=x.prod ?? x.productivity ?? 0;
+    return `<tr class="${good?'good':'bad'}"><td class="pos">${i+1}</td><td>${name}</td><td class="eq">${eq}</td><td>${x.moves ?? 0}</td><td class="prod">${fmt1(Number(prod))}</td></tr>`;
+  }).join('');
 }
 function updateStatus(){
   const n=(occupancyData?1:0)+(moveRows.length?1:0);
@@ -854,6 +880,178 @@ document.getElementById('movesInput').addEventListener('change',async e=>{
   document.getElementById('movesBtn').textContent='Move History ✓';
   rerender();
 });
+
+const AUTO_REFRESH_MS = 60000;
+const STALE_AFTER_MINUTES = 15;
+let autoMode = true;
+let latestJsonCache = null;
+
+function parseISODateSafe(v){
+  if(!v) return null;
+  const d = new Date(v);
+  return isNaN(d) ? null : d;
+}
+
+function setAutoStatus(state, generatedAt){
+  const st = document.getElementById('dataStatus');
+  const lu = document.getElementById('lastUpdate');
+  if(!st || !lu) return;
+
+  const now = new Date();
+  const gen = parseISODateSafe(generatedAt);
+  const ageMin = gen ? (now - gen) / 60000 : null;
+
+  if(state === 'error'){
+    st.className = 'status error';
+    st.innerHTML = '<span class="dot"></span><span>ERRO</span>';
+  } else if(ageMin !== null && ageMin > STALE_AFTER_MINUTES){
+    st.className = 'status stale';
+    st.innerHTML = '<span class="dot"></span><span>DESATUALIZADO</span>';
+  } else {
+    st.className = 'status ready';
+    st.innerHTML = '<span class="dot"></span><span>ONLINE</span>';
+  }
+
+  if(gen){
+    lu.textContent = 'Última atualização: ' + gen.toLocaleString('pt-BR', {
+      day:'2-digit', month:'2-digit', year:'numeric',
+      hour:'2-digit', minute:'2-digit'
+    });
+  } else {
+    lu.textContent = 'Última atualização: --';
+  }
+}
+
+function renderLatestJson(data){
+  if(!data) return;
+  latestJsonCache = data;
+  autoMode = true;
+
+  const ref = parseISODateSafe(data.reportReferenceTime) || parseISODateSafe(data.generatedAt) || new Date();
+
+  // Period
+  if(data.operationalPeriod){
+    document.getElementById('periodCode').textContent = data.operationalPeriod.code || '--';
+    const ps = parseISODateSafe(data.operationalPeriod.start);
+    const pe = parseISODateSafe(data.operationalPeriod.end);
+    const f = d => d ? String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0') : '--';
+    document.getElementById('periodRange').textContent = f(ps)+' às '+f(pe);
+  }
+
+  // Occupancy
+  const occ = data.occupancy || {};
+  const gen = occ.general || {}, reefer = occ.reefer || {}, imo = occ.imo || {};
+  document.getElementById('occGeneral').textContent = fmtPct(Number(gen.occupancyPct || 0));
+  document.getElementById('occReefer').textContent = fmtPct(Number(reefer.occupancyPct || 0));
+  document.getElementById('occIMO').textContent = fmtPct(Number(imo.occupancyPct || 0));
+  document.getElementById('occGeneralFoot').textContent = `${gen.occupiedTeus ?? 0} / ${gen.capacityTeus ?? 0} TEUs`;
+  document.getElementById('occReeferFoot').textContent = `${reefer.occupiedUnits ?? 0} / ${reefer.capacityPlugs ?? 0} plugs`;
+  document.getElementById('occIMOFoot').textContent = `${imo.occupiedTeus ?? 0} / ${imo.capacityTeus ?? 0} TEUs`;
+  setBar('occGeneralBar',Number(gen.occupancyPct || 0));
+  setBar('occReeferBar',Number(reefer.occupancyPct || 0));
+  setBar('occIMOBar',Number(imo.occupancyPct || 0));
+
+  // Resources + RS gauge
+  const resources = data.resources || {};
+  document.getElementById('rsCount').textContent = resources.rsInOperation ?? 0;
+  document.getElementById('ttCount').textContent = resources.ttInOperation ?? 0;
+
+  const rs = data.rs || {};
+  const rsAvg = Number(rs.averageProductivity || 0);
+  const rsTarget = Number(rs.target || 15);
+  document.getElementById('rsAvg').textContent = fmt1(rsAvg);
+  document.getElementById('rsAvgMeta').textContent = `Meta: ${fmt1(rsTarget)} mov/h | ${rsTarget ? Math.round(rsAvg/rsTarget*100) : 0}% da meta`;
+  const needle = Math.max(-90,Math.min(90,(rsAvg/20)*180-90));
+  document.getElementById('rsNeedle').style.transform = `rotate(${needle}deg)`;
+
+  // Rankings from consolidated JSON
+  renderRank('rsTopBody', rs.top || [], true);
+  renderRank('rsLowBody', rs.lowest || [], false);
+
+  const tt = data.tt || {};
+  renderRank('ttTopBody', tt.top || [], true);
+  renderRank('ttLowBody', tt.lowest || [], false);
+
+  // Idle
+  const idle = data.idle || {};
+  document.getElementById('rsIdleCount').textContent = idle.rsCount ?? 0;
+  document.getElementById('ttIdleCount').textContent = idle.ttCount ?? 0;
+  const idleList = document.getElementById('idleList');
+  const items = idle.equipment || [];
+  const hh = d => {
+    const dt = parseISODateSafe(d);
+    return dt ? String(dt.getHours()).padStart(2,'0')+':'+String(dt.getMinutes()).padStart(2,'0') : '--';
+  };
+  if(!items.length){
+    idleList.innerHTML='<div class="idle-item warning"><div class="idle-op"><b>Nenhum equipamento acima de 15 min</b></div></div>';
+  } else {
+    idleList.innerHTML = items.slice(0,6).map(x=>{
+      const min = Number(x.idleMinutes || 0);
+      const cls = min > 30 ? 'critical' : 'warning';
+      const label = min > 30 ? 'CRÍTICO' : 'ALERTA';
+      return `<div class="idle-item ${cls}">
+        <div class="idle-eq">${x.equipment || ''}</div>
+        <div class="idle-op"><b>${x.operator || x.login || ''}</b><small>Último mov. ${hh(x.lastMove)}</small></div>
+        <div class="idle-time">${Math.floor(min)} min<small>${label}</small></div>
+      </div>`;
+    }).join('');
+  }
+
+  // Daily flows
+  const flows = data.dailyFlows || {};
+  const exp = flows.export || {}, imp = flows.import || {};
+  document.getElementById('flowExpReceival').textContent = exp.receival ?? 0;
+  document.getElementById('flowExpLoad').textContent = exp.load ?? 0;
+  document.getElementById('flowExpHK').textContent = exp.housekeeping ?? 0;
+  document.getElementById('flowExpRatio').textContent = exp.housekeepingRatio == null ? '-' : fmt2(Number(exp.housekeepingRatio));
+  document.getElementById('flowImpDischarge').textContent = imp.discharge ?? 0;
+  document.getElementById('flowImpDelivery').textContent = imp.delivery ?? 0;
+  document.getElementById('flowImpHK').textContent = imp.housekeeping ?? 0;
+  document.getElementById('flowImpRatio').textContent = imp.housekeepingRatio == null ? '-' : fmt2(Number(imp.housekeepingRatio));
+
+  document.getElementById('sourceLabel').textContent = 'LATEST.JSON';
+  document.getElementById('importStatus').textContent = 'Fallback manual disponível';
+  setAutoStatus('ok', data.generatedAt);
+}
+
+async function loadLatestJson(){
+  try{
+    const url = 'data/latest.json?t=' + Date.now();
+    const res = await fetch(url, {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    renderLatestJson(data);
+  } catch(err){
+    console.error('Falha ao carregar data/latest.json:', err);
+    if(!latestJsonCache){
+      setAutoStatus('error', null);
+      document.getElementById('importStatus').textContent = 'Use a importação manual';
+      document.getElementById('sourceLabel').textContent = 'SEM DADOS';
+    } else {
+      setAutoStatus('error', latestJsonCache.generatedAt);
+    }
+  }
+}
+
+// Manual import becomes contingency mode.
+const originalOccHandlerMarker = true;
+document.getElementById('occInput').addEventListener('change',()=>{
+  autoMode = false;
+  document.getElementById('sourceLabel').textContent = 'IMPORTAÇÃO MANUAL';
+  document.getElementById('lastUpdate').textContent = 'Última atualização: arquivo manual';
+});
+document.getElementById('movesInput').addEventListener('change',()=>{
+  autoMode = false;
+  document.getElementById('sourceLabel').textContent = 'IMPORTAÇÃO MANUAL';
+  document.getElementById('lastUpdate').textContent = 'Última atualização: arquivo manual';
+});
+
+// Initial load and 60-second refresh.
+loadLatestJson();
+setInterval(()=>{
+  if(autoMode) loadLatestJson();
+}, AUTO_REFRESH_MS);
+
 </script>
 
 </body>
