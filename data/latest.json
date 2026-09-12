@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T04:14:43.518Z",
-  "reportReferenceTime": "2026-09-12T04:12:04.000Z",
+  "generatedAt": "2026-09-12T04:18:29.334Z",
+  "reportReferenceTime": "2026-09-12T04:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-29742967.csv",
-      "receivedAt": "2026-09-12T04:12:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_572388131.csv",
+      "receivedAt": "2026-09-12T04:16:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_933096169.csv",
-      "receivedAt": "2026-09-12T04:12:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-53217575.csv",
+      "receivedAt": "2026-09-12T04:16:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9499,
+      "occupiedTeus": 9503,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8671
+      "occupancyPct": 0.8675
     },
     "reefer": {
       "occupiedUnits": 744,
@@ -38,14 +38,34 @@
     }
   },
   "resources": {
-    "rsInOperation": 3,
+    "rsInOperation": 5,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 35.3,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 25.59,
+    "top": [
+      {
+        "equipment": "R10",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 6,
+        "firstMove": "2026-09-12T04:07:00.000Z",
+        "lastMove": "2026-09-12T04:15:00.000Z",
+        "productivity": 39.71
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R10",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 6,
+        "firstMove": "2026-09-12T04:07:00.000Z",
+        "lastMove": "2026-09-12T04:15:00.000Z",
+        "productivity": 39.71
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -59,7 +79,7 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 22,
+      "receival": 26,
       "load": 0,
       "housekeeping": 0,
       "housekeepingRatio": null
@@ -67,13 +87,13 @@
     "import": {
       "discharge": 0,
       "delivery": 0,
-      "housekeeping": 36,
+      "housekeeping": 37,
       "housekeepingRatio": null
     }
   },
   "stats": {
-    "moveRowsInput": 1576,
-    "rsEventsCurrentPeriod": 7,
+    "moveRowsInput": 1571,
+    "rsEventsCurrentPeriod": 13,
     "ttEventsCurrentPeriod": 0
   }
 }
