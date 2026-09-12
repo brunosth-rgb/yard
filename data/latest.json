@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T04:23:35.949Z",
-  "reportReferenceTime": "2026-09-12T04:20:04.000Z",
+  "generatedAt": "2026-09-12T04:32:18.773Z",
+  "reportReferenceTime": "2026-09-12T04:28:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-15547107.csv",
-      "receivedAt": "2026-09-12T04:20:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_705805743.csv",
+      "receivedAt": "2026-09-12T04:28:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_815428686.csv",
-      "receivedAt": "2026-09-12T04:20:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-45260233.csv",
+      "receivedAt": "2026-09-12T04:28:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -39,31 +39,49 @@
   },
   "resources": {
     "rsInOperation": 7,
-    "ttInOperation": 2
+    "ttInOperation": 3
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 27.24,
+    "averageProductivity": 18.42,
     "top": [
       {
         "equipment": "R10",
         "login": "FJL",
         "operator": "FABIANO JOSE LIMA",
-        "moves": 10,
+        "moves": 14,
         "firstMove": "2026-09-12T04:07:00.000Z",
-        "lastMove": "2026-09-12T04:19:00.000Z",
-        "productivity": 45.92
+        "lastMove": "2026-09-12T04:25:00.000Z",
+        "productivity": 39.87
+      },
+      {
+        "equipment": "R03",
+        "login": "GGN",
+        "operator": "GERSON GENESIO NASC",
+        "moves": 9,
+        "firstMove": "2026-09-12T04:14:00.000Z",
+        "lastMove": "2026-09-12T04:24:00.000Z",
+        "productivity": 38.39
       }
     ],
     "lowest": [
       {
+        "equipment": "R03",
+        "login": "GGN",
+        "operator": "GERSON GENESIO NASC",
+        "moves": 9,
+        "firstMove": "2026-09-12T04:14:00.000Z",
+        "lastMove": "2026-09-12T04:24:00.000Z",
+        "productivity": 38.39
+      },
+      {
         "equipment": "R10",
         "login": "FJL",
         "operator": "FABIANO JOSE LIMA",
-        "moves": 10,
+        "moves": 14,
         "firstMove": "2026-09-12T04:07:00.000Z",
-        "lastMove": "2026-09-12T04:19:00.000Z",
-        "productivity": 45.92
+        "lastMove": "2026-09-12T04:25:00.000Z",
+        "productivity": 39.87
       }
     ]
   },
@@ -87,13 +105,13 @@
     "import": {
       "discharge": 0,
       "delivery": 0,
-      "housekeeping": 42,
+      "housekeeping": 47,
       "housekeepingRatio": null
     }
   },
   "stats": {
-    "moveRowsInput": 1565,
-    "rsEventsCurrentPeriod": 26,
-    "ttEventsCurrentPeriod": 2
+    "moveRowsInput": 1555,
+    "rsEventsCurrentPeriod": 36,
+    "ttEventsCurrentPeriod": 3
   }
 }
