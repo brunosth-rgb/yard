@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T05:43:41.856Z",
-  "reportReferenceTime": "2026-09-13T05:40:05.000Z",
+  "generatedAt": "2026-09-13T05:48:50.804Z",
+  "reportReferenceTime": "2026-09-13T05:48:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-59654078.csv",
-      "receivedAt": "2026-09-13T05:40:06.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-69921257.csv",
+      "receivedAt": "2026-09-13T05:48:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_372767338.csv",
-      "receivedAt": "2026-09-13T05:40:06.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_397436127.csv",
+      "receivedAt": "2026-09-13T05:48:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -39,20 +39,20 @@
   },
   "resources": {
     "rsInOperation": 5,
-    "ttInOperation": 4
+    "ttInOperation": 5
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.69,
+    "averageProductivity": 15.26,
     "top": [
       {
         "equipment": "R04",
         "login": "VLP",
         "operator": "VLADEMIR PORTO",
-        "moves": 25,
+        "moves": 27,
         "firstMove": "2026-09-13T04:40:00.000Z",
-        "lastMove": "2026-09-13T05:38:00.000Z",
-        "productivity": 24.97
+        "lastMove": "2026-09-13T05:41:00.000Z",
+        "productivity": 23.8
       },
       {
         "equipment": "R06",
@@ -61,16 +61,16 @@
         "moves": 20,
         "firstMove": "2026-09-13T04:43:00.000Z",
         "lastMove": "2026-09-13T05:38:00.000Z",
-        "productivity": 21.02
+        "productivity": 18.44
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA S",
-        "moves": 13,
+        "moves": 15,
         "firstMove": "2026-09-13T04:52:00.000Z",
-        "lastMove": "2026-09-13T05:39:00.000Z",
-        "productivity": 16.22
+        "lastMove": "2026-09-13T05:42:00.000Z",
+        "productivity": 16.05
       }
     ],
     "lowest": [
@@ -81,16 +81,16 @@
         "moves": 19,
         "firstMove": "2026-09-13T04:00:00.000Z",
         "lastMove": "2026-09-13T04:23:00.000Z",
-        "productivity": 11.39
+        "productivity": 10.55
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA S",
-        "moves": 13,
+        "moves": 15,
         "firstMove": "2026-09-13T04:52:00.000Z",
-        "lastMove": "2026-09-13T05:39:00.000Z",
-        "productivity": 16.22
+        "lastMove": "2026-09-13T05:42:00.000Z",
+        "productivity": 16.05
       },
       {
         "equipment": "R06",
@@ -99,7 +99,7 @@
         "moves": 20,
         "firstMove": "2026-09-13T04:43:00.000Z",
         "lastMove": "2026-09-13T05:38:00.000Z",
-        "productivity": 21.02
+        "productivity": 18.44
       }
     ]
   },
@@ -110,27 +110,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 1,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "R07",
         "login": "SIR",
         "operator": "SILVANO IRINEU FERR",
         "moves": 19,
-        "productivity": 11.39,
+        "productivity": 10.55,
         "firstMove": "2026-09-13T04:00:00.000Z",
         "lastMove": "2026-09-13T04:23:00.000Z",
-        "idleMinutes": 77
+        "idleMinutes": 85
       },
       {
         "equipment": "TT15",
         "login": "TFB",
         "operator": "TFB",
         "moves": 2,
-        "productivity": 2.72,
+        "productivity": 2.3,
         "firstMove": "2026-09-13T04:56:00.000Z",
         "lastMove": "2026-09-13T05:18:00.000Z",
-        "idleMinutes": 22
+        "idleMinutes": 30
+      },
+      {
+        "equipment": "TT01",
+        "login": "CLS",
+        "operator": "CLS",
+        "moves": 2,
+        "productivity": 2.66,
+        "firstMove": "2026-09-13T05:03:00.000Z",
+        "lastMove": "2026-09-13T05:32:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -138,7 +148,7 @@
     "export": {
       "receival": 2,
       "load": 0,
-      "housekeeping": 27,
+      "housekeeping": 29,
       "housekeepingRatio": null
     },
     "import": {
@@ -150,7 +160,7 @@
   },
   "stats": {
     "moveRowsInput": 949,
-    "rsEventsCurrentPeriod": 79,
-    "ttEventsCurrentPeriod": 10
+    "rsEventsCurrentPeriod": 83,
+    "ttEventsCurrentPeriod": 11
   }
 }
