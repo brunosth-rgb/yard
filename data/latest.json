@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T05:33:36.409Z",
-  "reportReferenceTime": "2026-09-13T05:32:04.000Z",
+  "generatedAt": "2026-09-13T05:38:34.658Z",
+  "reportReferenceTime": "2026-09-13T05:36:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_161958451.csv",
-      "receivedAt": "2026-09-13T05:32:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_674754995.csv",
+      "receivedAt": "2026-09-13T05:36:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-89209185.csv",
-      "receivedAt": "2026-09-13T05:32:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_342423436.csv",
+      "receivedAt": "2026-09-13T05:36:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,39 +38,39 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
+    "rsInOperation": 5,
     "ttInOperation": 4
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 16.39,
+    "averageProductivity": 20.32,
     "top": [
       {
         "equipment": "R04",
         "login": "VLP",
         "operator": "VLADEMIR PORTO",
-        "moves": 17,
+        "moves": 22,
         "firstMove": "2026-09-13T04:40:00.000Z",
-        "lastMove": "2026-09-13T05:32:00.000Z",
-        "productivity": 19.59
+        "lastMove": "2026-09-13T05:35:00.000Z",
+        "productivity": 23.54
       },
       {
         "equipment": "R06",
         "login": "MJR",
         "operator": "MARCIO JOSE REBELLO",
-        "moves": 14,
+        "moves": 18,
         "firstMove": "2026-09-13T04:43:00.000Z",
-        "lastMove": "2026-09-13T05:27:00.000Z",
-        "productivity": 17.12
+        "lastMove": "2026-09-13T05:35:00.000Z",
+        "productivity": 20.35
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA S",
-        "moves": 11,
+        "moves": 12,
         "firstMove": "2026-09-13T04:52:00.000Z",
-        "lastMove": "2026-09-13T05:17:00.000Z",
-        "productivity": 16.47
+        "lastMove": "2026-09-13T05:33:00.000Z",
+        "productivity": 16.34
       }
     ],
     "lowest": [
@@ -81,25 +81,25 @@
         "moves": 19,
         "firstMove": "2026-09-13T04:00:00.000Z",
         "lastMove": "2026-09-13T04:23:00.000Z",
-        "productivity": 12.38
+        "productivity": 11.87
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA S",
-        "moves": 11,
+        "moves": 12,
         "firstMove": "2026-09-13T04:52:00.000Z",
-        "lastMove": "2026-09-13T05:17:00.000Z",
-        "productivity": 16.47
+        "lastMove": "2026-09-13T05:33:00.000Z",
+        "productivity": 16.34
       },
       {
         "equipment": "R06",
         "login": "MJR",
         "operator": "MARCIO JOSE REBELLO",
-        "moves": 14,
+        "moves": 18,
         "firstMove": "2026-09-13T04:43:00.000Z",
-        "lastMove": "2026-09-13T05:27:00.000Z",
-        "productivity": 17.12
+        "lastMove": "2026-09-13T05:35:00.000Z",
+        "productivity": 20.35
       }
     ]
   },
@@ -110,27 +110,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 1,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "R07",
         "login": "SIR",
         "operator": "SILVANO IRINEU FERR",
         "moves": 19,
-        "productivity": 12.38,
+        "productivity": 11.87,
         "firstMove": "2026-09-13T04:00:00.000Z",
         "lastMove": "2026-09-13T04:23:00.000Z",
-        "idleMinutes": 69
+        "idleMinutes": 73
       },
       {
         "equipment": "TT14",
         "login": "ODS",
         "operator": "ODS",
         "moves": 1,
-        "productivity": 2.3,
+        "productivity": 2,
         "firstMove": "2026-09-13T05:06:00.000Z",
         "lastMove": "2026-09-13T05:06:00.000Z",
-        "idleMinutes": 26
+        "idleMinutes": 30
+      },
+      {
+        "equipment": "TT15",
+        "login": "TFB",
+        "operator": "TFB",
+        "moves": 2,
+        "productivity": 3,
+        "firstMove": "2026-09-13T04:56:00.000Z",
+        "lastMove": "2026-09-13T05:18:00.000Z",
+        "idleMinutes": 18
       }
     ]
   },
@@ -138,7 +148,7 @@
     "export": {
       "receival": 2,
       "load": 0,
-      "housekeeping": 18,
+      "housekeeping": 24,
       "housekeepingRatio": null
     },
     "import": {
@@ -149,8 +159,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 945,
-    "rsEventsCurrentPeriod": 61,
-    "ttEventsCurrentPeriod": 8
+    "moveRowsInput": 950,
+    "rsEventsCurrentPeriod": 73,
+    "ttEventsCurrentPeriod": 9
   }
 }
