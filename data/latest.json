@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T04:03:47.923Z",
-  "reportReferenceTime": "2026-09-13T04:00:07.000Z",
+  "generatedAt": "2026-09-13T04:09:15.177Z",
+  "reportReferenceTime": "2026-09-13T04:05:00.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_223077170.csv",
-      "receivedAt": "2026-09-13T04:00:08.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_636835098.csv",
+      "receivedAt": "2026-09-13T04:04:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-53644390.csv",
-      "receivedAt": "2026-09-13T04:00:08.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_262160554.csv",
+      "receivedAt": "2026-09-13T04:08:08.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,14 +38,34 @@
     }
   },
   "resources": {
-    "rsInOperation": 0,
+    "rsInOperation": 1,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 0,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 60,
+    "top": [
+      {
+        "equipment": "R07",
+        "login": "SIR",
+        "operator": "SILVANO IRINEU FERR",
+        "moves": 5,
+        "firstMove": "2026-09-13T04:00:00.000Z",
+        "lastMove": "2026-09-13T04:05:00.000Z",
+        "productivity": 60
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R07",
+        "login": "SIR",
+        "operator": "SILVANO IRINEU FERR",
+        "moves": 5,
+        "firstMove": "2026-09-13T04:00:00.000Z",
+        "lastMove": "2026-09-13T04:05:00.000Z",
+        "productivity": 60
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -67,13 +87,13 @@
     "import": {
       "discharge": 0,
       "delivery": 0,
-      "housekeeping": 41,
+      "housekeeping": 44,
       "housekeepingRatio": null
     }
   },
   "stats": {
-    "moveRowsInput": 1006,
-    "rsEventsCurrentPeriod": 0,
+    "moveRowsInput": 1009,
+    "rsEventsCurrentPeriod": 5,
     "ttEventsCurrentPeriod": 0
   }
 }
