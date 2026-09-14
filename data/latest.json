@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T16:44:14.692Z",
-  "reportReferenceTime": "2026-09-14T16:40:03.000Z",
+  "generatedAt": "2026-09-14T16:48:34.037Z",
+  "reportReferenceTime": "2026-09-14T16:44:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_476098580.csv",
-      "receivedAt": "2026-09-14T16:40:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-28722001.csv",
+      "receivedAt": "2026-09-14T16:44:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_639485023.csv",
-      "receivedAt": "2026-09-14T16:40:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-17794060.csv",
+      "receivedAt": "2026-09-14T16:44:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 9.55,
+    "averageProductivity": 8.07,
     "top": [
       {
         "equipment": "R07",
@@ -52,7 +52,7 @@
         "moves": 6,
         "firstMove": "2026-09-14T16:19:00.000Z",
         "lastMove": "2026-09-14T16:26:00.000Z",
-        "productivity": 17.1
+        "productivity": 14.37
       }
     ],
     "lowest": [
@@ -63,7 +63,7 @@
         "moves": 6,
         "firstMove": "2026-09-14T16:19:00.000Z",
         "lastMove": "2026-09-14T16:26:00.000Z",
-        "productivity": 17.1
+        "productivity": 14.37
       }
     ]
   },
@@ -73,18 +73,28 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
-    "ttCount": 1,
+    "rsCount": 2,
+    "ttCount": 2,
     "rsEquipment": [
       {
         "equipment": "R05",
         "login": "EDB",
         "operator": "EDISON BRANCO",
         "moves": 1,
-        "productivity": 2,
+        "productivity": 1.76,
         "firstMove": "2026-09-14T16:10:00.000Z",
         "lastMove": "2026-09-14T16:10:00.000Z",
-        "idleMinutes": 30
+        "idleMinutes": 34
+      },
+      {
+        "equipment": "R07",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 6,
+        "productivity": 14.37,
+        "firstMove": "2026-09-14T16:19:00.000Z",
+        "lastMove": "2026-09-14T16:26:00.000Z",
+        "idleMinutes": 18
       }
     ],
     "ttEquipment": [
@@ -93,10 +103,20 @@
         "login": "MFZ",
         "operator": "MARGARETE FATIMA ZAMBILLO",
         "moves": 1,
-        "productivity": 3.74,
+        "productivity": 2.99,
         "firstMove": "2026-09-14T16:24:00.000Z",
         "lastMove": "2026-09-14T16:24:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
+      },
+      {
+        "equipment": "TT22",
+        "login": "TLS",
+        "operator": "TIAGO LUIZ DA SILVA",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-14T16:26:00.000Z",
+        "lastMove": "2026-09-14T16:26:00.000Z",
+        "idleMinutes": 18
       }
     ],
     "equipment": [
@@ -105,20 +125,40 @@
         "login": "EDB",
         "operator": "EDISON BRANCO",
         "moves": 1,
-        "productivity": 2,
+        "productivity": 1.76,
         "firstMove": "2026-09-14T16:10:00.000Z",
         "lastMove": "2026-09-14T16:10:00.000Z",
-        "idleMinutes": 30
+        "idleMinutes": 34
       },
       {
         "equipment": "TT25",
         "login": "MFZ",
         "operator": "MARGARETE FATIMA ZAMBILLO",
         "moves": 1,
-        "productivity": 3.74,
+        "productivity": 2.99,
         "firstMove": "2026-09-14T16:24:00.000Z",
         "lastMove": "2026-09-14T16:24:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
+      },
+      {
+        "equipment": "R07",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 6,
+        "productivity": 14.37,
+        "firstMove": "2026-09-14T16:19:00.000Z",
+        "lastMove": "2026-09-14T16:26:00.000Z",
+        "idleMinutes": 18
+      },
+      {
+        "equipment": "TT22",
+        "login": "TLS",
+        "operator": "TIAGO LUIZ DA SILVA",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-14T16:26:00.000Z",
+        "lastMove": "2026-09-14T16:26:00.000Z",
+        "idleMinutes": 18
       }
     ]
   },
@@ -137,7 +177,7 @@
     }
   },
   "stats": {
-    "moveRowsInput": 429,
+    "moveRowsInput": 426,
     "rsEventsCurrentPeriod": 7,
     "ttEventsCurrentPeriod": 2
   }
