@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T16:23:35.334Z",
-  "reportReferenceTime": "2026-09-14T16:20:04.000Z",
+  "generatedAt": "2026-09-14T16:28:33.364Z",
+  "reportReferenceTime": "2026-09-14T16:28:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-71016843.csv",
-      "receivedAt": "2026-09-14T16:20:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_810035871.csv",
+      "receivedAt": "2026-09-14T16:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_772381435.csv",
-      "receivedAt": "2026-09-14T16:20:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_256081228.csv",
+      "receivedAt": "2026-09-14T16:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,14 +38,34 @@
     }
   },
   "resources": {
-    "rsInOperation": 1,
-    "ttInOperation": 0
+    "rsInOperation": 2,
+    "ttInOperation": 2
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 5.96,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 21.55,
+    "top": [
+      {
+        "equipment": "R07",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 6,
+        "firstMove": "2026-09-14T16:19:00.000Z",
+        "lastMove": "2026-09-14T16:26:00.000Z",
+        "productivity": 39.78
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R07",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 6,
+        "firstMove": "2026-09-14T16:19:00.000Z",
+        "lastMove": "2026-09-14T16:26:00.000Z",
+        "productivity": 39.78
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -53,11 +73,33 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "rsEquipment": [],
+    "rsEquipment": [
+      {
+        "equipment": "R05",
+        "login": "EDB",
+        "operator": "EDISON BRANCO",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-14T16:10:00.000Z",
+        "lastMove": "2026-09-14T16:10:00.000Z",
+        "idleMinutes": 18
+      }
+    ],
     "ttEquipment": [],
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R05",
+        "login": "EDB",
+        "operator": "EDISON BRANCO",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-14T16:10:00.000Z",
+        "lastMove": "2026-09-14T16:10:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -69,13 +111,13 @@
     "import": {
       "discharge": 0,
       "delivery": 137,
-      "housekeeping": 41,
-      "housekeepingRatio": 0.3
+      "housekeeping": 44,
+      "housekeepingRatio": 0.32
     }
   },
   "stats": {
     "moveRowsInput": 434,
-    "rsEventsCurrentPeriod": 1,
-    "ttEventsCurrentPeriod": 0
+    "rsEventsCurrentPeriod": 7,
+    "ttEventsCurrentPeriod": 2
   }
 }
