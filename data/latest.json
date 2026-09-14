@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T16:38:32.934Z",
-  "reportReferenceTime": "2026-09-14T16:36:03.000Z",
+  "generatedAt": "2026-09-14T16:44:14.692Z",
+  "reportReferenceTime": "2026-09-14T16:40:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_332346752.csv",
-      "receivedAt": "2026-09-14T16:36:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_476098580.csv",
+      "receivedAt": "2026-09-14T16:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-45296056.csv",
-      "receivedAt": "2026-09-14T16:36:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_639485023.csv",
+      "receivedAt": "2026-09-14T16:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 11.71,
+    "averageProductivity": 9.55,
     "top": [
       {
         "equipment": "R07",
@@ -52,7 +52,7 @@
         "moves": 6,
         "firstMove": "2026-09-14T16:19:00.000Z",
         "lastMove": "2026-09-14T16:26:00.000Z",
-        "productivity": 21.11
+        "productivity": 17.1
       }
     ],
     "lowest": [
@@ -63,7 +63,7 @@
         "moves": 6,
         "firstMove": "2026-09-14T16:19:00.000Z",
         "lastMove": "2026-09-14T16:26:00.000Z",
-        "productivity": 21.11
+        "productivity": 17.1
       }
     ]
   },
@@ -74,30 +74,51 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 0,
+    "ttCount": 1,
     "rsEquipment": [
       {
         "equipment": "R05",
         "login": "EDB",
         "operator": "EDISON BRANCO",
         "moves": 1,
-        "productivity": 2.3,
+        "productivity": 2,
         "firstMove": "2026-09-14T16:10:00.000Z",
         "lastMove": "2026-09-14T16:10:00.000Z",
-        "idleMinutes": 26
+        "idleMinutes": 30
       }
     ],
-    "ttEquipment": [],
+    "ttEquipment": [
+      {
+        "equipment": "TT25",
+        "login": "MFZ",
+        "operator": "MARGARETE FATIMA ZAMBILLO",
+        "moves": 1,
+        "productivity": 3.74,
+        "firstMove": "2026-09-14T16:24:00.000Z",
+        "lastMove": "2026-09-14T16:24:00.000Z",
+        "idleMinutes": 16
+      }
+    ],
     "equipment": [
       {
         "equipment": "R05",
         "login": "EDB",
         "operator": "EDISON BRANCO",
         "moves": 1,
-        "productivity": 2.3,
+        "productivity": 2,
         "firstMove": "2026-09-14T16:10:00.000Z",
         "lastMove": "2026-09-14T16:10:00.000Z",
-        "idleMinutes": 26
+        "idleMinutes": 30
+      },
+      {
+        "equipment": "TT25",
+        "login": "MFZ",
+        "operator": "MARGARETE FATIMA ZAMBILLO",
+        "moves": 1,
+        "productivity": 3.74,
+        "firstMove": "2026-09-14T16:24:00.000Z",
+        "lastMove": "2026-09-14T16:24:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -116,7 +137,7 @@
     }
   },
   "stats": {
-    "moveRowsInput": 431,
+    "moveRowsInput": 429,
     "rsEventsCurrentPeriod": 7,
     "ttEventsCurrentPeriod": 2
   }
