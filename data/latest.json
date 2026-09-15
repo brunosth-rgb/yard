@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T13:33:14.863Z",
-  "reportReferenceTime": "2026-09-15T13:32:03.000Z",
+  "generatedAt": "2026-09-15T13:38:13.240Z",
+  "reportReferenceTime": "2026-09-15T13:36:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-55093685.csv",
-      "receivedAt": "2026-09-15T13:32:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_110547747.csv",
+      "receivedAt": "2026-09-15T13:36:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-28454891.csv",
-      "receivedAt": "2026-09-15T13:32:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_765932170.csv",
+      "receivedAt": "2026-09-15T13:36:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,8 +43,17 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 8.86,
+    "averageProductivity": 8.4,
     "top": [
+      {
+        "equipment": "R12",
+        "login": "AAN",
+        "operator": "ANDERSON ANDREI NASCIMENT",
+        "moves": 5,
+        "firstMove": "2026-09-15T13:23:00.000Z",
+        "lastMove": "2026-09-15T13:32:00.000Z",
+        "productivity": 23.02
+      },
       {
         "equipment": "R06",
         "login": "VSJ",
@@ -52,7 +61,7 @@
         "moves": 29,
         "firstMove": "2026-09-15T11:27:00.000Z",
         "lastMove": "2026-09-15T13:22:00.000Z",
-        "productivity": 13.91
+        "productivity": 13.48
       },
       {
         "equipment": "R03",
@@ -61,16 +70,7 @@
         "moves": 43,
         "firstMove": "2026-09-15T10:10:00.000Z",
         "lastMove": "2026-09-15T13:28:00.000Z",
-        "productivity": 12.77
-      },
-      {
-        "equipment": "R02",
-        "login": "ALB",
-        "operator": "ALBERTO LAURINDO PINTO",
-        "moves": 27,
-        "firstMove": "2026-09-15T10:12:00.000Z",
-        "lastMove": "2026-09-15T13:29:00.000Z",
-        "productivity": 8.1
+        "productivity": 12.52
       }
     ],
     "lowest": [
@@ -81,16 +81,16 @@
         "moves": 7,
         "firstMove": "2026-09-15T10:04:00.000Z",
         "lastMove": "2026-09-15T13:06:00.000Z",
-        "productivity": 2.02
+        "productivity": 1.98
       },
       {
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 11,
+        "moves": 12,
         "firstMove": "2026-09-15T10:01:00.000Z",
-        "lastMove": "2026-09-15T13:26:00.000Z",
-        "productivity": 3.13
+        "lastMove": "2026-09-15T13:29:00.000Z",
+        "productivity": 3.35
       },
       {
         "equipment": "R05",
@@ -99,7 +99,7 @@
         "moves": 17,
         "firstMove": "2026-09-15T10:05:00.000Z",
         "lastMove": "2026-09-15T13:21:00.000Z",
-        "productivity": 4.93
+        "productivity": 4.83
       }
     ]
   },
@@ -117,40 +117,40 @@
         "login": "AHN",
         "operator": "ANTONIO HENRIQUE SILVA NE",
         "moves": 2,
-        "productivity": 0.59,
+        "productivity": 0.58,
         "firstMove": "2026-09-15T10:10:00.000Z",
         "lastMove": "2026-09-15T11:02:00.000Z",
-        "idleMinutes": 150
+        "idleMinutes": 154
       },
       {
         "equipment": "TT08",
         "login": "HJV",
         "operator": "H��lio Jos�� Carvalho",
         "moves": 1,
-        "productivity": 1.93,
+        "productivity": 1.71,
         "firstMove": "2026-09-15T13:01:00.000Z",
         "lastMove": "2026-09-15T13:01:00.000Z",
-        "idleMinutes": 31
+        "idleMinutes": 35
       },
       {
         "equipment": "R01",
         "login": "AAN",
         "operator": "ANDERSON ANDREI NASCIMENT",
         "moves": 7,
-        "productivity": 2.02,
+        "productivity": 1.98,
         "firstMove": "2026-09-15T10:04:00.000Z",
         "lastMove": "2026-09-15T13:06:00.000Z",
-        "idleMinutes": 26
+        "idleMinutes": 30
       },
       {
         "equipment": "R08",
         "login": "WCS",
         "operator": "WILLIAN CARLOS DA SILVA",
         "moves": 27,
-        "productivity": 7.79,
+        "productivity": 7.64,
         "firstMove": "2026-09-15T10:04:00.000Z",
         "lastMove": "2026-09-15T13:13:00.000Z",
-        "idleMinutes": 19
+        "idleMinutes": 23
       }
     ]
   },
@@ -158,19 +158,19 @@
     "export": {
       "receival": 59,
       "load": 110,
-      "housekeeping": 138,
-      "housekeepingRatio": 1.25
+      "housekeeping": 139,
+      "housekeepingRatio": 1.26
     },
     "import": {
       "discharge": 0,
-      "delivery": 87,
+      "delivery": 88,
       "housekeeping": 383,
-      "housekeepingRatio": 4.4
+      "housekeepingRatio": 4.35
     }
   },
   "stats": {
     "moveRowsInput": 1997,
-    "rsEventsCurrentPeriod": 167,
-    "ttEventsCurrentPeriod": 8
+    "rsEventsCurrentPeriod": 170,
+    "ttEventsCurrentPeriod": 9
   }
 }
