@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T17:03:13.162Z",
-  "reportReferenceTime": "2026-09-15T17:00:04.000Z",
+  "generatedAt": "2026-09-15T17:08:12.747Z",
+  "reportReferenceTime": "2026-09-15T17:08:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_121251529.csv",
-      "receivedAt": "2026-09-15T17:00:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_430393235.csv",
+      "receivedAt": "2026-09-15T17:08:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_177010343.csv",
-      "receivedAt": "2026-09-15T17:00:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_710635331.csv",
+      "receivedAt": "2026-09-15T17:08:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7849,
+      "occupiedTeus": 7840,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7165
+      "occupancyPct": 0.7157
     },
     "reefer": {
       "occupiedUnits": 830,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 6.73,
+    "averageProductivity": 6.63,
     "top": [
       {
         "equipment": "R03",
@@ -52,7 +52,16 @@
         "moves": 12,
         "firstMove": "2026-09-15T16:17:00.000Z",
         "lastMove": "2026-09-15T16:36:00.000Z",
-        "productivity": 16.72
+        "productivity": 14.1
+      },
+      {
+        "equipment": "R02",
+        "login": "DFC",
+        "operator": "DAVI FRANCISCO COELHO",
+        "moves": 8,
+        "firstMove": "2026-09-15T16:17:00.000Z",
+        "lastMove": "2026-09-15T17:04:00.000Z",
+        "productivity": 9.4
       },
       {
         "equipment": "R05",
@@ -61,16 +70,7 @@
         "moves": 7,
         "firstMove": "2026-09-15T16:13:00.000Z",
         "lastMove": "2026-09-15T16:37:00.000Z",
-        "productivity": 8.92
-      },
-      {
-        "equipment": "R02",
-        "login": "DFC",
-        "operator": "DAVI FRANCISCO COELHO",
-        "moves": 6,
-        "firstMove": "2026-09-15T16:17:00.000Z",
-        "lastMove": "2026-09-15T16:56:00.000Z",
-        "productivity": 8.36
+        "productivity": 7.63
       }
     ],
     "lowest": [
@@ -78,19 +78,10 @@
         "equipment": "R07",
         "login": "APN",
         "operator": "ANDRE PATINO NETO",
-        "moves": 5,
+        "moves": 7,
         "firstMove": "2026-09-15T16:04:00.000Z",
-        "lastMove": "2026-09-15T16:27:00.000Z",
-        "productivity": 5.35
-      },
-      {
-        "equipment": "R02",
-        "login": "DFC",
-        "operator": "DAVI FRANCISCO COELHO",
-        "moves": 6,
-        "firstMove": "2026-09-15T16:17:00.000Z",
-        "lastMove": "2026-09-15T16:56:00.000Z",
-        "productivity": 8.36
+        "lastMove": "2026-09-15T17:05:00.000Z",
+        "productivity": 6.56
       },
       {
         "equipment": "R05",
@@ -99,7 +90,16 @@
         "moves": 7,
         "firstMove": "2026-09-15T16:13:00.000Z",
         "lastMove": "2026-09-15T16:37:00.000Z",
-        "productivity": 8.92
+        "productivity": 7.63
+      },
+      {
+        "equipment": "R02",
+        "login": "DFC",
+        "operator": "DAVI FRANCISCO COELHO",
+        "moves": 8,
+        "firstMove": "2026-09-15T16:17:00.000Z",
+        "lastMove": "2026-09-15T17:04:00.000Z",
+        "productivity": 9.4
       }
     ]
   },
@@ -109,88 +109,58 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 6,
+    "rsCount": 3,
     "ttCount": 0,
     "equipment": [
-      {
-        "equipment": "R11",
-        "login": "MUS",
-        "operator": "MURILO DA SILVA",
-        "moves": 1,
-        "productivity": 1.54,
-        "firstMove": "2026-09-15T16:21:00.000Z",
-        "lastMove": "2026-09-15T16:21:00.000Z",
-        "idleMinutes": 39
-      },
-      {
-        "equipment": "R06",
-        "login": "RAP",
-        "operator": "RICARDO AURELIO PAULO",
-        "moves": 1,
-        "productivity": 1.62,
-        "firstMove": "2026-09-15T16:23:00.000Z",
-        "lastMove": "2026-09-15T16:23:00.000Z",
-        "idleMinutes": 37
-      },
-      {
-        "equipment": "R07",
-        "login": "APN",
-        "operator": "ANDRE PATINO NETO",
-        "moves": 5,
-        "productivity": 5.35,
-        "firstMove": "2026-09-15T16:04:00.000Z",
-        "lastMove": "2026-09-15T16:27:00.000Z",
-        "idleMinutes": 33
-      },
       {
         "equipment": "R03",
         "login": "NRS",
         "operator": "NILSON ROBERTO DE SOUZA J",
         "moves": 12,
-        "productivity": 16.72,
+        "productivity": 14.1,
         "firstMove": "2026-09-15T16:17:00.000Z",
         "lastMove": "2026-09-15T16:36:00.000Z",
-        "idleMinutes": 24
+        "idleMinutes": 32
       },
       {
         "equipment": "R05",
         "login": "EAM",
         "operator": "EDUARDO ANTERO MARQUETTI",
         "moves": 7,
-        "productivity": 8.92,
+        "productivity": 7.63,
         "firstMove": "2026-09-15T16:13:00.000Z",
         "lastMove": "2026-09-15T16:37:00.000Z",
-        "idleMinutes": 23
+        "idleMinutes": 31
       },
       {
         "equipment": "R09",
         "login": "EJS",
         "operator": "EDSON JULIO DOS SANTOS",
         "moves": 2,
-        "productivity": 4.6,
+        "productivity": 3.52,
         "firstMove": "2026-09-15T16:34:00.000Z",
         "lastMove": "2026-09-15T16:37:00.000Z",
-        "idleMinutes": 23
+        "idleMinutes": 31
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 90,
+      "receival": 91,
       "load": 110,
       "housekeeping": 184,
       "housekeepingRatio": 1.67
     },
     "import": {
       "discharge": 0,
-      "delivery": 145,
+      "delivery": 151,
       "housekeeping": 413,
-      "housekeepingRatio": 2.85
+      "housekeepingRatio": 2.74
     }
   },
   "stats": {
-    "moveRowsInput": 2034,
-    "rsEventsCurrentPeriod": 34,
+    "moveRowsInput": 2028,
+    "rsEventsCurrentPeriod": 40,
     "ttEventsCurrentPeriod": 0
   }
 }
