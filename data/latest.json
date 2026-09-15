@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T10:18:12.076Z",
-  "reportReferenceTime": "2026-09-15T10:16:03.000Z",
+  "generatedAt": "2026-09-15T10:23:20.163Z",
+  "reportReferenceTime": "2026-09-15T10:20:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_331929727.csv",
-      "receivedAt": "2026-09-15T10:16:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_359637048.csv",
+      "receivedAt": "2026-09-15T10:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-68224015.csv",
-      "receivedAt": "2026-09-15T10:16:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_865855351.csv",
+      "receivedAt": "2026-09-15T10:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7951,
+      "occupiedTeus": 7953,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7258
+      "occupancyPct": 0.726
     },
     "reefer": {
-      "occupiedUnits": 797,
+      "occupiedUnits": 798,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.6653
+      "occupancyPct": 0.6661
     },
     "imo": {
       "occupiedTeus": 79,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 11.97,
+    "averageProductivity": 11.72,
     "top": [],
     "lowest": []
   },
@@ -53,27 +53,58 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "rsCount": 2,
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 1,
+        "productivity": 3.15,
+        "firstMove": "2026-09-15T10:01:00.000Z",
+        "lastMove": "2026-09-15T10:01:00.000Z",
+        "idleMinutes": 19
+      },
+      {
+        "equipment": "TT22",
+        "login": "FRS",
+        "operator": "FELIPE ROBERTO SILVA",
+        "moves": 1,
+        "productivity": 3.15,
+        "firstMove": "2026-09-15T10:01:00.000Z",
+        "lastMove": "2026-09-15T10:01:00.000Z",
+        "idleMinutes": 19
+      },
+      {
+        "equipment": "R08",
+        "login": "WCS",
+        "operator": "WILLIAN CARLOS DA SILVA",
+        "moves": 1,
+        "productivity": 3.74,
+        "firstMove": "2026-09-15T10:04:00.000Z",
+        "lastMove": "2026-09-15T10:04:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 48,
+      "receival": 49,
       "load": 110,
       "housekeeping": 102,
       "housekeepingRatio": 0.93
     },
     "import": {
       "discharge": 0,
-      "delivery": 42,
+      "delivery": 46,
       "housekeeping": 346,
-      "housekeepingRatio": 8.24
+      "housekeepingRatio": 7.52
     }
   },
   "stats": {
-    "moveRowsInput": 1960,
-    "rsEventsCurrentPeriod": 11,
+    "moveRowsInput": 1961,
+    "rsEventsCurrentPeriod": 16,
     "ttEventsCurrentPeriod": 1
   }
 }
