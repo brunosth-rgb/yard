@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T04:23:12.481Z",
-  "reportReferenceTime": "2026-09-15T04:20:03.000Z",
+  "generatedAt": "2026-09-15T04:28:14.118Z",
+  "reportReferenceTime": "2026-09-15T04:28:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-59221168.csv",
-      "receivedAt": "2026-09-15T04:20:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_670157464.csv",
+      "receivedAt": "2026-09-15T04:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_884143186.csv",
-      "receivedAt": "2026-09-15T04:20:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-33127846.csv",
+      "receivedAt": "2026-09-15T04:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8076,
+      "occupiedTeus": 8074,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7372
+      "occupancyPct": 0.737
     },
     "reefer": {
-      "occupiedUnits": 767,
+      "occupiedUnits": 768,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.6402
+      "occupancyPct": 0.6411
     },
     "imo": {
       "occupiedTeus": 87,
@@ -38,32 +38,50 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
-    "ttInOperation": 0
+    "rsInOperation": 5,
+    "ttInOperation": 5
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 26.7,
+    "averageProductivity": 19.22,
     "top": [
       {
         "equipment": "R05",
         "login": "RMB",
         "operator": "RICARDO MAURINO BORBA SOU",
-        "moves": 6,
+        "moves": 14,
         "firstMove": "2026-09-15T04:06:00.000Z",
-        "lastMove": "2026-09-15T04:19:00.000Z",
-        "productivity": 25.62
+        "lastMove": "2026-09-15T04:27:00.000Z",
+        "productivity": 38.1
+      },
+      {
+        "equipment": "R11",
+        "login": "RSI",
+        "operator": "ROGERIO DA SILVA",
+        "moves": 6,
+        "firstMove": "2026-09-15T04:18:00.000Z",
+        "lastMove": "2026-09-15T04:24:00.000Z",
+        "productivity": 35.82
       }
     ],
     "lowest": [
       {
+        "equipment": "R11",
+        "login": "RSI",
+        "operator": "ROGERIO DA SILVA",
+        "moves": 6,
+        "firstMove": "2026-09-15T04:18:00.000Z",
+        "lastMove": "2026-09-15T04:24:00.000Z",
+        "productivity": 35.82
+      },
+      {
         "equipment": "R05",
         "login": "RMB",
         "operator": "RICARDO MAURINO BORBA SOU",
-        "moves": 6,
+        "moves": 14,
         "firstMove": "2026-09-15T04:06:00.000Z",
-        "lastMove": "2026-09-15T04:19:00.000Z",
-        "productivity": 25.62
+        "lastMove": "2026-09-15T04:27:00.000Z",
+        "productivity": 38.1
       }
     ]
   },
@@ -73,27 +91,48 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "rsCount": 1,
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT25",
+        "login": "FEP",
+        "operator": "FELIPE PAMPLONA",
+        "moves": 1,
+        "productivity": 2.22,
+        "firstMove": "2026-09-15T04:01:00.000Z",
+        "lastMove": "2026-09-15T04:01:00.000Z",
+        "idleMinutes": 27
+      },
+      {
+        "equipment": "R10",
+        "login": "MAA",
+        "operator": "MAYCKON AMORIM",
+        "moves": 2,
+        "productivity": 4.44,
+        "firstMove": "2026-09-15T04:01:00.000Z",
+        "lastMove": "2026-09-15T04:05:00.000Z",
+        "idleMinutes": 23
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 18,
-      "load": 60,
+      "receival": 19,
+      "load": 63,
       "housekeeping": 22,
-      "housekeepingRatio": 0.37
+      "housekeepingRatio": 0.35
     },
     "import": {
       "discharge": 0,
       "delivery": 0,
-      "housekeeping": 32,
+      "housekeeping": 38,
       "housekeepingRatio": null
     }
   },
   "stats": {
-    "moveRowsInput": 1487,
-    "rsEventsCurrentPeriod": 14,
-    "ttEventsCurrentPeriod": 0
+    "moveRowsInput": 1499,
+    "rsEventsCurrentPeriod": 29,
+    "ttEventsCurrentPeriod": 5
   }
 }
