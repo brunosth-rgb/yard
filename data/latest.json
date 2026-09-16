@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T04:08:29.281Z",
-  "reportReferenceTime": "2026-09-16T04:08:02.000Z",
+  "generatedAt": "2026-09-16T04:13:28.511Z",
+  "reportReferenceTime": "2026-09-16T04:12:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_550980910.csv",
-      "receivedAt": "2026-09-16T04:08:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-27450358.csv",
+      "receivedAt": "2026-09-16T04:12:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_180357201.csv",
-      "receivedAt": "2026-09-16T04:08:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_499172172.csv",
+      "receivedAt": "2026-09-16T04:12:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7301,
+      "occupiedTeus": 7305,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6665
+      "occupancyPct": 0.6668
     },
     "reefer": {
       "occupiedUnits": 857,
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 49.29,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 45.48,
+    "top": [
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 6,
+        "firstMove": "2026-09-16T04:05:00.000Z",
+        "lastMove": "2026-09-16T04:11:00.000Z",
+        "productivity": 51.18
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 6,
+        "firstMove": "2026-09-16T04:05:00.000Z",
+        "lastMove": "2026-09-16T04:11:00.000Z",
+        "productivity": 51.18
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -59,7 +79,7 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 25,
+      "receival": 27,
       "load": 44,
       "housekeeping": 4,
       "housekeepingRatio": 0.09
@@ -67,13 +87,13 @@
     "import": {
       "discharge": 16,
       "delivery": 1,
-      "housekeeping": 40,
-      "housekeepingRatio": 40
+      "housekeeping": 42,
+      "housekeepingRatio": 42
     }
   },
   "stats": {
-    "moveRowsInput": 2045,
-    "rsEventsCurrentPeriod": 4,
+    "moveRowsInput": 2047,
+    "rsEventsCurrentPeriod": 10,
     "ttEventsCurrentPeriod": 0
   }
 }
