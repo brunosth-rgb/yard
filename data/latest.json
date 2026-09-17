@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T16:23:14.468Z",
-  "reportReferenceTime": "2026-09-17T16:20:02.000Z",
+  "generatedAt": "2026-09-17T16:28:16.353Z",
+  "reportReferenceTime": "2026-09-17T16:28:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-19633737.csv",
-      "receivedAt": "2026-09-17T16:20:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-39914037.csv",
+      "receivedAt": "2026-09-17T16:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_597448600.csv",
-      "receivedAt": "2026-09-17T16:20:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_375408323.csv",
+      "receivedAt": "2026-09-17T16:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7176,
+      "occupiedTeus": 7183,
       "capacityTeus": 10955,
-      "occupancyPct": 0.655
+      "occupancyPct": 0.6557
     },
     "reefer": {
-      "occupiedUnits": 840,
+      "occupiedUnits": 841,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.7012
+      "occupancyPct": 0.702
     },
     "imo": {
       "occupiedTeus": 47,
@@ -38,32 +38,50 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
-    "ttInOperation": 0
+    "rsInOperation": 7,
+    "ttInOperation": 4
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 20.58,
+    "averageProductivity": 16.97,
     "top": [
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-09-17T16:10:00.000Z",
-        "lastMove": "2026-09-17T16:18:00.000Z",
-        "productivity": 29.9
+        "lastMove": "2026-09-17T16:21:00.000Z",
+        "productivity": 19.96
+      },
+      {
+        "equipment": "R12",
+        "login": "IVL",
+        "operator": "IVAN LUIZ DA CRUZ",
+        "moves": 5,
+        "firstMove": "2026-09-17T16:01:00.000Z",
+        "lastMove": "2026-09-17T16:20:00.000Z",
+        "productivity": 11.1
       }
     ],
     "lowest": [
       {
+        "equipment": "R12",
+        "login": "IVL",
+        "operator": "IVAN LUIZ DA CRUZ",
+        "moves": 5,
+        "firstMove": "2026-09-17T16:01:00.000Z",
+        "lastMove": "2026-09-17T16:20:00.000Z",
+        "productivity": 11.1
+      },
+      {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-09-17T16:10:00.000Z",
-        "lastMove": "2026-09-17T16:18:00.000Z",
-        "productivity": 29.9
+        "lastMove": "2026-09-17T16:21:00.000Z",
+        "productivity": 19.96
       }
     ]
   },
@@ -73,27 +91,48 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "rsCount": 1,
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT15",
+        "login": "ERV",
+        "operator": "EDUARDO RAMOS VIGO",
+        "moves": 1,
+        "productivity": 2.4,
+        "firstMove": "2026-09-17T16:03:00.000Z",
+        "lastMove": "2026-09-17T16:03:00.000Z",
+        "idleMinutes": 25
+      },
+      {
+        "equipment": "R04",
+        "login": "RJS",
+        "operator": "RENATO JOSE DA SILVA FILH",
+        "moves": 4,
+        "productivity": 10.42,
+        "firstMove": "2026-09-17T16:05:00.000Z",
+        "lastMove": "2026-09-17T16:12:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 241,
+      "receival": 244,
       "load": 135,
-      "housekeeping": 129,
-      "housekeepingRatio": 0.96
+      "housekeeping": 133,
+      "housekeepingRatio": 0.99
     },
     "import": {
-      "discharge": 83,
-      "delivery": 139,
+      "discharge": 85,
+      "delivery": 142,
       "housekeeping": 216,
-      "housekeepingRatio": 1.55
+      "housekeepingRatio": 1.52
     }
   },
   "stats": {
-    "moveRowsInput": 1964,
-    "rsEventsCurrentPeriod": 15,
-    "ttEventsCurrentPeriod": 0
+    "moveRowsInput": 1968,
+    "rsEventsCurrentPeriod": 23,
+    "ttEventsCurrentPeriod": 4
   }
 }
