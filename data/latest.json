@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T22:28:14.356Z",
-  "reportReferenceTime": "2026-09-18T22:28:02.000Z",
+  "generatedAt": "2026-09-18T22:33:19.016Z",
+  "reportReferenceTime": "2026-09-18T22:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-77139648.csv",
-      "receivedAt": "2026-09-18T22:28:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_224064304.csv",
+      "receivedAt": "2026-09-18T22:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_604921023.csv",
-      "receivedAt": "2026-09-18T22:28:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-51777826.csv",
+      "receivedAt": "2026-09-18T22:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 14.99,
+    "averageProductivity": 12.33,
     "top": [
       {
         "equipment": "R08",
@@ -52,7 +52,7 @@
         "moves": 9,
         "firstMove": "2026-09-18T22:10:00.000Z",
         "lastMove": "2026-09-18T22:27:00.000Z",
-        "productivity": 29.94
+        "productivity": 24.47
       },
       {
         "equipment": "R07",
@@ -61,7 +61,7 @@
         "moves": 6,
         "firstMove": "2026-09-18T22:14:00.000Z",
         "lastMove": "2026-09-18T22:23:00.000Z",
-        "productivity": 25.65
+        "productivity": 19.93
       },
       {
         "equipment": "R12",
@@ -70,7 +70,7 @@
         "moves": 7,
         "firstMove": "2026-09-18T22:04:00.000Z",
         "lastMove": "2026-09-18T22:27:00.000Z",
-        "productivity": 17.48
+        "productivity": 14.96
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 7,
         "firstMove": "2026-09-18T22:04:00.000Z",
         "lastMove": "2026-09-18T22:27:00.000Z",
-        "productivity": 17.48
+        "productivity": 14.96
       },
       {
         "equipment": "R07",
@@ -90,7 +90,7 @@
         "moves": 6,
         "firstMove": "2026-09-18T22:14:00.000Z",
         "lastMove": "2026-09-18T22:23:00.000Z",
-        "productivity": 25.65
+        "productivity": 19.93
       },
       {
         "equipment": "R08",
@@ -99,7 +99,7 @@
         "moves": 9,
         "firstMove": "2026-09-18T22:10:00.000Z",
         "lastMove": "2026-09-18T22:27:00.000Z",
-        "productivity": 29.94
+        "productivity": 24.47
       }
     ]
   },
@@ -109,9 +109,20 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R05",
+        "login": "EDB",
+        "operator": "EDISON BRANCO",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-18T22:14:00.000Z",
+        "lastMove": "2026-09-18T22:14:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -123,13 +134,13 @@
     "import": {
       "discharge": 690,
       "delivery": 117,
-      "housekeeping": 153,
-      "housekeepingRatio": 1.31
+      "housekeeping": 154,
+      "housekeepingRatio": 1.32
     }
   },
   "stats": {
-    "moveRowsInput": 2998,
-    "rsEventsCurrentPeriod": 28,
+    "moveRowsInput": 2987,
+    "rsEventsCurrentPeriod": 30,
     "ttEventsCurrentPeriod": 5
   }
 }
