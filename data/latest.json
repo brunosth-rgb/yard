@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T10:23:12.407Z",
-  "reportReferenceTime": "2026-09-18T10:20:03.000Z",
+  "generatedAt": "2026-09-18T10:28:12.009Z",
+  "reportReferenceTime": "2026-09-18T10:24:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-14070539.csv",
-      "receivedAt": "2026-09-18T10:20:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-36624931.csv",
+      "receivedAt": "2026-09-18T10:24:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_773276002.csv",
-      "receivedAt": "2026-09-18T10:20:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_347073208.csv",
+      "receivedAt": "2026-09-18T10:24:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8004,
+      "occupiedTeus": 8012,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7306
+      "occupancyPct": 0.7314
     },
     "reefer": {
-      "occupiedUnits": 852,
+      "occupiedUnits": 851,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.7112
+      "occupancyPct": 0.7104
     },
     "imo": {
       "occupiedTeus": 78,
@@ -38,14 +38,34 @@
     }
   },
   "resources": {
-    "rsInOperation": 6,
-    "ttInOperation": 6
+    "rsInOperation": 7,
+    "ttInOperation": 10
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 29.51,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 19.18,
+    "top": [
+      {
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
+        "moves": 5,
+        "firstMove": "2026-09-18T10:11:00.000Z",
+        "lastMove": "2026-09-18T10:23:00.000Z",
+        "productivity": 22.99
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
+        "moves": 5,
+        "firstMove": "2026-09-18T10:11:00.000Z",
+        "lastMove": "2026-09-18T10:23:00.000Z",
+        "productivity": 22.99
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -54,26 +74,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT13",
+        "login": "MRI",
+        "operator": "MATHEUS RICARDO",
+        "moves": 1,
+        "productivity": 3.74,
+        "firstMove": "2026-09-18T10:08:00.000Z",
+        "lastMove": "2026-09-18T10:08:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 139,
-      "load": 167,
-      "housekeeping": 28,
+      "receival": 140,
+      "load": 168,
+      "housekeeping": 29,
       "housekeepingRatio": 0.17
     },
     "import": {
-      "discharge": 402,
+      "discharge": 407,
       "delivery": 23,
       "housekeeping": 142,
       "housekeepingRatio": 6.17
     }
   },
   "stats": {
-    "moveRowsInput": 2642,
-    "rsEventsCurrentPeriod": 9,
-    "ttEventsCurrentPeriod": 6
+    "moveRowsInput": 2644,
+    "rsEventsCurrentPeriod": 18,
+    "ttEventsCurrentPeriod": 12
   }
 }
