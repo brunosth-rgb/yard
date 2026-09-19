@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T22:28:16.043Z",
-  "reportReferenceTime": "2026-09-19T22:24:03.000Z",
+  "generatedAt": "2026-09-19T22:33:17.386Z",
+  "reportReferenceTime": "2026-09-19T22:32:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-27160634.csv",
-      "receivedAt": "2026-09-19T22:24:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-89563584.csv",
+      "receivedAt": "2026-09-19T22:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_914546009.csv",
-      "receivedAt": "2026-09-19T22:24:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_355498389.csv",
+      "receivedAt": "2026-09-19T22:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 12.11,
+    "averageProductivity": 7.13,
     "top": [
       {
         "equipment": "R03",
@@ -52,7 +52,7 @@
         "moves": 5,
         "firstMove": "2026-09-19T22:05:00.000Z",
         "lastMove": "2026-09-19T22:10:00.000Z",
-        "productivity": 15.75
+        "productivity": 11.09
       }
     ],
     "lowest": [
@@ -63,7 +63,7 @@
         "moves": 5,
         "firstMove": "2026-09-19T22:05:00.000Z",
         "lastMove": "2026-09-19T22:10:00.000Z",
-        "productivity": 15.75
+        "productivity": 11.09
       }
     ]
   },
@@ -73,9 +73,50 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 4,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R03",
+        "login": "GGN",
+        "operator": "GERSON GENESIO NASCIMENTO",
+        "moves": 5,
+        "productivity": 11.09,
+        "firstMove": "2026-09-19T22:05:00.000Z",
+        "lastMove": "2026-09-19T22:10:00.000Z",
+        "idleMinutes": 22
+      },
+      {
+        "equipment": "R11",
+        "login": "WAM",
+        "operator": "WILLIAM ANDRE MACHADO",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-19T22:14:00.000Z",
+        "lastMove": "2026-09-19T22:14:00.000Z",
+        "idleMinutes": 18
+      },
+      {
+        "equipment": "R10",
+        "login": "RSI",
+        "operator": "ROGERIO DA SILVA",
+        "moves": 4,
+        "productivity": 9.58,
+        "firstMove": "2026-09-19T22:07:00.000Z",
+        "lastMove": "2026-09-19T22:14:00.000Z",
+        "idleMinutes": 18
+      },
+      {
+        "equipment": "R01",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 3,
+        "productivity": 7.48,
+        "firstMove": "2026-09-19T22:08:00.000Z",
+        "lastMove": "2026-09-19T22:15:00.000Z",
+        "idleMinutes": 17
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -92,7 +133,7 @@
     }
   },
   "stats": {
-    "moveRowsInput": 2069,
+    "moveRowsInput": 2055,
     "rsEventsCurrentPeriod": 16,
     "ttEventsCurrentPeriod": 0
   }
