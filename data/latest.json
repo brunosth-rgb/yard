@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T10:38:12.799Z",
-  "reportReferenceTime": "2026-09-19T10:36:03.000Z",
+  "generatedAt": "2026-09-19T10:43:13.455Z",
+  "reportReferenceTime": "2026-09-19T10:40:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_651681547.csv",
-      "receivedAt": "2026-09-19T10:36:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-33175154.csv",
+      "receivedAt": "2026-09-19T10:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_345756473.csv",
-      "receivedAt": "2026-09-19T10:36:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-34049892.csv",
+      "receivedAt": "2026-09-19T10:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 15.36,
+    "averageProductivity": 13.57,
     "top": [
       {
         "equipment": "R01",
@@ -52,7 +52,7 @@
         "moves": 9,
         "firstMove": "2026-09-19T10:20:00.000Z",
         "lastMove": "2026-09-19T10:27:00.000Z",
-        "productivity": 33.64
+        "productivity": 26.93
       },
       {
         "equipment": "R03",
@@ -61,7 +61,7 @@
         "moves": 8,
         "firstMove": "2026-09-19T10:04:00.000Z",
         "lastMove": "2026-09-19T10:27:00.000Z",
-        "productivity": 14.98
+        "productivity": 13.31
       },
       {
         "equipment": "R11",
@@ -70,7 +70,7 @@
         "moves": 7,
         "firstMove": "2026-09-19T10:02:00.000Z",
         "lastMove": "2026-09-19T10:18:00.000Z",
-        "productivity": 12.33
+        "productivity": 11.04
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 6,
         "firstMove": "2026-09-19T10:01:00.000Z",
         "lastMove": "2026-09-19T10:07:00.000Z",
-        "productivity": 10.27
+        "productivity": 9.22
       },
       {
         "equipment": "R11",
@@ -90,7 +90,7 @@
         "moves": 7,
         "firstMove": "2026-09-19T10:02:00.000Z",
         "lastMove": "2026-09-19T10:18:00.000Z",
-        "productivity": 12.33
+        "productivity": 11.04
       },
       {
         "equipment": "R03",
@@ -99,7 +99,7 @@
         "moves": 8,
         "firstMove": "2026-09-19T10:04:00.000Z",
         "lastMove": "2026-09-19T10:27:00.000Z",
-        "productivity": 14.98
+        "productivity": 13.31
       }
     ]
   },
@@ -109,7 +109,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 2,
+    "rsCount": 3,
     "ttCount": 0,
     "equipment": [
       {
@@ -117,20 +117,30 @@
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
         "moves": 6,
-        "productivity": 10.27,
+        "productivity": 9.22,
         "firstMove": "2026-09-19T10:01:00.000Z",
         "lastMove": "2026-09-19T10:07:00.000Z",
-        "idleMinutes": 29
+        "idleMinutes": 33
       },
       {
         "equipment": "R11",
         "login": "MUS",
         "operator": "MURILO DA SILVA",
         "moves": 7,
-        "productivity": 12.33,
+        "productivity": 11.04,
         "firstMove": "2026-09-19T10:02:00.000Z",
         "lastMove": "2026-09-19T10:18:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
+      },
+      {
+        "equipment": "R05",
+        "login": "FBP",
+        "operator": "FERNANDO BARBOZA PEREIRA",
+        "moves": 2,
+        "productivity": 3.99,
+        "firstMove": "2026-09-19T10:10:00.000Z",
+        "lastMove": "2026-09-19T10:23:00.000Z",
+        "idleMinutes": 17
       }
     ]
   },
@@ -138,8 +148,8 @@
     "export": {
       "receival": 239,
       "load": 228,
-      "housekeeping": 142,
-      "housekeepingRatio": 0.62
+      "housekeeping": 143,
+      "housekeepingRatio": 0.63
     },
     "import": {
       "discharge": 12,
@@ -149,8 +159,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 2813,
-    "rsEventsCurrentPeriod": 35,
+    "moveRowsInput": 2805,
+    "rsEventsCurrentPeriod": 37,
     "ttEventsCurrentPeriod": 3
   }
 }
