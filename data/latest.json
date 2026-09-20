@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T10:38:15.912Z",
-  "reportReferenceTime": "2026-09-20T10:36:03.000Z",
+  "generatedAt": "2026-09-20T10:43:23.996Z",
+  "reportReferenceTime": "2026-09-20T10:40:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-44529374.csv",
-      "receivedAt": "2026-09-20T10:36:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_905675423.csv",
+      "receivedAt": "2026-09-20T10:40:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-49440163.csv",
-      "receivedAt": "2026-09-20T10:36:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_809260764.csv",
+      "receivedAt": "2026-09-20T10:40:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 54.96,
+    "averageProductivity": 44.44,
     "top": [
       {
         "equipment": "R11",
@@ -52,7 +52,7 @@
         "moves": 18,
         "firstMove": "2026-09-20T10:22:00.000Z",
         "lastMove": "2026-09-20T10:24:00.000Z",
-        "productivity": 76.87
+        "productivity": 59.83
       },
       {
         "equipment": "R12",
@@ -61,7 +61,7 @@
         "moves": 16,
         "firstMove": "2026-09-20T10:07:00.000Z",
         "lastMove": "2026-09-20T10:33:00.000Z",
-        "productivity": 33.05
+        "productivity": 29.05
       }
     ],
     "lowest": [
@@ -72,7 +72,7 @@
         "moves": 16,
         "firstMove": "2026-09-20T10:07:00.000Z",
         "lastMove": "2026-09-20T10:33:00.000Z",
-        "productivity": 33.05
+        "productivity": 29.05
       },
       {
         "equipment": "R11",
@@ -81,7 +81,7 @@
         "moves": 18,
         "firstMove": "2026-09-20T10:22:00.000Z",
         "lastMove": "2026-09-20T10:24:00.000Z",
-        "productivity": 76.87
+        "productivity": 59.83
       }
     ]
   },
@@ -91,9 +91,20 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R11",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 18,
+        "productivity": 59.83,
+        "firstMove": "2026-09-20T10:22:00.000Z",
+        "lastMove": "2026-09-20T10:24:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -110,7 +121,7 @@
     }
   },
   "stats": {
-    "moveRowsInput": 1591,
+    "moveRowsInput": 1590,
     "rsEventsCurrentPeriod": 34,
     "ttEventsCurrentPeriod": 0
   }
