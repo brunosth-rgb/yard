@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T22:23:11.669Z",
-  "reportReferenceTime": "2026-09-20T22:20:03.000Z",
+  "generatedAt": "2026-09-20T22:28:12.871Z",
+  "reportReferenceTime": "2026-09-20T22:28:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-75341430.csv",
-      "receivedAt": "2026-09-20T22:20:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_177025606.csv",
+      "receivedAt": "2026-09-20T22:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_824204032.csv",
-      "receivedAt": "2026-09-20T22:20:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_712139612.csv",
+      "receivedAt": "2026-09-20T22:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 18.26,
+    "averageProductivity": 7.2,
     "top": [],
     "lowest": []
   },
@@ -53,9 +53,20 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R03",
+        "login": "GGN",
+        "operator": "GERSON GENESIO NASCIMENTO",
+        "moves": 2,
+        "productivity": 7.04,
+        "firstMove": "2026-09-20T22:11:00.000Z",
+        "lastMove": "2026-09-20T22:12:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -72,7 +83,7 @@
     }
   },
   "stats": {
-    "moveRowsInput": 1379,
+    "moveRowsInput": 1378,
     "rsEventsCurrentPeriod": 5,
     "ttEventsCurrentPeriod": 0
   }
