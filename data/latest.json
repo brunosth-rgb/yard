@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T21:58:11.528Z",
-  "reportReferenceTime": "2026-09-20T21:56:03.000Z",
+  "generatedAt": "2026-09-20T22:03:12.304Z",
+  "reportReferenceTime": "2026-09-20T22:00:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-15318993.csv",
-      "receivedAt": "2026-09-20T21:56:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_632141229.csv",
+      "receivedAt": "2026-09-20T22:00:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-21917162.csv",
-      "receivedAt": "2026-09-20T21:56:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-64885235.csv",
+      "receivedAt": "2026-09-20T22:00:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
   "operationalPeriod": {
-    "code": "13x19",
-    "start": "2026-09-20T16:00:00.000Z",
-    "end": "2026-09-20T22:00:00.000Z"
+    "code": "19x01",
+    "start": "2026-09-20T22:00:00.000Z",
+    "end": "2026-09-21T04:00:00.000Z"
   },
   "occupancy": {
     "general": {
@@ -38,70 +38,14 @@
     }
   },
   "resources": {
-    "rsInOperation": 7,
-    "ttInOperation": 16
+    "rsInOperation": 0,
+    "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 4.81,
-    "top": [
-      {
-        "equipment": "R08",
-        "login": "MUS",
-        "operator": "MURILO DA SILVA",
-        "moves": 35,
-        "firstMove": "2026-09-20T17:14:00.000Z",
-        "lastMove": "2026-09-20T18:48:00.000Z",
-        "productivity": 7.45
-      },
-      {
-        "equipment": "R07",
-        "login": "EJS",
-        "operator": "EDSON JULIO DOS SANTOS",
-        "moves": 33,
-        "firstMove": "2026-09-20T16:33:00.000Z",
-        "lastMove": "2026-09-20T21:40:00.000Z",
-        "productivity": 6.13
-      },
-      {
-        "equipment": "R05",
-        "login": "FBP",
-        "operator": "FERNANDO BARBOZA PEREIRA",
-        "moves": 32,
-        "firstMove": "2026-09-20T16:17:00.000Z",
-        "lastMove": "2026-09-20T19:14:00.000Z",
-        "productivity": 5.66
-      }
-    ],
-    "lowest": [
-      {
-        "equipment": "R02",
-        "login": "DFC",
-        "operator": "DAVI FRANCISCO COELHO",
-        "moves": 24,
-        "firstMove": "2026-09-20T16:04:00.000Z",
-        "lastMove": "2026-09-20T19:54:00.000Z",
-        "productivity": 4.09
-      },
-      {
-        "equipment": "R03",
-        "login": "HRS",
-        "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 20,
-        "firstMove": "2026-09-20T17:17:00.000Z",
-        "lastMove": "2026-09-20T21:10:00.000Z",
-        "productivity": 4.3
-      },
-      {
-        "equipment": "R10",
-        "login": "VJU",
-        "operator": "VILMAR MARTINHO LAMIM JR",
-        "moves": 24,
-        "firstMove": "2026-09-20T17:27:00.000Z",
-        "lastMove": "2026-09-20T21:02:00.000Z",
-        "productivity": 5.35
-      }
-    ]
+    "averageProductivity": 0,
+    "top": [],
+    "lowest": []
   },
   "tt": {
     "top": [],
@@ -109,210 +53,9 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 7,
-    "ttCount": 16,
-    "equipment": [
-      {
-        "equipment": "TT08",
-        "login": "TLS",
-        "operator": "TIAGO LUIZ DA SILVA",
-        "moves": 2,
-        "productivity": 0.35,
-        "firstMove": "2026-09-20T16:18:00.000Z",
-        "lastMove": "2026-09-20T16:33:00.000Z",
-        "idleMinutes": 323
-      },
-      {
-        "equipment": "TT23",
-        "login": "LVI",
-        "operator": "LINDOMAR VILMAR",
-        "moves": 1,
-        "productivity": 0.19,
-        "firstMove": "2026-09-20T16:33:00.000Z",
-        "lastMove": "2026-09-20T16:33:00.000Z",
-        "idleMinutes": 323
-      },
-      {
-        "equipment": "TT22",
-        "login": "CSA",
-        "operator": "CRISTIANO DOS SANTOS",
-        "moves": 1,
-        "productivity": 0.2,
-        "firstMove": "2026-09-20T17:03:00.000Z",
-        "lastMove": "2026-09-20T17:03:00.000Z",
-        "idleMinutes": 293
-      },
-      {
-        "equipment": "R12",
-        "login": "JMA",
-        "operator": "JAIRO MARIANO",
-        "moves": 4,
-        "productivity": 0.7,
-        "firstMove": "2026-09-20T16:15:00.000Z",
-        "lastMove": "2026-09-20T18:35:00.000Z",
-        "idleMinutes": 201
-      },
-      {
-        "equipment": "TT15",
-        "login": "MRI",
-        "operator": "MATHEUS RICARDO",
-        "moves": 1,
-        "productivity": 0.31,
-        "firstMove": "2026-09-20T18:41:00.000Z",
-        "lastMove": "2026-09-20T18:41:00.000Z",
-        "idleMinutes": 195
-      },
-      {
-        "equipment": "TT19",
-        "login": "GTE",
-        "operator": "GABRIEL TERNES",
-        "moves": 1,
-        "productivity": 0.31,
-        "firstMove": "2026-09-20T18:45:00.000Z",
-        "lastMove": "2026-09-20T18:45:00.000Z",
-        "idleMinutes": 191
-      },
-      {
-        "equipment": "TT04",
-        "login": "ACC",
-        "operator": "ANDERSON CLAYTON DA COSTA",
-        "moves": 2,
-        "productivity": 0.36,
-        "firstMove": "2026-09-20T16:25:00.000Z",
-        "lastMove": "2026-09-20T18:46:00.000Z",
-        "idleMinutes": 190
-      },
-      {
-        "equipment": "TT21",
-        "login": "FAS",
-        "operator": "FLAVIO DE ALMEIDA SANTOS",
-        "moves": 1,
-        "productivity": 0.32,
-        "firstMove": "2026-09-20T18:47:00.000Z",
-        "lastMove": "2026-09-20T18:47:00.000Z",
-        "idleMinutes": 189
-      },
-      {
-        "equipment": "R08",
-        "login": "MUS",
-        "operator": "MURILO DA SILVA",
-        "moves": 35,
-        "productivity": 7.45,
-        "firstMove": "2026-09-20T17:14:00.000Z",
-        "lastMove": "2026-09-20T18:48:00.000Z",
-        "idleMinutes": 188
-      },
-      {
-        "equipment": "TT10",
-        "login": "DCS",
-        "operator": "DEIVID CARVALHO DA SILVA",
-        "moves": 2,
-        "productivity": 0.59,
-        "firstMove": "2026-09-20T18:33:00.000Z",
-        "lastMove": "2026-09-20T18:49:00.000Z",
-        "idleMinutes": 187
-      },
-      {
-        "equipment": "TT25",
-        "login": "MFZ",
-        "operator": "MARGARETE FATIMA ZAMBILLO",
-        "moves": 2,
-        "productivity": 0.37,
-        "firstMove": "2026-09-20T16:33:00.000Z",
-        "lastMove": "2026-09-20T18:50:00.000Z",
-        "idleMinutes": 186
-      },
-      {
-        "equipment": "TT03",
-        "login": "JLB",
-        "operator": "JAILSON LURIVAL DE BORBA",
-        "moves": 1,
-        "productivity": 0.33,
-        "firstMove": "2026-09-20T18:52:00.000Z",
-        "lastMove": "2026-09-20T18:52:00.000Z",
-        "idleMinutes": 184
-      },
-      {
-        "equipment": "TT05",
-        "login": "ELI",
-        "operator": "ELIEZER LUZ",
-        "moves": 4,
-        "productivity": 0.72,
-        "firstMove": "2026-09-20T16:25:00.000Z",
-        "lastMove": "2026-09-20T18:53:00.000Z",
-        "idleMinutes": 183
-      },
-      {
-        "equipment": "TT13",
-        "login": "ABR",
-        "operator": "ALEXANDRE BREHM",
-        "moves": 4,
-        "productivity": 0.73,
-        "firstMove": "2026-09-20T16:26:00.000Z",
-        "lastMove": "2026-09-20T18:54:00.000Z",
-        "idleMinutes": 182
-      },
-      {
-        "equipment": "TT01",
-        "login": "ELE",
-        "operator": "ELEOMAR NASCIMENTO",
-        "moves": 1,
-        "productivity": 0.33,
-        "firstMove": "2026-09-20T18:55:00.000Z",
-        "lastMove": "2026-09-20T18:55:00.000Z",
-        "idleMinutes": 181
-      },
-      {
-        "equipment": "TT07",
-        "login": "JDU",
-        "operator": "JONAS DUARTE GREGORIO",
-        "moves": 2,
-        "productivity": 0.6,
-        "firstMove": "2026-09-20T18:37:00.000Z",
-        "lastMove": "2026-09-20T18:56:00.000Z",
-        "idleMinutes": 180
-      },
-      {
-        "equipment": "TT14",
-        "login": "RSL",
-        "operator": "RUAN DOS SANTOS LUCIANO",
-        "moves": 3,
-        "productivity": 0.52,
-        "firstMove": "2026-09-20T16:12:00.000Z",
-        "lastMove": "2026-09-20T19:00:00.000Z",
-        "idleMinutes": 176
-      },
-      {
-        "equipment": "R05",
-        "login": "FBP",
-        "operator": "FERNANDO BARBOZA PEREIRA",
-        "moves": 32,
-        "productivity": 5.66,
-        "firstMove": "2026-09-20T16:17:00.000Z",
-        "lastMove": "2026-09-20T19:14:00.000Z",
-        "idleMinutes": 162
-      },
-      {
-        "equipment": "R02",
-        "login": "DFC",
-        "operator": "DAVI FRANCISCO COELHO",
-        "moves": 24,
-        "productivity": 4.09,
-        "firstMove": "2026-09-20T16:04:00.000Z",
-        "lastMove": "2026-09-20T19:54:00.000Z",
-        "idleMinutes": 122
-      },
-      {
-        "equipment": "TT02",
-        "login": "TLS",
-        "operator": "TIAGO LUIZ DA SILVA",
-        "moves": 3,
-        "productivity": 0.91,
-        "firstMove": "2026-09-20T18:38:00.000Z",
-        "lastMove": "2026-09-20T20:06:00.000Z",
-        "idleMinutes": 110
-      }
-    ]
+    "rsCount": 0,
+    "ttCount": 0,
+    "equipment": []
   },
   "dailyFlows": {
     "export": {
@@ -329,8 +72,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 1392,
-    "rsEventsCurrentPeriod": 172,
-    "ttEventsCurrentPeriod": 31
+    "moveRowsInput": 1390,
+    "rsEventsCurrentPeriod": 0,
+    "ttEventsCurrentPeriod": 0
   }
 }
