@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T16:18:42.117Z",
-  "reportReferenceTime": "2026-09-21T16:16:02.000Z",
+  "generatedAt": "2026-09-21T16:23:12.974Z",
+  "reportReferenceTime": "2026-09-21T16:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_232953405.csv",
-      "receivedAt": "2026-09-21T16:16:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_745634302.csv",
+      "receivedAt": "2026-09-21T16:20:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-55475527.csv",
-      "receivedAt": "2026-09-21T16:16:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-43464065.csv",
+      "receivedAt": "2026-09-21T16:20:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6525,
+      "occupiedTeus": 6513,
       "capacityTeus": 10955,
-      "occupancyPct": 0.5956
+      "occupancyPct": 0.5945
     },
     "reefer": {
       "occupiedUnits": 532,
@@ -39,13 +39,33 @@
   },
   "resources": {
     "rsInOperation": 6,
-    "ttInOperation": 8
+    "ttInOperation": 12
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 13.22,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 17.05,
+    "top": [
+      {
+        "equipment": "R04",
+        "login": "VLP",
+        "operator": "VLADEMIR PORTO",
+        "moves": 7,
+        "firstMove": "2026-09-21T16:03:00.000Z",
+        "lastMove": "2026-09-21T16:16:00.000Z",
+        "productivity": 24.61
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R04",
+        "login": "VLP",
+        "operator": "VLADEMIR PORTO",
+        "moves": 7,
+        "firstMove": "2026-09-21T16:03:00.000Z",
+        "lastMove": "2026-09-21T16:16:00.000Z",
+        "productivity": 24.61
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -54,26 +74,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT17",
+        "login": "SAD",
+        "operator": "SILVIO A DORNELLES",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-21T16:02:00.000Z",
+        "lastMove": "2026-09-21T16:02:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
       "receival": 86,
-      "load": 822,
+      "load": 828,
       "housekeeping": 32,
       "housekeepingRatio": 0.04
     },
     "import": {
       "discharge": 141,
-      "delivery": 195,
+      "delivery": 199,
       "housekeeping": 30,
       "housekeepingRatio": 0.15
     }
   },
   "stats": {
-    "moveRowsInput": 1851,
-    "rsEventsCurrentPeriod": 13,
-    "ttEventsCurrentPeriod": 8
+    "moveRowsInput": 1859,
+    "rsEventsCurrentPeriod": 23,
+    "ttEventsCurrentPeriod": 14
   }
 }
