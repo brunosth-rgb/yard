@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:13:14.870Z",
-  "reportReferenceTime": "2026-09-21T10:12:03.000Z",
+  "generatedAt": "2026-09-21T10:18:13.259Z",
+  "reportReferenceTime": "2026-09-21T10:16:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-15702244.csv",
-      "receivedAt": "2026-09-21T10:12:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_149491068.csv",
+      "receivedAt": "2026-09-21T10:16:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-88701634.csv",
-      "receivedAt": "2026-09-21T10:12:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-53859146.csv",
+      "receivedAt": "2026-09-21T10:16:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7532,
+      "occupiedTeus": 7524,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6875
+      "occupancyPct": 0.6868
     },
     "reefer": {
       "occupiedUnits": 560,
@@ -39,13 +39,33 @@
   },
   "resources": {
     "rsInOperation": 6,
-    "ttInOperation": 5
+    "ttInOperation": 7
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.47,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 15.83,
+    "top": [
+      {
+        "equipment": "R07",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 5,
+        "firstMove": "2026-09-21T10:07:00.000Z",
+        "lastMove": "2026-09-21T10:15:00.000Z",
+        "productivity": 33.15
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R07",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 5,
+        "firstMove": "2026-09-21T10:07:00.000Z",
+        "lastMove": "2026-09-21T10:15:00.000Z",
+        "productivity": 33.15
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -60,20 +80,20 @@
   "dailyFlows": {
     "export": {
       "receival": 23,
-      "load": 402,
-      "housekeeping": 4,
+      "load": 404,
+      "housekeeping": 5,
       "housekeepingRatio": 0.01
     },
     "import": {
       "discharge": 141,
-      "delivery": 29,
+      "delivery": 32,
       "housekeeping": 1,
       "housekeepingRatio": 0.03
     }
   },
   "stats": {
-    "moveRowsInput": 1484,
-    "rsEventsCurrentPeriod": 12,
-    "ttEventsCurrentPeriod": 5
+    "moveRowsInput": 1488,
+    "rsEventsCurrentPeriod": 17,
+    "ttEventsCurrentPeriod": 7
   }
 }
