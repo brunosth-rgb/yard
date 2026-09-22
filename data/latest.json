@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T11:18:12.000Z",
-  "reportReferenceTime": "2026-09-22T11:16:02.000Z",
+  "generatedAt": "2026-09-22T11:23:12.560Z",
+  "reportReferenceTime": "2026-09-22T11:20:05.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-35549014.csv",
-      "receivedAt": "2026-09-22T11:16:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_533864211.csv",
+      "receivedAt": "2026-09-22T11:20:06.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-66161469.csv",
-      "receivedAt": "2026-09-22T11:16:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-90590238.csv",
+      "receivedAt": "2026-09-22T11:20:06.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6595,
+      "occupiedTeus": 6597,
       "capacityTeus": 10955,
-      "occupancyPct": 0.602
+      "occupancyPct": 0.6022
     },
     "reefer": {
       "occupiedUnits": 570,
@@ -43,16 +43,16 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 11.74,
+    "averageProductivity": 11.75,
     "top": [
       {
         "equipment": "R05",
         "login": "FBP",
         "operator": "FERNANDO BARBOZA PEREIRA",
-        "moves": 18,
+        "moves": 20,
         "firstMove": "2026-09-22T10:04:00.000Z",
-        "lastMove": "2026-09-22T11:12:00.000Z",
-        "productivity": 14.99
+        "lastMove": "2026-09-22T11:17:00.000Z",
+        "productivity": 15.77
       },
       {
         "equipment": "R02",
@@ -61,16 +61,16 @@
         "moves": 7,
         "firstMove": "2026-09-22T10:37:00.000Z",
         "lastMove": "2026-09-22T11:11:00.000Z",
-        "productivity": 10.76
+        "productivity": 9.75
       },
       {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 12,
+        "moves": 13,
         "firstMove": "2026-09-22T10:00:00.000Z",
-        "lastMove": "2026-09-22T10:50:00.000Z",
-        "productivity": 9.47
+        "lastMove": "2026-09-22T11:14:00.000Z",
+        "productivity": 9.74
       }
     ],
     "lowest": [
@@ -78,10 +78,10 @@
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 12,
+        "moves": 13,
         "firstMove": "2026-09-22T10:00:00.000Z",
-        "lastMove": "2026-09-22T10:50:00.000Z",
-        "productivity": 9.47
+        "lastMove": "2026-09-22T11:14:00.000Z",
+        "productivity": 9.74
       },
       {
         "equipment": "R02",
@@ -90,16 +90,16 @@
         "moves": 7,
         "firstMove": "2026-09-22T10:37:00.000Z",
         "lastMove": "2026-09-22T11:11:00.000Z",
-        "productivity": 10.76
+        "productivity": 9.75
       },
       {
         "equipment": "R05",
         "login": "FBP",
         "operator": "FERNANDO BARBOZA PEREIRA",
-        "moves": 18,
+        "moves": 20,
         "firstMove": "2026-09-22T10:04:00.000Z",
-        "lastMove": "2026-09-22T11:12:00.000Z",
-        "productivity": 14.99
+        "lastMove": "2026-09-22T11:17:00.000Z",
+        "productivity": 15.77
       }
     ]
   },
@@ -109,38 +109,27 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
+    "rsCount": 0,
     "ttCount": 0,
-    "equipment": [
-      {
-        "equipment": "R03",
-        "login": "HRS",
-        "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 12,
-        "productivity": 9.47,
-        "firstMove": "2026-09-22T10:00:00.000Z",
-        "lastMove": "2026-09-22T10:50:00.000Z",
-        "idleMinutes": 26
-      }
-    ]
+    "equipment": []
   },
   "dailyFlows": {
     "export": {
-      "receival": 216,
+      "receival": 218,
       "load": 0,
       "housekeeping": 81,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
-      "delivery": 99,
+      "delivery": 100,
       "housekeeping": 337,
-      "housekeepingRatio": 3.4
+      "housekeepingRatio": 3.37
     }
   },
   "stats": {
-    "moveRowsInput": 2283,
-    "rsEventsCurrentPeriod": 37,
+    "moveRowsInput": 2275,
+    "rsEventsCurrentPeriod": 40,
     "ttEventsCurrentPeriod": 0
   }
 }
