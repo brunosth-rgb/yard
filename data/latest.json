@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T10:08:51.248Z",
-  "reportReferenceTime": "2026-09-22T10:08:02.000Z",
+  "generatedAt": "2026-09-22T10:13:12.252Z",
+  "reportReferenceTime": "2026-09-22T10:12:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_614602747.csv",
-      "receivedAt": "2026-09-22T10:08:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_171399590.csv",
+      "receivedAt": "2026-09-22T10:12:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-41209935.csv",
-      "receivedAt": "2026-09-22T10:08:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_711736043.csv",
+      "receivedAt": "2026-09-22T10:12:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 22.38,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 22.43,
+    "top": [
+      {
+        "equipment": "R03",
+        "login": "HRS",
+        "operator": "HERIVELTO RAMON DA SILVA",
+        "moves": 6,
+        "firstMove": "2026-09-22T10:00:00.000Z",
+        "lastMove": "2026-09-22T10:11:00.000Z",
+        "productivity": 29.92
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R03",
+        "login": "HRS",
+        "operator": "HERIVELTO RAMON DA SILVA",
+        "moves": 6,
+        "firstMove": "2026-09-22T10:00:00.000Z",
+        "lastMove": "2026-09-22T10:11:00.000Z",
+        "productivity": 29.92
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -59,21 +79,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 204,
+      "receival": 205,
       "load": 0,
       "housekeeping": 81,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
-      "delivery": 85,
+      "delivery": 87,
       "housekeeping": 334,
-      "housekeepingRatio": 3.93
+      "housekeepingRatio": 3.84
     }
   },
   "stats": {
-    "moveRowsInput": 2392,
-    "rsEventsCurrentPeriod": 5,
+    "moveRowsInput": 2386,
+    "rsEventsCurrentPeriod": 8,
     "ttEventsCurrentPeriod": 0
   }
 }
