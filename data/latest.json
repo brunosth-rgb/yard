@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T13:53:13.027Z",
-  "reportReferenceTime": "2026-09-22T13:52:03.000Z",
+  "generatedAt": "2026-09-22T13:58:42.280Z",
+  "reportReferenceTime": "2026-09-22T13:56:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-87565339.csv",
-      "receivedAt": "2026-09-22T13:52:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_468300192.csv",
+      "receivedAt": "2026-09-22T13:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-99605579.csv",
-      "receivedAt": "2026-09-22T13:52:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-84771418.csv",
+      "receivedAt": "2026-09-22T13:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6662,
+      "occupiedTeus": 6654,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6081
+      "occupancyPct": 0.6074
     },
     "reefer": {
       "occupiedUnits": 582,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 18.14,
+    "averageProductivity": 17.93,
     "top": [
       {
         "equipment": "R02",
@@ -52,7 +52,7 @@
         "moves": 59,
         "firstMove": "2026-09-22T10:37:00.000Z",
         "lastMove": "2026-09-22T13:48:00.000Z",
-        "productivity": 18.15
+        "productivity": 17.79
       },
       {
         "equipment": "R03",
@@ -61,7 +61,7 @@
         "moves": 67,
         "firstMove": "2026-09-22T10:00:00.000Z",
         "lastMove": "2026-09-22T13:45:00.000Z",
-        "productivity": 17.32
+        "productivity": 17.03
       },
       {
         "equipment": "R09",
@@ -70,7 +70,7 @@
         "moves": 25,
         "firstMove": "2026-09-22T12:01:00.000Z",
         "lastMove": "2026-09-22T13:40:00.000Z",
-        "productivity": 13.51
+        "productivity": 13.04
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 46,
         "firstMove": "2026-09-22T10:04:00.000Z",
         "lastMove": "2026-09-22T13:37:00.000Z",
-        "productivity": 12.1
+        "productivity": 11.89
       },
       {
         "equipment": "R09",
@@ -90,7 +90,7 @@
         "moves": 25,
         "firstMove": "2026-09-22T12:01:00.000Z",
         "lastMove": "2026-09-22T13:40:00.000Z",
-        "productivity": 13.51
+        "productivity": 13.04
       },
       {
         "equipment": "R03",
@@ -99,7 +99,7 @@
         "moves": 67,
         "firstMove": "2026-09-22T10:00:00.000Z",
         "lastMove": "2026-09-22T13:45:00.000Z",
-        "productivity": 17.32
+        "productivity": 17.03
       }
     ]
   },
@@ -109,7 +109,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 2,
     "ttCount": 1,
     "equipment": [
       {
@@ -117,10 +117,30 @@
         "login": "FAS",
         "operator": "FLAVIO DE ALMEIDA SANTOS",
         "moves": 1,
-        "productivity": 0.67,
+        "productivity": 0.64,
         "firstMove": "2026-09-22T12:22:00.000Z",
         "lastMove": "2026-09-22T12:22:00.000Z",
-        "idleMinutes": 90
+        "idleMinutes": 94
+      },
+      {
+        "equipment": "R05",
+        "login": "FBP",
+        "operator": "FERNANDO BARBOZA PEREIRA",
+        "moves": 46,
+        "productivity": 11.89,
+        "firstMove": "2026-09-22T10:04:00.000Z",
+        "lastMove": "2026-09-22T13:37:00.000Z",
+        "idleMinutes": 19
+      },
+      {
+        "equipment": "R09",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 25,
+        "productivity": 13.04,
+        "firstMove": "2026-09-22T12:01:00.000Z",
+        "lastMove": "2026-09-22T13:40:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -133,14 +153,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 140,
+      "delivery": 142,
       "housekeeping": 356,
-      "housekeepingRatio": 2.54
+      "housekeepingRatio": 2.51
     }
   },
   "stats": {
-    "moveRowsInput": 2092,
-    "rsEventsCurrentPeriod": 199,
+    "moveRowsInput": 2083,
+    "rsEventsCurrentPeriod": 201,
     "ttEventsCurrentPeriod": 1
   }
 }
