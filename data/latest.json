@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T10:23:17.189Z",
-  "reportReferenceTime": "2026-09-22T10:20:05.000Z",
+  "generatedAt": "2026-09-22T10:28:18.187Z",
+  "reportReferenceTime": "2026-09-22T10:28:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_638262562.csv",
-      "receivedAt": "2026-09-22T10:20:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-90756867.csv",
+      "receivedAt": "2026-09-22T10:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_814013788.csv",
-      "receivedAt": "2026-09-22T10:20:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_546900155.csv",
+      "receivedAt": "2026-09-22T10:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6583,
+      "occupiedTeus": 6582,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6009
+      "occupancyPct": 0.6008
     },
     "reefer": {
       "occupiedUnits": 569,
@@ -43,27 +43,45 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.92,
+    "averageProductivity": 14.8,
     "top": [
       {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 7,
+        "moves": 8,
         "firstMove": "2026-09-22T10:00:00.000Z",
-        "lastMove": "2026-09-22T10:14:00.000Z",
-        "productivity": 20.91
+        "lastMove": "2026-09-22T10:20:00.000Z",
+        "productivity": 17.12
+      },
+      {
+        "equipment": "R05",
+        "login": "FBP",
+        "operator": "FERNANDO BARBOZA PEREIRA",
+        "moves": 5,
+        "firstMove": "2026-09-22T10:04:00.000Z",
+        "lastMove": "2026-09-22T10:26:00.000Z",
+        "productivity": 12.48
       }
     ],
     "lowest": [
       {
+        "equipment": "R05",
+        "login": "FBP",
+        "operator": "FERNANDO BARBOZA PEREIRA",
+        "moves": 5,
+        "firstMove": "2026-09-22T10:04:00.000Z",
+        "lastMove": "2026-09-22T10:26:00.000Z",
+        "productivity": 12.48
+      },
+      {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 7,
+        "moves": 8,
         "firstMove": "2026-09-22T10:00:00.000Z",
-        "lastMove": "2026-09-22T10:14:00.000Z",
-        "productivity": 20.91
+        "lastMove": "2026-09-22T10:20:00.000Z",
+        "productivity": 17.12
       }
     ]
   },
@@ -79,21 +97,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 205,
+      "receival": 206,
       "load": 0,
       "housekeeping": 81,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
-      "delivery": 90,
+      "delivery": 91,
       "housekeeping": 334,
-      "housekeepingRatio": 3.71
+      "housekeepingRatio": 3.67
     }
   },
   "stats": {
-    "moveRowsInput": 2372,
-    "rsEventsCurrentPeriod": 11,
+    "moveRowsInput": 2368,
+    "rsEventsCurrentPeriod": 13,
     "ttEventsCurrentPeriod": 0
   }
 }
