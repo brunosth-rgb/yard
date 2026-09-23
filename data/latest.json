@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T00:53:49.026Z",
-  "reportReferenceTime": "2026-09-23T00:52:02.000Z",
+  "generatedAt": "2026-09-23T00:58:22.114Z",
+  "reportReferenceTime": "2026-09-23T00:56:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-76292762.csv",
-      "receivedAt": "2026-09-23T00:52:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-83578359.csv",
+      "receivedAt": "2026-09-23T00:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-44531109.csv",
-      "receivedAt": "2026-09-23T00:52:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_800862175.csv",
+      "receivedAt": "2026-09-23T00:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6556,
+      "occupiedTeus": 6554,
       "capacityTeus": 10955,
-      "occupancyPct": 0.5984
+      "occupancyPct": 0.5983
     },
     "reefer": {
       "occupiedUnits": 615,
@@ -43,16 +43,16 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 23.12,
+    "averageProductivity": 22.69,
     "top": [
       {
         "equipment": "R01",
         "login": "FJL",
         "operator": "FABIANO JOSE LIMA",
-        "moves": 81,
+        "moves": 83,
         "firstMove": "2026-09-22T22:29:00.000Z",
-        "lastMove": "2026-09-23T00:51:00.000Z",
-        "productivity": 33.98
+        "lastMove": "2026-09-23T00:54:00.000Z",
+        "productivity": 33.87
       },
       {
         "equipment": "R03",
@@ -61,7 +61,7 @@
         "moves": 83,
         "firstMove": "2026-09-22T22:13:00.000Z",
         "lastMove": "2026-09-23T00:48:00.000Z",
-        "productivity": 31.31
+        "productivity": 30.54
       },
       {
         "equipment": "R10",
@@ -70,7 +70,7 @@
         "moves": 62,
         "firstMove": "2026-09-22T22:17:00.000Z",
         "lastMove": "2026-09-23T00:50:00.000Z",
-        "productivity": 23.99
+        "productivity": 23.39
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 28,
         "firstMove": "2026-09-22T22:08:00.000Z",
         "lastMove": "2026-09-23T00:34:00.000Z",
-        "productivity": 10.24
+        "productivity": 10
       },
       {
         "equipment": "R12",
@@ -90,7 +90,7 @@
         "moves": 41,
         "firstMove": "2026-09-22T22:19:00.000Z",
         "lastMove": "2026-09-23T00:49:00.000Z",
-        "productivity": 16.07
+        "productivity": 15.66
       },
       {
         "equipment": "R10",
@@ -99,7 +99,7 @@
         "moves": 62,
         "firstMove": "2026-09-22T22:17:00.000Z",
         "lastMove": "2026-09-23T00:50:00.000Z",
-        "productivity": 23.99
+        "productivity": 23.39
       }
     ]
   },
@@ -112,7 +112,7 @@
         "moves": 6,
         "firstMove": "2026-09-22T23:21:00.000Z",
         "lastMove": "2026-09-23T00:48:00.000Z",
-        "productivity": 3.95
+        "productivity": 3.79
       }
     ],
     "lowest": [
@@ -123,24 +123,44 @@
         "moves": 6,
         "firstMove": "2026-09-22T23:21:00.000Z",
         "lastMove": "2026-09-23T00:48:00.000Z",
-        "productivity": 3.95
+        "productivity": 3.79
       }
     ]
   },
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 0,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "R07",
         "login": "MRM",
         "operator": "MARCOS ROBERTO MAFRA",
         "moves": 28,
-        "productivity": 10.24,
+        "productivity": 10,
         "firstMove": "2026-09-22T22:08:00.000Z",
         "lastMove": "2026-09-23T00:34:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
+      },
+      {
+        "equipment": "TT14",
+        "login": "AMR",
+        "operator": "AMARILDO RICARDO",
+        "moves": 2,
+        "productivity": 3.52,
+        "firstMove": "2026-09-23T00:22:00.000Z",
+        "lastMove": "2026-09-23T00:39:00.000Z",
+        "idleMinutes": 17
+      },
+      {
+        "equipment": "TT11",
+        "login": "PFC",
+        "operator": "PEDRO FRANCISCO COELHO",
+        "moves": 4,
+        "productivity": 2.52,
+        "firstMove": "2026-09-22T23:21:00.000Z",
+        "lastMove": "2026-09-23T00:40:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -154,13 +174,13 @@
     "import": {
       "discharge": 0,
       "delivery": 345,
-      "housekeeping": 652,
+      "housekeeping": 653,
       "housekeepingRatio": 1.89
     }
   },
   "stats": {
-    "moveRowsInput": 1983,
-    "rsEventsCurrentPeriod": 295,
+    "moveRowsInput": 1979,
+    "rsEventsCurrentPeriod": 297,
     "ttEventsCurrentPeriod": 15
   }
 }
