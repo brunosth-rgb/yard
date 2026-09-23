@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T16:58:11.958Z",
-  "reportReferenceTime": "2026-09-23T16:56:03.000Z",
+  "generatedAt": "2026-09-23T17:03:15.423Z",
+  "reportReferenceTime": "2026-09-23T17:01:00.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_428317547.csv",
-      "receivedAt": "2026-09-23T16:56:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_126006993.csv",
+      "receivedAt": "2026-09-23T17:01:38.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_559834759.csv",
-      "receivedAt": "2026-09-23T16:56:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_155570472.csv",
+      "receivedAt": "2026-09-23T17:01:38.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,7 +22,7 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6544,
+      "occupiedTeus": 6545,
       "capacityTeus": 10955,
       "occupancyPct": 0.5974
     },
@@ -43,8 +43,17 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 11.74,
+    "averageProductivity": 10.25,
     "top": [
+      {
+        "equipment": "R07",
+        "login": "CAF",
+        "operator": "CARLOS ALBERTO FURTADO",
+        "moves": 12,
+        "firstMove": "2026-09-23T16:10:00.000Z",
+        "lastMove": "2026-09-23T17:01:00.000Z",
+        "productivity": 14.12
+      },
       {
         "equipment": "R01",
         "login": "GCC",
@@ -52,7 +61,7 @@
         "moves": 8,
         "firstMove": "2026-09-23T16:27:00.000Z",
         "lastMove": "2026-09-23T16:34:00.000Z",
-        "productivity": 16.52
+        "productivity": 14.12
       },
       {
         "equipment": "R02",
@@ -61,16 +70,7 @@
         "moves": 9,
         "firstMove": "2026-09-23T16:10:00.000Z",
         "lastMove": "2026-09-23T16:52:00.000Z",
-        "productivity": 11.73
-      },
-      {
-        "equipment": "R07",
-        "login": "CAF",
-        "operator": "CARLOS ALBERTO FURTADO",
-        "moves": 8,
-        "firstMove": "2026-09-23T16:10:00.000Z",
-        "lastMove": "2026-09-23T16:49:00.000Z",
-        "productivity": 10.42
+        "productivity": 10.59
       }
     ],
     "lowest": [
@@ -78,19 +78,10 @@
         "equipment": "R11",
         "login": "MJR",
         "operator": "MARCIO JOSE REBELLO",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-09-23T16:07:00.000Z",
-        "lastMove": "2026-09-23T16:55:00.000Z",
-        "productivity": 9.79
-      },
-      {
-        "equipment": "R07",
-        "login": "CAF",
-        "operator": "CARLOS ALBERTO FURTADO",
-        "moves": 8,
-        "firstMove": "2026-09-23T16:10:00.000Z",
-        "lastMove": "2026-09-23T16:49:00.000Z",
-        "productivity": 10.42
+        "lastMove": "2026-09-23T16:57:00.000Z",
+        "productivity": 10
       },
       {
         "equipment": "R02",
@@ -99,7 +90,16 @@
         "moves": 9,
         "firstMove": "2026-09-23T16:10:00.000Z",
         "lastMove": "2026-09-23T16:52:00.000Z",
-        "productivity": 11.73
+        "productivity": 10.59
+      },
+      {
+        "equipment": "R07",
+        "login": "CAF",
+        "operator": "CARLOS ALBERTO FURTADO",
+        "moves": 12,
+        "firstMove": "2026-09-23T16:10:00.000Z",
+        "lastMove": "2026-09-23T17:01:00.000Z",
+        "productivity": 14.12
       }
     ]
   },
@@ -117,18 +117,18 @@
         "login": "GCC",
         "operator": "GESIEL CLAUDIONIR CRUZ",
         "moves": 8,
-        "productivity": 16.52,
+        "productivity": 14.12,
         "firstMove": "2026-09-23T16:27:00.000Z",
         "lastMove": "2026-09-23T16:34:00.000Z",
-        "idleMinutes": 22
+        "idleMinutes": 27
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 262,
+      "receival": 263,
       "load": 0,
-      "housekeeping": 27,
+      "housekeeping": 29,
       "housekeepingRatio": null
     },
     "import": {
@@ -139,8 +139,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 1662,
-    "rsEventsCurrentPeriod": 37,
+    "moveRowsInput": 1659,
+    "rsEventsCurrentPeriod": 42,
     "ttEventsCurrentPeriod": 1
   }
 }
