@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T22:53:14.121Z",
-  "reportReferenceTime": "2026-09-23T22:52:02.000Z",
+  "generatedAt": "2026-09-23T22:58:12.732Z",
+  "reportReferenceTime": "2026-09-23T22:56:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_438180338.csv",
-      "receivedAt": "2026-09-23T22:52:02.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_676856544.csv",
+      "receivedAt": "2026-09-23T22:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-18641522.csv",
-      "receivedAt": "2026-09-23T22:52:02.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_604628365.csv",
+      "receivedAt": "2026-09-23T22:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,12 +38,12 @@
     }
   },
   "resources": {
-    "rsInOperation": 8,
+    "rsInOperation": 9,
     "ttInOperation": 1
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 14.54,
+    "averageProductivity": 21.32,
     "top": [
       {
         "equipment": "R12",
@@ -52,28 +52,37 @@
         "moves": 18,
         "firstMove": "2026-09-23T22:25:00.000Z",
         "lastMove": "2026-09-23T22:49:00.000Z",
-        "productivity": 39.95
+        "productivity": 34.8
       },
       {
         "equipment": "R10",
         "login": "RSI",
         "operator": "ROGERIO DA SILVA",
-        "moves": 19,
+        "moves": 21,
         "firstMove": "2026-09-23T22:08:00.000Z",
-        "lastMove": "2026-09-23T22:51:00.000Z",
-        "productivity": 25.89
+        "lastMove": "2026-09-23T22:55:00.000Z",
+        "productivity": 26.23
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 17,
+        "moves": 19,
         "firstMove": "2026-09-23T22:01:00.000Z",
-        "lastMove": "2026-09-23T22:50:00.000Z",
-        "productivity": 19.99
+        "lastMove": "2026-09-23T22:54:00.000Z",
+        "productivity": 20.71
       }
     ],
     "lowest": [
+      {
+        "equipment": "R06",
+        "login": "ALB",
+        "operator": "ALBERTO LAURINDO PINTO",
+        "moves": 5,
+        "firstMove": "2026-09-23T22:13:00.000Z",
+        "lastMove": "2026-09-23T22:54:00.000Z",
+        "productivity": 6.97
+      },
       {
         "equipment": "R05",
         "login": "WCS",
@@ -81,25 +90,16 @@
         "moves": 7,
         "firstMove": "2026-09-23T22:13:00.000Z",
         "lastMove": "2026-09-23T22:36:00.000Z",
-        "productivity": 10.76
+        "productivity": 9.76
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 17,
-        "firstMove": "2026-09-23T22:01:00.000Z",
-        "lastMove": "2026-09-23T22:50:00.000Z",
-        "productivity": 19.99
-      },
-      {
-        "equipment": "R10",
-        "login": "RSI",
-        "operator": "ROGERIO DA SILVA",
         "moves": 19,
-        "firstMove": "2026-09-23T22:08:00.000Z",
-        "lastMove": "2026-09-23T22:51:00.000Z",
-        "productivity": 25.89
+        "firstMove": "2026-09-23T22:01:00.000Z",
+        "lastMove": "2026-09-23T22:54:00.000Z",
+        "productivity": 20.71
       }
     ]
   },
@@ -109,7 +109,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 3,
+    "rsCount": 2,
     "ttCount": 0,
     "equipment": [
       {
@@ -117,50 +117,40 @@
         "login": "GCC",
         "operator": "GESIEL CLAUDIONIR CRUZ",
         "moves": 2,
-        "productivity": 3.16,
+        "productivity": 2.85,
         "firstMove": "2026-09-23T22:14:00.000Z",
         "lastMove": "2026-09-23T22:17:00.000Z",
-        "idleMinutes": 35
-      },
-      {
-        "equipment": "R04",
-        "login": "ALU",
-        "operator": "ALBERTO LUIZ DA SILVA",
-        "moves": 2,
-        "productivity": 5.21,
-        "firstMove": "2026-09-23T22:29:00.000Z",
-        "lastMove": "2026-09-23T22:34:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 39
       },
       {
         "equipment": "R05",
         "login": "WCS",
         "operator": "WILLIAN CARLOS DA SILVA",
         "moves": 7,
-        "productivity": 10.76,
+        "productivity": 9.76,
         "firstMove": "2026-09-23T22:13:00.000Z",
         "lastMove": "2026-09-23T22:36:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 365,
+      "receival": 366,
       "load": 0,
-      "housekeeping": 212,
+      "housekeeping": 213,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
-      "delivery": 302,
-      "housekeeping": 379,
-      "housekeepingRatio": 1.25
+      "delivery": 303,
+      "housekeeping": 382,
+      "housekeepingRatio": 1.26
     }
   },
   "stats": {
-    "moveRowsInput": 1547,
-    "rsEventsCurrentPeriod": 73,
+    "moveRowsInput": 1548,
+    "rsEventsCurrentPeriod": 83,
     "ttEventsCurrentPeriod": 2
   }
 }
