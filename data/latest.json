@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T10:18:12.069Z",
-  "reportReferenceTime": "2026-09-23T10:16:02.000Z",
+  "generatedAt": "2026-09-23T10:23:12.574Z",
+  "reportReferenceTime": "2026-09-23T10:20:05.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-41544161.csv",
-      "receivedAt": "2026-09-23T10:16:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_168979871.csv",
+      "receivedAt": "2026-09-23T10:20:06.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-12330628.csv",
-      "receivedAt": "2026-09-23T10:16:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_104075080.csv",
+      "receivedAt": "2026-09-23T10:20:06.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6588,
+      "occupiedTeus": 6584,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6014
+      "occupancyPct": 0.601
     },
     "reefer": {
       "occupiedUnits": 660,
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 25.25,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 18.6,
+    "top": [
+      {
+        "equipment": "R09",
+        "login": "EJS",
+        "operator": "EDSON JULIO DOS SANTOS",
+        "moves": 5,
+        "firstMove": "2026-09-23T10:12:00.000Z",
+        "lastMove": "2026-09-23T10:18:00.000Z",
+        "productivity": 37.11
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R09",
+        "login": "EJS",
+        "operator": "EDSON JULIO DOS SANTOS",
+        "moves": 5,
+        "firstMove": "2026-09-23T10:12:00.000Z",
+        "lastMove": "2026-09-23T10:18:00.000Z",
+        "productivity": 37.11
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -66,14 +86,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 131,
+      "delivery": 136,
       "housekeeping": 205,
-      "housekeepingRatio": 1.56
+      "housekeepingRatio": 1.51
     }
   },
   "stats": {
-    "moveRowsInput": 1692,
-    "rsEventsCurrentPeriod": 11,
+    "moveRowsInput": 1696,
+    "rsEventsCurrentPeriod": 16,
     "ttEventsCurrentPeriod": 0
   }
 }
