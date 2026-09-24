@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:03:13.324Z",
-  "reportReferenceTime": "2026-09-24T11:00:02.000Z",
+  "generatedAt": "2026-09-24T11:08:11.966Z",
+  "reportReferenceTime": "2026-09-24T11:04:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_873526812.csv",
-      "receivedAt": "2026-09-24T11:00:02.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_785219787.csv",
+      "receivedAt": "2026-09-24T11:04:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-15895285.csv",
-      "receivedAt": "2026-09-24T11:00:02.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_876283837.csv",
+      "receivedAt": "2026-09-24T11:04:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6884,
+      "occupiedTeus": 6886,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6284
+      "occupancyPct": 0.6286
     },
     "reefer": {
       "occupiedUnits": 739,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 12.96,
+    "averageProductivity": 12.54,
     "top": [
       {
         "equipment": "R05",
@@ -52,25 +52,25 @@
         "moves": 18,
         "firstMove": "2026-09-24T10:12:00.000Z",
         "lastMove": "2026-09-24T10:58:00.000Z",
-        "productivity": 22.48
+        "productivity": 20.76
       },
       {
         "equipment": "R01",
         "login": "JMA",
         "operator": "JAIRO MARIANO",
-        "moves": 12,
+        "moves": 13,
         "firstMove": "2026-09-24T10:09:00.000Z",
-        "lastMove": "2026-09-24T10:46:00.000Z",
-        "productivity": 14.11
+        "lastMove": "2026-09-24T11:01:00.000Z",
+        "productivity": 14.17
       },
       {
         "equipment": "R02",
         "login": "DFC",
         "operator": "DAVI FRANCISCO COELHO",
-        "moves": 10,
+        "moves": 11,
         "firstMove": "2026-09-24T10:13:00.000Z",
-        "lastMove": "2026-09-24T10:53:00.000Z",
-        "productivity": 12.76
+        "lastMove": "2026-09-24T11:00:00.000Z",
+        "productivity": 12.93
       }
     ],
     "lowest": [
@@ -78,19 +78,19 @@
         "equipment": "R02",
         "login": "DFC",
         "operator": "DAVI FRANCISCO COELHO",
-        "moves": 10,
+        "moves": 11,
         "firstMove": "2026-09-24T10:13:00.000Z",
-        "lastMove": "2026-09-24T10:53:00.000Z",
-        "productivity": 12.76
+        "lastMove": "2026-09-24T11:00:00.000Z",
+        "productivity": 12.93
       },
       {
         "equipment": "R01",
         "login": "JMA",
         "operator": "JAIRO MARIANO",
-        "moves": 12,
+        "moves": 13,
         "firstMove": "2026-09-24T10:09:00.000Z",
-        "lastMove": "2026-09-24T10:46:00.000Z",
-        "productivity": 14.11
+        "lastMove": "2026-09-24T11:01:00.000Z",
+        "productivity": 14.17
       },
       {
         "equipment": "R05",
@@ -99,7 +99,7 @@
         "moves": 18,
         "firstMove": "2026-09-24T10:12:00.000Z",
         "lastMove": "2026-09-24T10:58:00.000Z",
-        "productivity": 22.48
+        "productivity": 20.76
       }
     ]
   },
@@ -110,23 +110,43 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 0,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "R10",
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
         "moves": 2,
-        "productivity": 2.5,
+        "productivity": 2.31,
         "firstMove": "2026-09-24T10:12:00.000Z",
         "lastMove": "2026-09-24T10:12:00.000Z",
-        "idleMinutes": 48
+        "idleMinutes": 52
+      },
+      {
+        "equipment": "TT16",
+        "login": "ELI",
+        "operator": "ELIEZER LUZ",
+        "moves": 2,
+        "productivity": 3.33,
+        "firstMove": "2026-09-24T10:28:00.000Z",
+        "lastMove": "2026-09-24T10:45:00.000Z",
+        "idleMinutes": 19
+      },
+      {
+        "equipment": "TT10",
+        "login": "DCS",
+        "operator": "DEIVID CARVALHO DA SILVA",
+        "moves": 2,
+        "productivity": 4,
+        "firstMove": "2026-09-24T10:34:00.000Z",
+        "lastMove": "2026-09-24T10:48:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 167,
+      "receival": 168,
       "load": 0,
       "housekeeping": 102,
       "housekeepingRatio": null
@@ -139,8 +159,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 1624,
-    "rsEventsCurrentPeriod": 42,
+    "moveRowsInput": 1623,
+    "rsEventsCurrentPeriod": 44,
     "ttEventsCurrentPeriod": 6
   }
 }
