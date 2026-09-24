@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T22:43:13.159Z",
-  "reportReferenceTime": "2026-09-24T22:40:03.000Z",
+  "generatedAt": "2026-09-24T22:48:11.859Z",
+  "reportReferenceTime": "2026-09-24T22:48:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-90338354.csv",
-      "receivedAt": "2026-09-24T22:40:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_707319941.csv",
+      "receivedAt": "2026-09-24T22:48:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_839087675.csv",
-      "receivedAt": "2026-09-24T22:40:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-63905990.csv",
+      "receivedAt": "2026-09-24T22:48:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,84 +22,84 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7337,
+      "occupiedTeus": 7357,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6697
+      "occupancyPct": 0.6716
     },
     "reefer": {
-      "occupiedUnits": 777,
+      "occupiedUnits": 778,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.6486
+      "occupancyPct": 0.6494
     },
     "imo": {
-      "occupiedTeus": 107,
+      "occupiedTeus": 111,
       "capacityTeus": 254,
-      "occupancyPct": 0.4213
+      "occupancyPct": 0.437
     }
   },
   "resources": {
-    "rsInOperation": 6,
-    "ttInOperation": 8
+    "rsInOperation": 7,
+    "ttInOperation": 11
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 20.12,
+    "averageProductivity": 21.72,
     "top": [
+      {
+        "equipment": "R06",
+        "login": "EJD",
+        "operator": "EDILTO JOSE DIAS",
+        "moves": 5,
+        "firstMove": "2026-09-24T22:41:00.000Z",
+        "lastMove": "2026-09-24T22:47:00.000Z",
+        "productivity": 42.65
+      },
       {
         "equipment": "R07",
         "login": "MVF",
         "operator": "MARCOS VITORIO FARIAS",
-        "moves": 10,
+        "moves": 12,
         "firstMove": "2026-09-24T22:24:00.000Z",
-        "lastMove": "2026-09-24T22:39:00.000Z",
-        "productivity": 37.38
+        "lastMove": "2026-09-24T22:45:00.000Z",
+        "productivity": 29.96
       },
       {
-        "equipment": "R02",
-        "login": "JDG",
-        "operator": "JUVENAL DUTRA GARCIA JR",
-        "moves": 8,
-        "firstMove": "2026-09-24T22:25:00.000Z",
-        "lastMove": "2026-09-24T22:38:00.000Z",
-        "productivity": 31.89
-      },
-      {
-        "equipment": "R12",
-        "login": "MOV",
-        "operator": "MOISES VIEIRA",
-        "moves": 9,
-        "firstMove": "2026-09-24T22:17:00.000Z",
-        "lastMove": "2026-09-24T22:38:00.000Z",
-        "productivity": 23.43
+        "equipment": "R03",
+        "login": "GGN",
+        "operator": "GERSON GENESIO NASCIMENTO",
+        "moves": 5,
+        "firstMove": "2026-09-24T22:36:00.000Z",
+        "lastMove": "2026-09-24T22:46:00.000Z",
+        "productivity": 24.93
       }
     ],
     "lowest": [
       {
+        "equipment": "R01",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 5,
+        "firstMove": "2026-09-24T22:18:00.000Z",
+        "lastMove": "2026-09-24T22:47:00.000Z",
+        "productivity": 9.99
+      },
+      {
         "equipment": "R12",
         "login": "MOV",
         "operator": "MOISES VIEIRA",
-        "moves": 9,
+        "moves": 10,
         "firstMove": "2026-09-24T22:17:00.000Z",
-        "lastMove": "2026-09-24T22:38:00.000Z",
-        "productivity": 23.43
+        "lastMove": "2026-09-24T22:42:00.000Z",
+        "productivity": 19.33
       },
       {
         "equipment": "R02",
         "login": "JDG",
         "operator": "JUVENAL DUTRA GARCIA JR",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-09-24T22:25:00.000Z",
-        "lastMove": "2026-09-24T22:38:00.000Z",
-        "productivity": 31.89
-      },
-      {
-        "equipment": "R07",
-        "login": "MVF",
-        "operator": "MARCOS VITORIO FARIAS",
-        "moves": 10,
-        "firstMove": "2026-09-24T22:24:00.000Z",
-        "lastMove": "2026-09-24T22:39:00.000Z",
-        "productivity": 37.38
+        "lastMove": "2026-09-24T22:47:00.000Z",
+        "productivity": 23.44
       }
     ]
   },
@@ -110,37 +110,57 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 0,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "R08",
         "login": "JME",
         "operator": "JOELSIO MEIRINHO",
         "moves": 1,
-        "productivity": 2.3,
+        "productivity": 1.76,
         "firstMove": "2026-09-24T22:14:00.000Z",
         "lastMove": "2026-09-24T22:14:00.000Z",
-        "idleMinutes": 26
+        "idleMinutes": 34
+      },
+      {
+        "equipment": "TT15",
+        "login": "JDR",
+        "operator": "JEFFERSON ADRIANO",
+        "moves": 1,
+        "productivity": 2.85,
+        "firstMove": "2026-09-24T22:27:00.000Z",
+        "lastMove": "2026-09-24T22:27:00.000Z",
+        "idleMinutes": 21
+      },
+      {
+        "equipment": "TT21",
+        "login": "WDF",
+        "operator": "WILSON DIOGO FERNANDES",
+        "moves": 2,
+        "productivity": 3.75,
+        "firstMove": "2026-09-24T22:16:00.000Z",
+        "lastMove": "2026-09-24T22:31:00.000Z",
+        "idleMinutes": 17
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 436,
-      "load": 114,
+      "receival": 439,
+      "load": 115,
       "housekeeping": 113,
-      "housekeepingRatio": 0.99
+      "housekeepingRatio": 0.98
     },
     "import": {
-      "discharge": 238,
-      "delivery": 195,
+      "discharge": 248,
+      "delivery": 196,
       "housekeeping": 389,
-      "housekeepingRatio": 1.99
+      "housekeepingRatio": 1.98
     }
   },
   "stats": {
-    "moveRowsInput": 1958,
-    "rsEventsCurrentPeriod": 33,
-    "ttEventsCurrentPeriod": 15
+    "moveRowsInput": 1964,
+    "rsEventsCurrentPeriod": 47,
+    "ttEventsCurrentPeriod": 26
   }
 }
