@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T10:33:13.186Z",
-  "reportReferenceTime": "2026-09-24T10:32:02.000Z",
+  "generatedAt": "2026-09-24T10:38:29.652Z",
+  "reportReferenceTime": "2026-09-24T10:36:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-10230479.csv",
-      "receivedAt": "2026-09-24T10:32:02.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-73563534.csv",
+      "receivedAt": "2026-09-24T10:36:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-26406770.csv",
-      "receivedAt": "2026-09-24T10:32:02.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-30536267.csv",
+      "receivedAt": "2026-09-24T10:36:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6883,
+      "occupiedTeus": 6885,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6283
+      "occupancyPct": 0.6285
     },
     "reefer": {
-      "occupiedUnits": 737,
+      "occupiedUnits": 738,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.6152
+      "occupancyPct": 0.616
     },
     "imo": {
       "occupiedTeus": 33,
@@ -39,11 +39,11 @@
   },
   "resources": {
     "rsInOperation": 4,
-    "ttInOperation": 1
+    "ttInOperation": 2
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 13.51,
+    "averageProductivity": 13.24,
     "top": [
       {
         "equipment": "R01",
@@ -52,10 +52,46 @@
         "moves": 9,
         "firstMove": "2026-09-24T10:09:00.000Z",
         "lastMove": "2026-09-24T10:30:00.000Z",
-        "productivity": 23.44
+        "productivity": 19.98
+      },
+      {
+        "equipment": "R05",
+        "login": "FBP",
+        "operator": "FERNANDO BARBOZA PEREIRA",
+        "moves": 6,
+        "firstMove": "2026-09-24T10:12:00.000Z",
+        "lastMove": "2026-09-24T10:34:00.000Z",
+        "productivity": 14.98
+      },
+      {
+        "equipment": "R02",
+        "login": "DFC",
+        "operator": "DAVI FRANCISCO COELHO",
+        "moves": 5,
+        "firstMove": "2026-09-24T10:13:00.000Z",
+        "lastMove": "2026-09-24T10:32:00.000Z",
+        "productivity": 13.02
       }
     ],
     "lowest": [
+      {
+        "equipment": "R02",
+        "login": "DFC",
+        "operator": "DAVI FRANCISCO COELHO",
+        "moves": 5,
+        "firstMove": "2026-09-24T10:13:00.000Z",
+        "lastMove": "2026-09-24T10:32:00.000Z",
+        "productivity": 13.02
+      },
+      {
+        "equipment": "R05",
+        "login": "FBP",
+        "operator": "FERNANDO BARBOZA PEREIRA",
+        "moves": 6,
+        "firstMove": "2026-09-24T10:12:00.000Z",
+        "lastMove": "2026-09-24T10:34:00.000Z",
+        "productivity": 14.98
+      },
       {
         "equipment": "R01",
         "login": "JMA",
@@ -63,7 +99,7 @@
         "moves": 9,
         "firstMove": "2026-09-24T10:09:00.000Z",
         "lastMove": "2026-09-24T10:30:00.000Z",
-        "productivity": 23.44
+        "productivity": 19.98
       }
     ]
   },
@@ -81,16 +117,16 @@
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
         "moves": 2,
-        "productivity": 5.99,
+        "productivity": 4.99,
         "firstMove": "2026-09-24T10:12:00.000Z",
         "lastMove": "2026-09-24T10:12:00.000Z",
-        "idleMinutes": 20
+        "idleMinutes": 24
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 163,
+      "receival": 164,
       "load": 0,
       "housekeeping": 102,
       "housekeepingRatio": null
@@ -98,13 +134,13 @@
     "import": {
       "discharge": 0,
       "delivery": 46,
-      "housekeeping": 312,
-      "housekeepingRatio": 6.78
+      "housekeeping": 313,
+      "housekeepingRatio": 6.8
     }
   },
   "stats": {
-    "moveRowsInput": 1634,
-    "rsEventsCurrentPeriod": 19,
-    "ttEventsCurrentPeriod": 1
+    "moveRowsInput": 1630,
+    "rsEventsCurrentPeriod": 22,
+    "ttEventsCurrentPeriod": 2
   }
 }
