@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:28:25.029Z",
-  "reportReferenceTime": "2026-09-24T16:28:02.000Z",
+  "generatedAt": "2026-09-24T16:33:13.924Z",
+  "reportReferenceTime": "2026-09-24T16:32:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-49639138.csv",
-      "receivedAt": "2026-09-24T16:28:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-34898395.csv",
+      "receivedAt": "2026-09-24T16:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-60107371.csv",
-      "receivedAt": "2026-09-24T16:28:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_867884727.csv",
+      "receivedAt": "2026-09-24T16:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6933,
+      "occupiedTeus": 6936,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6329
+      "occupancyPct": 0.6331
     },
     "reefer": {
       "occupiedUnits": 759,
@@ -43,63 +43,63 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 10.74,
+    "averageProductivity": 10.64,
     "top": [
       {
         "equipment": "R04",
         "login": "VLP",
         "operator": "VLADEMIR PORTO",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-09-24T16:10:00.000Z",
-        "lastMove": "2026-09-24T16:25:00.000Z",
-        "productivity": 16.64
+        "lastMove": "2026-09-24T16:29:00.000Z",
+        "productivity": 16.34
       },
       {
-        "equipment": "R11",
-        "login": "MJR",
-        "operator": "MARCIO JOSE REBELLO",
+        "equipment": "R01",
+        "login": "JDG",
+        "operator": "JUVENAL DUTRA GARCIA JR",
         "moves": 5,
-        "firstMove": "2026-09-24T16:08:00.000Z",
-        "lastMove": "2026-09-24T16:25:00.000Z",
+        "firstMove": "2026-09-24T16:12:00.000Z",
+        "lastMove": "2026-09-24T16:30:00.000Z",
         "productivity": 14.98
       },
       {
         "equipment": "R02",
         "login": "IVL",
         "operator": "IVAN LUIZ DA CRUZ",
-        "moves": 6,
+        "moves": 7,
         "firstMove": "2026-09-24T16:01:00.000Z",
-        "lastMove": "2026-09-24T16:19:00.000Z",
-        "productivity": 13.32
+        "lastMove": "2026-09-24T16:28:00.000Z",
+        "productivity": 13.53
       }
     ],
     "lowest": [
       {
-        "equipment": "R02",
-        "login": "IVL",
-        "operator": "IVAN LUIZ DA CRUZ",
-        "moves": 6,
-        "firstMove": "2026-09-24T16:01:00.000Z",
-        "lastMove": "2026-09-24T16:19:00.000Z",
-        "productivity": 13.32
-      },
-      {
         "equipment": "R11",
         "login": "MJR",
         "operator": "MARCIO JOSE REBELLO",
         "moves": 5,
         "firstMove": "2026-09-24T16:08:00.000Z",
         "lastMove": "2026-09-24T16:25:00.000Z",
-        "productivity": 14.98
+        "productivity": 12.48
       },
       {
-        "equipment": "R04",
-        "login": "VLP",
-        "operator": "VLADEMIR PORTO",
+        "equipment": "R02",
+        "login": "IVL",
+        "operator": "IVAN LUIZ DA CRUZ",
+        "moves": 7,
+        "firstMove": "2026-09-24T16:01:00.000Z",
+        "lastMove": "2026-09-24T16:28:00.000Z",
+        "productivity": 13.53
+      },
+      {
+        "equipment": "R01",
+        "login": "JDG",
+        "operator": "JUVENAL DUTRA GARCIA JR",
         "moves": 5,
-        "firstMove": "2026-09-24T16:10:00.000Z",
-        "lastMove": "2026-09-24T16:25:00.000Z",
-        "productivity": 16.64
+        "firstMove": "2026-09-24T16:12:00.000Z",
+        "lastMove": "2026-09-24T16:30:00.000Z",
+        "productivity": 14.98
       }
     ]
   },
@@ -109,15 +109,36 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 2,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R06",
+        "login": "JCR",
+        "operator": "JEFFERSON CARDOSO RUFINO",
+        "moves": 1,
+        "productivity": 3.15,
+        "firstMove": "2026-09-24T16:13:00.000Z",
+        "lastMove": "2026-09-24T16:13:00.000Z",
+        "idleMinutes": 19
+      },
+      {
+        "equipment": "R05",
+        "login": "ALB",
+        "operator": "ALBERTO LAURINDO PINTO",
+        "moves": 1,
+        "productivity": 3.33,
+        "firstMove": "2026-09-24T16:14:00.000Z",
+        "lastMove": "2026-09-24T16:14:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 286,
+      "receival": 288,
       "load": 0,
-      "housekeeping": 109,
+      "housekeeping": 110,
       "housekeepingRatio": null
     },
     "import": {
@@ -129,7 +150,7 @@
   },
   "stats": {
     "moveRowsInput": 1613,
-    "rsEventsCurrentPeriod": 21,
+    "rsEventsCurrentPeriod": 25,
     "ttEventsCurrentPeriod": 0
   }
 }
