@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T16:33:29.137Z",
-  "reportReferenceTime": "2026-09-25T16:32:03.000Z",
+  "generatedAt": "2026-09-25T16:38:13.354Z",
+  "reportReferenceTime": "2026-09-25T16:36:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_121609214.csv",
-      "receivedAt": "2026-09-25T16:32:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-45392306.csv",
+      "receivedAt": "2026-09-25T16:36:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_673443637.csv",
-      "receivedAt": "2026-09-25T16:32:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_550638941.csv",
+      "receivedAt": "2026-09-25T16:36:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 11.25,
+    "averageProductivity": 9.88,
     "top": [
       {
         "equipment": "R09",
@@ -52,7 +52,16 @@
         "moves": 5,
         "firstMove": "2026-09-25T16:13:00.000Z",
         "lastMove": "2026-09-25T16:24:00.000Z",
-        "productivity": 15.75
+        "productivity": 13.02
+      },
+      {
+        "equipment": "R12",
+        "login": "CFA",
+        "operator": "CLAUDIO FRANCISCO AMORIM",
+        "moves": 6,
+        "firstMove": "2026-09-25T16:07:00.000Z",
+        "lastMove": "2026-09-25T16:32:00.000Z",
+        "productivity": 12.39
       },
       {
         "equipment": "R05",
@@ -61,36 +70,27 @@
         "moves": 5,
         "firstMove": "2026-09-25T16:10:00.000Z",
         "lastMove": "2026-09-25T16:27:00.000Z",
-        "productivity": 13.61
-      },
-      {
-        "equipment": "R12",
-        "login": "CFA",
-        "operator": "CLAUDIO FRANCISCO AMORIM",
-        "moves": 5,
-        "firstMove": "2026-09-25T16:07:00.000Z",
-        "lastMove": "2026-09-25T16:27:00.000Z",
-        "productivity": 11.98
+        "productivity": 11.52
       }
     ],
     "lowest": [
       {
-        "equipment": "R12",
-        "login": "CFA",
-        "operator": "CLAUDIO FRANCISCO AMORIM",
-        "moves": 5,
-        "firstMove": "2026-09-25T16:07:00.000Z",
-        "lastMove": "2026-09-25T16:27:00.000Z",
-        "productivity": 11.98
-      },
-      {
         "equipment": "R05",
         "login": "SIR",
         "operator": "SILVANO IRINEU FERREIRA",
         "moves": 5,
         "firstMove": "2026-09-25T16:10:00.000Z",
         "lastMove": "2026-09-25T16:27:00.000Z",
-        "productivity": 13.61
+        "productivity": 11.52
+      },
+      {
+        "equipment": "R12",
+        "login": "CFA",
+        "operator": "CLAUDIO FRANCISCO AMORIM",
+        "moves": 6,
+        "firstMove": "2026-09-25T16:07:00.000Z",
+        "lastMove": "2026-09-25T16:32:00.000Z",
+        "productivity": 12.39
       },
       {
         "equipment": "R09",
@@ -99,7 +99,7 @@
         "moves": 5,
         "firstMove": "2026-09-25T16:13:00.000Z",
         "lastMove": "2026-09-25T16:24:00.000Z",
-        "productivity": 15.75
+        "productivity": 13.02
       }
     ]
   },
@@ -117,20 +117,20 @@
         "login": "CGB",
         "operator": "CLAUDIO GENEDIR BAUNGARTN",
         "moves": 1,
-        "productivity": 3.15,
+        "productivity": 2.6,
         "firstMove": "2026-09-25T16:13:00.000Z",
         "lastMove": "2026-09-25T16:13:00.000Z",
-        "idleMinutes": 19
+        "idleMinutes": 23
       },
       {
         "equipment": "R11",
         "login": "MVF",
         "operator": "MARCOS VITORIO FARIAS",
         "moves": 1,
-        "productivity": 3.32,
+        "productivity": 2.72,
         "firstMove": "2026-09-25T16:14:00.000Z",
         "lastMove": "2026-09-25T16:14:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
       }
     ]
   },
@@ -143,14 +143,14 @@
     },
     "import": {
       "discharge": 222,
-      "delivery": 151,
+      "delivery": 153,
       "housekeeping": 304,
-      "housekeepingRatio": 2.01
+      "housekeepingRatio": 1.99
     }
   },
   "stats": {
     "moveRowsInput": 2614,
-    "rsEventsCurrentPeriod": 18,
+    "rsEventsCurrentPeriod": 20,
     "ttEventsCurrentPeriod": 0
   }
 }
