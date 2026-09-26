@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T16:38:13.242Z",
-  "reportReferenceTime": "2026-09-26T16:36:03.000Z",
+  "generatedAt": "2026-09-26T16:43:14.754Z",
+  "reportReferenceTime": "2026-09-26T16:40:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_538635717.csv",
-      "receivedAt": "2026-09-26T16:36:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_811644045.csv",
+      "receivedAt": "2026-09-26T16:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-65510708.csv",
-      "receivedAt": "2026-09-26T16:36:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_373812247.csv",
+      "receivedAt": "2026-09-26T16:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,13 +38,22 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
+    "rsInOperation": 5,
     "ttInOperation": 1
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 5.5,
+    "averageProductivity": 23.8,
     "top": [
+      {
+        "equipment": "R06",
+        "login": "RSA",
+        "operator": "ROBERTO JOSE SALES",
+        "moves": 11,
+        "firstMove": "2026-09-26T16:08:00.000Z",
+        "lastMove": "2026-09-26T16:38:00.000Z",
+        "productivity": 20.59
+      },
       {
         "equipment": "R10",
         "login": "IVL",
@@ -52,7 +61,7 @@
         "moves": 6,
         "firstMove": "2026-09-26T16:00:00.000Z",
         "lastMove": "2026-09-26T16:30:00.000Z",
-        "productivity": 9.99
+        "productivity": 8.99
       }
     ],
     "lowest": [
@@ -63,7 +72,16 @@
         "moves": 6,
         "firstMove": "2026-09-26T16:00:00.000Z",
         "lastMove": "2026-09-26T16:30:00.000Z",
-        "productivity": 9.99
+        "productivity": 8.99
+      },
+      {
+        "equipment": "R06",
+        "login": "RSA",
+        "operator": "ROBERTO JOSE SALES",
+        "moves": 11,
+        "firstMove": "2026-09-26T16:08:00.000Z",
+        "lastMove": "2026-09-26T16:38:00.000Z",
+        "productivity": 20.59
       }
     ]
   },
@@ -73,7 +91,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 2,
+    "rsCount": 1,
     "ttCount": 1,
     "equipment": [
       {
@@ -81,30 +99,20 @@
         "login": "TFB",
         "operator": "TALES FELIPE BAUMGARTNER",
         "moves": 1,
-        "productivity": 1.66,
+        "productivity": 1.5,
         "firstMove": "2026-09-26T16:00:00.000Z",
         "lastMove": "2026-09-26T16:00:00.000Z",
-        "idleMinutes": 36
+        "idleMinutes": 40
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
         "moves": 1,
-        "productivity": 1.71,
+        "productivity": 1.54,
         "firstMove": "2026-09-26T16:01:00.000Z",
         "lastMove": "2026-09-26T16:01:00.000Z",
-        "idleMinutes": 35
-      },
-      {
-        "equipment": "R06",
-        "login": "RSA",
-        "operator": "ROBERTO JOSE SALES",
-        "moves": 1,
-        "productivity": 2.14,
-        "firstMove": "2026-09-26T16:08:00.000Z",
-        "lastMove": "2026-09-26T16:08:00.000Z",
-        "idleMinutes": 28
+        "idleMinutes": 39
       }
     ]
   },
@@ -112,19 +120,19 @@
     "export": {
       "receival": 353,
       "load": 543,
-      "housekeeping": 15,
-      "housekeepingRatio": 0.03
+      "housekeeping": 22,
+      "housekeepingRatio": 0.04
     },
     "import": {
       "discharge": 430,
-      "delivery": 140,
+      "delivery": 141,
       "housekeeping": 247,
-      "housekeepingRatio": 1.76
+      "housekeepingRatio": 1.75
     }
   },
   "stats": {
-    "moveRowsInput": 3028,
-    "rsEventsCurrentPeriod": 11,
+    "moveRowsInput": 3036,
+    "rsEventsCurrentPeriod": 26,
     "ttEventsCurrentPeriod": 1
   }
 }
