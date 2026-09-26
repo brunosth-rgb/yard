@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T16:18:13.057Z",
-  "reportReferenceTime": "2026-09-26T16:16:03.000Z",
+  "generatedAt": "2026-09-26T16:23:12.037Z",
+  "reportReferenceTime": "2026-09-26T16:20:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_796402769.csv",
-      "receivedAt": "2026-09-26T16:16:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-90800253.csv",
+      "receivedAt": "2026-09-26T16:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_781945015.csv",
-      "receivedAt": "2026-09-26T16:16:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-34539899.csv",
+      "receivedAt": "2026-09-26T16:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8669,
+      "occupiedTeus": 8670,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7913
+      "occupancyPct": 0.7914
     },
     "reefer": {
-      "occupiedUnits": 830,
+      "occupiedUnits": 831,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.6928
+      "occupancyPct": 0.6937
     },
     "imo": {
       "occupiedTeus": 118,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 12.98,
+    "averageProductivity": 9.98,
     "top": [],
     "lowest": []
   },
@@ -53,7 +53,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 1,
     "equipment": [
       {
@@ -61,30 +61,40 @@
         "login": "TFB",
         "operator": "TALES FELIPE BAUMGARTNER",
         "moves": 1,
-        "productivity": 3.74,
+        "productivity": 2.99,
         "firstMove": "2026-09-26T16:00:00.000Z",
         "lastMove": "2026-09-26T16:00:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
+      },
+      {
+        "equipment": "R09",
+        "login": "VCS",
+        "operator": "VANILDO CAMPOS DA SILVA",
+        "moves": 1,
+        "productivity": 3.15,
+        "firstMove": "2026-09-26T16:01:00.000Z",
+        "lastMove": "2026-09-26T16:01:00.000Z",
+        "idleMinutes": 19
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 350,
+      "receival": 351,
       "load": 543,
       "housekeeping": 15,
       "housekeepingRatio": 0.03
     },
     "import": {
       "discharge": 430,
-      "delivery": 138,
+      "delivery": 139,
       "housekeeping": 247,
-      "housekeepingRatio": 1.79
+      "housekeepingRatio": 1.78
     }
   },
   "stats": {
-    "moveRowsInput": 3036,
-    "rsEventsCurrentPeriod": 6,
+    "moveRowsInput": 3033,
+    "rsEventsCurrentPeriod": 8,
     "ttEventsCurrentPeriod": 1
   }
 }
