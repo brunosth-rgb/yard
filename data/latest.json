@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T04:58:42.389Z",
-  "reportReferenceTime": "2026-09-26T04:56:03.000Z",
+  "generatedAt": "2026-09-26T05:03:16.253Z",
+  "reportReferenceTime": "2026-09-26T05:00:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-27771618.csv",
-      "receivedAt": "2026-09-26T04:56:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-72834703.csv",
+      "receivedAt": "2026-09-26T05:00:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-13668060.csv",
-      "receivedAt": "2026-09-26T04:56:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_763595154.csv",
+      "receivedAt": "2026-09-26T05:00:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8636,
+      "occupiedTeus": 8646,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7883
+      "occupancyPct": 0.7892
     },
     "reefer": {
       "occupiedUnits": 804,
@@ -32,9 +32,9 @@
       "occupancyPct": 0.6711
     },
     "imo": {
-      "occupiedTeus": 122,
+      "occupiedTeus": 124,
       "capacityTeus": 254,
-      "occupancyPct": 0.4803
+      "occupancyPct": 0.4882
     }
   },
   "resources": {
@@ -43,34 +43,34 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 15.55,
+    "averageProductivity": 15.37,
     "top": [
       {
         "equipment": "R01",
         "login": "NRS",
         "operator": "NILSON ROBERTO DE SOUZA J",
-        "moves": 45,
+        "moves": 49,
         "firstMove": "2026-09-26T04:06:00.000Z",
-        "lastMove": "2026-09-26T04:55:00.000Z",
-        "productivity": 53.95
+        "lastMove": "2026-09-26T04:59:00.000Z",
+        "productivity": 54.39
       },
       {
         "equipment": "R06",
         "login": "VSJ",
         "operator": "VANILDO DOS SANTOS JR",
-        "moves": 20,
+        "moves": 22,
         "firstMove": "2026-09-26T04:11:00.000Z",
-        "lastMove": "2026-09-26T04:53:00.000Z",
-        "productivity": 26.64
+        "lastMove": "2026-09-26T04:59:00.000Z",
+        "productivity": 26.91
       },
       {
         "equipment": "R02",
         "login": "NLJ",
         "operator": "NILO JUNGLOS",
-        "moves": 18,
+        "moves": 19,
         "firstMove": "2026-09-26T04:03:00.000Z",
-        "lastMove": "2026-09-26T04:51:00.000Z",
-        "productivity": 20.36
+        "lastMove": "2026-09-26T04:54:00.000Z",
+        "productivity": 19.98
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 5,
         "firstMove": "2026-09-26T04:10:00.000Z",
         "lastMove": "2026-09-26T04:38:00.000Z",
-        "productivity": 6.51
+        "productivity": 5.99
       },
       {
         "equipment": "R10",
@@ -90,26 +90,64 @@
         "moves": 5,
         "firstMove": "2026-09-26T04:11:00.000Z",
         "lastMove": "2026-09-26T04:29:00.000Z",
-        "productivity": 6.66
+        "productivity": 6.12
       },
       {
         "equipment": "R12",
         "login": "DJB",
         "operator": "DAVID JAIR BROCKVELD",
-        "moves": 6,
+        "moves": 7,
         "firstMove": "2026-09-26T04:10:00.000Z",
-        "lastMove": "2026-09-26T04:52:00.000Z",
-        "productivity": 7.82
+        "lastMove": "2026-09-26T04:57:00.000Z",
+        "productivity": 8.39
       }
     ]
   },
   "tt": {
-    "top": [],
-    "lowest": []
+    "top": [
+      {
+        "equipment": "TT05",
+        "login": "ACJ",
+        "operator": "AUGUSTO CELIO DE JESUS JR",
+        "moves": 5,
+        "firstMove": "2026-09-26T04:22:00.000Z",
+        "lastMove": "2026-09-26T04:57:00.000Z",
+        "productivity": 7.88
+      },
+      {
+        "equipment": "TT21",
+        "login": "CFR",
+        "operator": "CHARLES FERNANDO ROSA",
+        "moves": 5,
+        "firstMove": "2026-09-26T04:06:00.000Z",
+        "lastMove": "2026-09-26T04:57:00.000Z",
+        "productivity": 5.55
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "TT21",
+        "login": "CFR",
+        "operator": "CHARLES FERNANDO ROSA",
+        "moves": 5,
+        "firstMove": "2026-09-26T04:06:00.000Z",
+        "lastMove": "2026-09-26T04:57:00.000Z",
+        "productivity": 5.55
+      },
+      {
+        "equipment": "TT05",
+        "login": "ACJ",
+        "operator": "AUGUSTO CELIO DE JESUS JR",
+        "moves": 5,
+        "firstMove": "2026-09-26T04:22:00.000Z",
+        "lastMove": "2026-09-26T04:57:00.000Z",
+        "productivity": 7.88
+      }
+    ]
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 4,
+    "rsCount": 3,
     "ttCount": 4,
     "equipment": [
       {
@@ -117,100 +155,90 @@
         "login": "VBG",
         "operator": "VALDEMIR BENTO GONCALVES",
         "moves": 1,
-        "productivity": 1.3,
+        "productivity": 1.2,
         "firstMove": "2026-09-26T04:10:00.000Z",
         "lastMove": "2026-09-26T04:10:00.000Z",
-        "idleMinutes": 46
+        "idleMinutes": 50
       },
       {
         "equipment": "TT15",
         "login": "JDR",
         "operator": "JEFFERSON ADRIANO",
         "moves": 2,
-        "productivity": 2.66,
+        "productivity": 2.45,
         "firstMove": "2026-09-26T04:11:00.000Z",
         "lastMove": "2026-09-26T04:25:00.000Z",
-        "idleMinutes": 31
+        "idleMinutes": 35
       },
       {
         "equipment": "R10",
         "login": "JAF",
         "operator": "JOSE ANTONIO FORTUNATO",
         "moves": 5,
-        "productivity": 6.66,
+        "productivity": 6.12,
         "firstMove": "2026-09-26T04:11:00.000Z",
         "lastMove": "2026-09-26T04:29:00.000Z",
-        "idleMinutes": 27
-      },
-      {
-        "equipment": "R05",
-        "login": "EJD",
-        "operator": "EDILTO JOSE DIAS",
-        "moves": 5,
-        "productivity": 8.1,
-        "firstMove": "2026-09-26T04:19:00.000Z",
-        "lastMove": "2026-09-26T04:29:00.000Z",
-        "idleMinutes": 27
+        "idleMinutes": 31
       },
       {
         "equipment": "TT22",
         "login": "EDP",
         "operator": "EDUARDO PEREIRA",
         "moves": 2,
-        "productivity": 3.33,
+        "productivity": 3,
         "firstMove": "2026-09-26T04:20:00.000Z",
         "lastMove": "2026-09-26T04:30:00.000Z",
-        "idleMinutes": 26
+        "idleMinutes": 30
       },
       {
         "equipment": "TT08",
         "login": "EAF",
         "operator": "Edson Antonio Fortunato",
         "moves": 2,
-        "productivity": 2.92,
+        "productivity": 2.66,
         "firstMove": "2026-09-26T04:15:00.000Z",
         "lastMove": "2026-09-26T04:31:00.000Z",
-        "idleMinutes": 25
+        "idleMinutes": 29
       },
       {
         "equipment": "R09",
         "login": "AHN",
         "operator": "ANTONIO HENRIQUE SILVA NE",
         "moves": 4,
-        "productivity": 6.85,
+        "productivity": 6.15,
         "firstMove": "2026-09-26T04:21:00.000Z",
         "lastMove": "2026-09-26T04:32:00.000Z",
-        "idleMinutes": 24
+        "idleMinutes": 28
       },
       {
         "equipment": "R03",
         "login": "NFC",
         "operator": "NIVALDO FRANCISCO CARDOSO",
         "moves": 5,
-        "productivity": 6.51,
+        "productivity": 5.99,
         "firstMove": "2026-09-26T04:10:00.000Z",
         "lastMove": "2026-09-26T04:38:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 76,
-      "load": 81,
+      "receival": 79,
+      "load": 82,
       "housekeeping": 0,
       "housekeepingRatio": 0
     },
     "import": {
-      "discharge": 52,
+      "discharge": 55,
       "delivery": 2,
-      "housekeeping": 32,
-      "housekeepingRatio": 16
+      "housekeeping": 34,
+      "housekeepingRatio": 17
     }
   },
   "stats": {
-    "moveRowsInput": 2552,
-    "rsEventsCurrentPeriod": 122,
-    "ttEventsCurrentPeriod": 38
+    "moveRowsInput": 2553,
+    "rsEventsCurrentPeriod": 133,
+    "ttEventsCurrentPeriod": 42
   }
 }
