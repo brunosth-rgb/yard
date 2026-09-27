@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T16:18:11.312Z",
-  "reportReferenceTime": "2026-09-27T16:16:03.000Z",
+  "generatedAt": "2026-09-27T16:23:11.793Z",
+  "reportReferenceTime": "2026-09-27T16:20:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-87129460.csv",
-      "receivedAt": "2026-09-27T16:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-39269772.csv",
+      "receivedAt": "2026-09-27T16:20:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_279598304.csv",
-      "receivedAt": "2026-09-27T16:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-72618444.csv",
+      "receivedAt": "2026-09-27T16:20:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 10.61,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 11.81,
+    "top": [
+      {
+        "equipment": "R04",
+        "login": "VLP",
+        "operator": "VLADEMIR PORTO",
+        "moves": 8,
+        "firstMove": "2026-09-27T16:01:00.000Z",
+        "lastMove": "2026-09-27T16:18:00.000Z",
+        "productivity": 25.2
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R04",
+        "login": "VLP",
+        "operator": "VLADEMIR PORTO",
+        "moves": 8,
+        "firstMove": "2026-09-27T16:01:00.000Z",
+        "lastMove": "2026-09-27T16:18:00.000Z",
+        "productivity": 25.2
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -66,14 +86,14 @@
     },
     "import": {
       "discharge": 228,
-      "delivery": 208,
+      "delivery": 212,
       "housekeeping": 189,
-      "housekeepingRatio": 0.91
+      "housekeepingRatio": 0.89
     }
   },
   "stats": {
-    "moveRowsInput": 1640,
-    "rsEventsCurrentPeriod": 6,
+    "moveRowsInput": 1642,
+    "rsEventsCurrentPeriod": 10,
     "ttEventsCurrentPeriod": 0
   }
 }
