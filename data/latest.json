@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T22:33:11.677Z",
-  "reportReferenceTime": "2026-09-27T22:32:03.000Z",
+  "generatedAt": "2026-09-27T22:38:18.763Z",
+  "reportReferenceTime": "2026-09-27T22:36:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_721384270.csv",
-      "receivedAt": "2026-09-27T22:32:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_388186665.csv",
+      "receivedAt": "2026-09-27T22:36:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-83615828.csv",
-      "receivedAt": "2026-09-27T22:32:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_774965463.csv",
+      "receivedAt": "2026-09-27T22:36:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,12 +38,12 @@
     }
   },
   "resources": {
-    "rsInOperation": 3,
+    "rsInOperation": 4,
     "ttInOperation": 3
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 10.52,
+    "averageProductivity": 27.57,
     "top": [],
     "lowest": []
   },
@@ -54,17 +54,27 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 0,
+    "ttCount": 1,
     "equipment": [
       {
         "equipment": "R03",
         "login": "NFC",
         "operator": "NIVALDO FRANCISCO CARDOSO",
         "moves": 2,
-        "productivity": 6.65,
+        "productivity": 5.44,
         "firstMove": "2026-09-27T22:14:00.000Z",
         "lastMove": "2026-09-27T22:14:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
+      },
+      {
+        "equipment": "TT18",
+        "login": "LLI",
+        "operator": "LUCIANO LIMA",
+        "moves": 1,
+        "productivity": 3.74,
+        "firstMove": "2026-09-27T22:20:00.000Z",
+        "lastMove": "2026-09-27T22:20:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -78,13 +88,13 @@
     "import": {
       "discharge": 264,
       "delivery": 228,
-      "housekeeping": 206,
-      "housekeepingRatio": 0.9
+      "housekeeping": 209,
+      "housekeepingRatio": 0.92
     }
   },
   "stats": {
-    "moveRowsInput": 1586,
-    "rsEventsCurrentPeriod": 7,
+    "moveRowsInput": 1585,
+    "rsEventsCurrentPeriod": 13,
     "ttEventsCurrentPeriod": 3
   }
 }
