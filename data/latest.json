@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T22:38:18.763Z",
-  "reportReferenceTime": "2026-09-27T22:36:03.000Z",
+  "generatedAt": "2026-09-27T22:43:11.468Z",
+  "reportReferenceTime": "2026-09-27T22:40:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_388186665.csv",
-      "receivedAt": "2026-09-27T22:36:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-37140029.csv",
+      "receivedAt": "2026-09-27T22:40:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_774965463.csv",
-      "receivedAt": "2026-09-27T22:36:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_349236634.csv",
+      "receivedAt": "2026-09-27T22:40:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 27.57,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 19.16,
+    "top": [
+      {
+        "equipment": "R02",
+        "login": "NLJ",
+        "operator": "NILO JUNGLOS",
+        "moves": 6,
+        "firstMove": "2026-09-27T22:33:00.000Z",
+        "lastMove": "2026-09-27T22:38:00.000Z",
+        "productivity": 51.06
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R02",
+        "login": "NLJ",
+        "operator": "NILO JUNGLOS",
+        "moves": 6,
+        "firstMove": "2026-09-27T22:33:00.000Z",
+        "lastMove": "2026-09-27T22:38:00.000Z",
+        "productivity": 51.06
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -54,27 +74,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 1,
-    "ttCount": 1,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "R03",
         "login": "NFC",
         "operator": "NIVALDO FRANCISCO CARDOSO",
         "moves": 2,
-        "productivity": 5.44,
+        "productivity": 4.61,
         "firstMove": "2026-09-27T22:14:00.000Z",
         "lastMove": "2026-09-27T22:14:00.000Z",
-        "idleMinutes": 22
+        "idleMinutes": 26
       },
       {
         "equipment": "TT18",
         "login": "LLI",
         "operator": "LUCIANO LIMA",
         "moves": 1,
-        "productivity": 3.74,
+        "productivity": 2.99,
         "firstMove": "2026-09-27T22:20:00.000Z",
         "lastMove": "2026-09-27T22:20:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
+      },
+      {
+        "equipment": "TT01",
+        "login": "EAF",
+        "operator": "Edson Antonio Fortunato",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-27T22:22:00.000Z",
+        "lastMove": "2026-09-27T22:22:00.000Z",
+        "idleMinutes": 18
       }
     ]
   },
@@ -88,13 +118,13 @@
     "import": {
       "discharge": 264,
       "delivery": 228,
-      "housekeeping": 209,
+      "housekeeping": 210,
       "housekeepingRatio": 0.92
     }
   },
   "stats": {
-    "moveRowsInput": 1585,
-    "rsEventsCurrentPeriod": 13,
+    "moveRowsInput": 1582,
+    "rsEventsCurrentPeriod": 15,
     "ttEventsCurrentPeriod": 3
   }
 }
