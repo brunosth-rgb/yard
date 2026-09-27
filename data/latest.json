@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T04:18:11.775Z",
-  "reportReferenceTime": "2026-09-27T04:16:03.000Z",
+  "generatedAt": "2026-09-27T04:23:12.785Z",
+  "reportReferenceTime": "2026-09-27T04:20:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_845646404.csv",
-      "receivedAt": "2026-09-27T04:16:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-18893583.csv",
+      "receivedAt": "2026-09-27T04:20:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_493782652.csv",
-      "receivedAt": "2026-09-27T04:16:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-72959696.csv",
+      "receivedAt": "2026-09-27T04:20:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -39,49 +39,67 @@
   },
   "resources": {
     "rsInOperation": 5,
-    "ttInOperation": 3
+    "ttInOperation": 4
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 18.85,
+    "averageProductivity": 20.79,
     "top": [
       {
         "equipment": "R09",
         "login": "AHN",
         "operator": "ANTONIO HENRIQUE SILVA NE",
-        "moves": 7,
+        "moves": 10,
         "firstMove": "2026-09-27T04:02:00.000Z",
-        "lastMove": "2026-09-27T04:14:00.000Z",
-        "productivity": 29.89
+        "lastMove": "2026-09-27T04:18:00.000Z",
+        "productivity": 33.24
       },
       {
         "equipment": "R06",
         "login": "VSJ",
         "operator": "VANILDO DOS SANTOS JR",
-        "moves": 5,
+        "moves": 7,
         "firstMove": "2026-09-27T04:05:00.000Z",
-        "lastMove": "2026-09-27T04:14:00.000Z",
-        "productivity": 27.15
+        "lastMove": "2026-09-27T04:19:00.000Z",
+        "productivity": 27.91
+      },
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 5,
+        "firstMove": "2026-09-27T04:08:00.000Z",
+        "lastMove": "2026-09-27T04:16:00.000Z",
+        "productivity": 24.9
       }
     ],
     "lowest": [
       {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 5,
+        "firstMove": "2026-09-27T04:08:00.000Z",
+        "lastMove": "2026-09-27T04:16:00.000Z",
+        "productivity": 24.9
+      },
+      {
         "equipment": "R06",
         "login": "VSJ",
         "operator": "VANILDO DOS SANTOS JR",
-        "moves": 5,
+        "moves": 7,
         "firstMove": "2026-09-27T04:05:00.000Z",
-        "lastMove": "2026-09-27T04:14:00.000Z",
-        "productivity": 27.15
+        "lastMove": "2026-09-27T04:19:00.000Z",
+        "productivity": 27.91
       },
       {
         "equipment": "R09",
         "login": "AHN",
         "operator": "ANTONIO HENRIQUE SILVA NE",
-        "moves": 7,
+        "moves": 10,
         "firstMove": "2026-09-27T04:02:00.000Z",
-        "lastMove": "2026-09-27T04:14:00.000Z",
-        "productivity": 29.89
+        "lastMove": "2026-09-27T04:18:00.000Z",
+        "productivity": 33.24
       }
     ]
   },
@@ -99,10 +117,10 @@
         "login": "EAF",
         "operator": "Edson Antonio Fortunato",
         "moves": 1,
-        "productivity": 3.74,
+        "productivity": 2.99,
         "firstMove": "2026-09-27T04:00:00.000Z",
         "lastMove": "2026-09-27T04:00:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
       }
     ]
   },
@@ -110,19 +128,19 @@
     "export": {
       "receival": 2,
       "load": 0,
-      "housekeeping": 28,
+      "housekeeping": 31,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 11,
-      "delivery": 35,
+      "delivery": 38,
       "housekeeping": 7,
-      "housekeepingRatio": 0.2
+      "housekeepingRatio": 0.18
     }
   },
   "stats": {
-    "moveRowsInput": 2245,
-    "rsEventsCurrentPeriod": 16,
-    "ttEventsCurrentPeriod": 4
+    "moveRowsInput": 2244,
+    "rsEventsCurrentPeriod": 25,
+    "ttEventsCurrentPeriod": 6
   }
 }
