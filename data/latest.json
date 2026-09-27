@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T04:23:12.785Z",
-  "reportReferenceTime": "2026-09-27T04:20:03.000Z",
+  "generatedAt": "2026-09-27T04:28:12.005Z",
+  "reportReferenceTime": "2026-09-27T04:28:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-18893583.csv",
-      "receivedAt": "2026-09-27T04:20:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_678769988.csv",
+      "receivedAt": "2026-09-27T04:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-72959696.csv",
-      "receivedAt": "2026-09-27T04:20:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-67685575.csv",
+      "receivedAt": "2026-09-27T04:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,63 +43,63 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 20.79,
+    "averageProductivity": 26.39,
     "top": [
       {
         "equipment": "R09",
         "login": "AHN",
         "operator": "ANTONIO HENRIQUE SILVA NE",
-        "moves": 10,
+        "moves": 11,
         "firstMove": "2026-09-27T04:02:00.000Z",
-        "lastMove": "2026-09-27T04:18:00.000Z",
-        "productivity": 33.24
-      },
-      {
-        "equipment": "R06",
-        "login": "VSJ",
-        "operator": "VANILDO DOS SANTOS JR",
-        "moves": 7,
-        "firstMove": "2026-09-27T04:05:00.000Z",
-        "lastMove": "2026-09-27T04:19:00.000Z",
-        "productivity": 27.91
+        "lastMove": "2026-09-27T04:20:00.000Z",
+        "productivity": 25.34
       },
       {
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 5,
+        "moves": 8,
         "firstMove": "2026-09-27T04:08:00.000Z",
-        "lastMove": "2026-09-27T04:16:00.000Z",
-        "productivity": 24.9
+        "lastMove": "2026-09-27T04:27:00.000Z",
+        "productivity": 23.94
+      },
+      {
+        "equipment": "R06",
+        "login": "VSJ",
+        "operator": "VANILDO DOS SANTOS JR",
+        "moves": 8,
+        "firstMove": "2026-09-27T04:05:00.000Z",
+        "lastMove": "2026-09-27T04:25:00.000Z",
+        "productivity": 20.82
       }
     ],
     "lowest": [
       {
-        "equipment": "R07",
-        "login": "GRJ",
-        "operator": "GERSON ROBERTO JAQUES",
-        "moves": 5,
-        "firstMove": "2026-09-27T04:08:00.000Z",
-        "lastMove": "2026-09-27T04:16:00.000Z",
-        "productivity": 24.9
-      },
-      {
         "equipment": "R06",
         "login": "VSJ",
         "operator": "VANILDO DOS SANTOS JR",
-        "moves": 7,
+        "moves": 8,
         "firstMove": "2026-09-27T04:05:00.000Z",
-        "lastMove": "2026-09-27T04:19:00.000Z",
-        "productivity": 27.91
+        "lastMove": "2026-09-27T04:25:00.000Z",
+        "productivity": 20.82
+      },
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 8,
+        "firstMove": "2026-09-27T04:08:00.000Z",
+        "lastMove": "2026-09-27T04:27:00.000Z",
+        "productivity": 23.94
       },
       {
         "equipment": "R09",
         "login": "AHN",
         "operator": "ANTONIO HENRIQUE SILVA NE",
-        "moves": 10,
+        "moves": 11,
         "firstMove": "2026-09-27T04:02:00.000Z",
-        "lastMove": "2026-09-27T04:18:00.000Z",
-        "productivity": 33.24
+        "lastMove": "2026-09-27T04:20:00.000Z",
+        "productivity": 25.34
       }
     ]
   },
@@ -109,18 +109,38 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
-    "ttCount": 1,
+    "rsCount": 1,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "TT08",
         "login": "EAF",
         "operator": "Edson Antonio Fortunato",
         "moves": 1,
-        "productivity": 2.99,
+        "productivity": 2.14,
         "firstMove": "2026-09-27T04:00:00.000Z",
         "lastMove": "2026-09-27T04:00:00.000Z",
-        "idleMinutes": 20
+        "idleMinutes": 28
+      },
+      {
+        "equipment": "R08",
+        "login": "MRW",
+        "operator": "MARCOS ROBERTO MARIA WEST",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-27T04:10:00.000Z",
+        "lastMove": "2026-09-27T04:10:00.000Z",
+        "idleMinutes": 18
+      },
+      {
+        "equipment": "TT17",
+        "login": "WRS",
+        "operator": "WILLIAM RICARDO DOS SANTO",
+        "moves": 2,
+        "productivity": 6.65,
+        "firstMove": "2026-09-27T04:10:00.000Z",
+        "lastMove": "2026-09-27T04:12:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -128,19 +148,19 @@
     "export": {
       "receival": 2,
       "load": 0,
-      "housekeeping": 31,
+      "housekeeping": 34,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 11,
-      "delivery": 38,
+      "delivery": 39,
       "housekeeping": 7,
       "housekeepingRatio": 0.18
     }
   },
   "stats": {
-    "moveRowsInput": 2244,
-    "rsEventsCurrentPeriod": 25,
-    "ttEventsCurrentPeriod": 6
+    "moveRowsInput": 2225,
+    "rsEventsCurrentPeriod": 30,
+    "ttEventsCurrentPeriod": 7
   }
 }
