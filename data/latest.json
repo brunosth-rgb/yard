@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T10:38:12.754Z",
-  "reportReferenceTime": "2026-09-28T10:36:03.000Z",
+  "generatedAt": "2026-09-28T10:43:23.347Z",
+  "reportReferenceTime": "2026-09-28T10:40:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_742734357.csv",
-      "receivedAt": "2026-09-28T10:36:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-67108814.csv",
+      "receivedAt": "2026-09-28T10:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_113610365.csv",
-      "receivedAt": "2026-09-28T10:36:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_555460748.csv",
+      "receivedAt": "2026-09-28T10:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8165,
+      "occupiedTeus": 8163,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7453
+      "occupancyPct": 0.7451
     },
     "reefer": {
       "occupiedUnits": 806,
@@ -43,8 +43,17 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 15.97,
+    "averageProductivity": 12.49,
     "top": [
+      {
+        "equipment": "R09",
+        "login": "NRS",
+        "operator": "NILSON ROBERTO DE SOUZA J",
+        "moves": 5,
+        "firstMove": "2026-09-28T10:22:00.000Z",
+        "lastMove": "2026-09-28T10:37:00.000Z",
+        "productivity": 16.62
+      },
       {
         "equipment": "R02",
         "login": "DFC",
@@ -52,16 +61,16 @@
         "moves": 7,
         "firstMove": "2026-09-28T10:08:00.000Z",
         "lastMove": "2026-09-28T10:35:00.000Z",
-        "productivity": 14.97
+        "productivity": 13.1
       },
       {
         "equipment": "R07",
         "login": "JRA",
         "operator": "JEAN RENATO ARDIGO",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-09-28T10:08:00.000Z",
-        "lastMove": "2026-09-28T10:32:00.000Z",
-        "productivity": 10.7
+        "lastMove": "2026-09-28T10:34:00.000Z",
+        "productivity": 11.23
       }
     ],
     "lowest": [
@@ -69,10 +78,10 @@
         "equipment": "R07",
         "login": "JRA",
         "operator": "JEAN RENATO ARDIGO",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-09-28T10:08:00.000Z",
-        "lastMove": "2026-09-28T10:32:00.000Z",
-        "productivity": 10.7
+        "lastMove": "2026-09-28T10:34:00.000Z",
+        "productivity": 11.23
       },
       {
         "equipment": "R02",
@@ -81,7 +90,16 @@
         "moves": 7,
         "firstMove": "2026-09-28T10:08:00.000Z",
         "lastMove": "2026-09-28T10:35:00.000Z",
-        "productivity": 14.97
+        "productivity": 13.1
+      },
+      {
+        "equipment": "R09",
+        "login": "NRS",
+        "operator": "NILSON ROBERTO DE SOUZA J",
+        "moves": 5,
+        "firstMove": "2026-09-28T10:22:00.000Z",
+        "lastMove": "2026-09-28T10:37:00.000Z",
+        "productivity": 16.62
       }
     ]
   },
@@ -104,14 +122,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 34,
+      "delivery": 36,
       "housekeeping": 11,
-      "housekeepingRatio": 0.32
+      "housekeepingRatio": 0.31
     }
   },
   "stats": {
-    "moveRowsInput": 1478,
-    "rsEventsCurrentPeriod": 23,
+    "moveRowsInput": 1474,
+    "rsEventsCurrentPeriod": 25,
     "ttEventsCurrentPeriod": 0
   }
 }
