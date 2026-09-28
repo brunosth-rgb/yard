@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T04:28:17.135Z",
-  "reportReferenceTime": "2026-09-28T04:28:03.000Z",
+  "generatedAt": "2026-09-28T04:33:15.317Z",
+  "reportReferenceTime": "2026-09-28T04:32:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_692613897.csv",
-      "receivedAt": "2026-09-28T04:28:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-22425355.csv",
+      "receivedAt": "2026-09-28T04:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_370531449.csv",
-      "receivedAt": "2026-09-28T04:28:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_525830216.csv",
+      "receivedAt": "2026-09-28T04:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 32.09,
+    "averageProductivity": 8.79,
     "top": [],
     "lowest": []
   },
@@ -54,8 +54,19 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT10",
+        "login": "FRS",
+        "operator": "FELIPE ROBERTO SILVA",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-09-28T04:14:00.000Z",
+        "lastMove": "2026-09-28T04:14:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -72,7 +83,7 @@
     }
   },
   "stats": {
-    "moveRowsInput": 1561,
+    "moveRowsInput": 1557,
     "rsEventsCurrentPeriod": 3,
     "ttEventsCurrentPeriod": 7
   }
