@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T16:13:24.804Z",
-  "reportReferenceTime": "2026-09-29T16:12:02.000Z",
+  "generatedAt": "2026-09-29T16:18:12.467Z",
+  "reportReferenceTime": "2026-09-29T16:16:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-57999531.csv",
-      "receivedAt": "2026-09-29T16:12:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-74500300.csv",
+      "receivedAt": "2026-09-29T16:16:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-24341170.csv",
-      "receivedAt": "2026-09-29T16:12:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_230480115.csv",
+      "receivedAt": "2026-09-29T16:16:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7198,
+      "occupiedTeus": 7200,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6571
+      "occupancyPct": 0.6572
     },
     "reefer": {
-      "occupiedUnits": 889,
+      "occupiedUnits": 890,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.7421
+      "occupancyPct": 0.7429
     },
     "imo": {
       "occupiedTeus": 111,
@@ -38,13 +38,22 @@
     }
   },
   "resources": {
-    "rsInOperation": 7,
+    "rsInOperation": 8,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 20.89,
+    "averageProductivity": 22.73,
     "top": [
+      {
+        "equipment": "R07",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 8,
+        "firstMove": "2026-09-29T16:02:00.000Z",
+        "lastMove": "2026-09-29T16:14:00.000Z",
+        "productivity": 34.2
+      },
       {
         "equipment": "R02",
         "login": "IVL",
@@ -52,7 +61,7 @@
         "moves": 5,
         "firstMove": "2026-09-29T16:03:00.000Z",
         "lastMove": "2026-09-29T16:09:00.000Z",
-        "productivity": 33.21
+        "productivity": 23.02
       }
     ],
     "lowest": [
@@ -63,7 +72,16 @@
         "moves": 5,
         "firstMove": "2026-09-29T16:03:00.000Z",
         "lastMove": "2026-09-29T16:09:00.000Z",
-        "productivity": 33.21
+        "productivity": 23.02
+      },
+      {
+        "equipment": "R07",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 8,
+        "firstMove": "2026-09-29T16:02:00.000Z",
+        "lastMove": "2026-09-29T16:14:00.000Z",
+        "productivity": 34.2
       }
     ]
   },
@@ -79,21 +97,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 165,
+      "receival": 166,
       "load": 0,
-      "housekeeping": 46,
+      "housekeeping": 48,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
       "delivery": 63,
-      "housekeeping": 240,
-      "housekeepingRatio": 3.81
+      "housekeeping": 241,
+      "housekeepingRatio": 3.83
     }
   },
   "stats": {
     "moveRowsInput": 1609,
-    "rsEventsCurrentPeriod": 18,
+    "rsEventsCurrentPeriod": 25,
     "ttEventsCurrentPeriod": 0
   }
 }
