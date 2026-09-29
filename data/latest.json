@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T12:23:30.781Z",
-  "reportReferenceTime": "2026-09-29T12:20:03.000Z",
+  "generatedAt": "2026-09-29T12:28:35.550Z",
+  "reportReferenceTime": "2026-09-29T12:28:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_337164910.csv",
-      "receivedAt": "2026-09-29T12:20:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_493676832.csv",
+      "receivedAt": "2026-09-29T12:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-39744955.csv",
-      "receivedAt": "2026-09-29T12:20:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_316587112.csv",
+      "receivedAt": "2026-09-29T12:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7128,
+      "occupiedTeus": 7117,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6507
+      "occupancyPct": 0.6497
     },
     "reefer": {
-      "occupiedUnits": 842,
+      "occupiedUnits": 841,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.7028
+      "occupancyPct": 0.702
     },
     "imo": {
       "occupiedTeus": 111,
@@ -38,22 +38,13 @@
     }
   },
   "resources": {
-    "rsInOperation": 6,
+    "rsInOperation": 7,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 13.95,
+    "averageProductivity": 14.78,
     "top": [
-      {
-        "equipment": "R10",
-        "login": "VJU",
-        "operator": "VILMAR MARTINHO LAMIM JR",
-        "moves": 18,
-        "firstMove": "2026-09-29T11:51:00.000Z",
-        "lastMove": "2026-09-29T12:13:00.000Z",
-        "productivity": 37.18
-      },
       {
         "equipment": "R07",
         "login": "JAZ",
@@ -61,7 +52,16 @@
         "moves": 77,
         "firstMove": "2026-09-29T10:10:00.000Z",
         "lastMove": "2026-09-29T12:18:00.000Z",
-        "productivity": 35.52
+        "productivity": 33.47
+      },
+      {
+        "equipment": "R10",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 18,
+        "firstMove": "2026-09-29T11:51:00.000Z",
+        "lastMove": "2026-09-29T12:13:00.000Z",
+        "productivity": 29.16
       },
       {
         "equipment": "R12",
@@ -70,7 +70,7 @@
         "moves": 7,
         "firstMove": "2026-09-29T10:22:00.000Z",
         "lastMove": "2026-09-29T10:35:00.000Z",
-        "productivity": 3.56
+        "productivity": 3.33
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 5,
         "firstMove": "2026-09-29T10:08:00.000Z",
         "lastMove": "2026-09-29T10:17:00.000Z",
-        "productivity": 2.27
+        "productivity": 2.14
       },
       {
         "equipment": "R12",
@@ -90,16 +90,16 @@
         "moves": 7,
         "firstMove": "2026-09-29T10:22:00.000Z",
         "lastMove": "2026-09-29T10:35:00.000Z",
-        "productivity": 3.56
+        "productivity": 3.33
       },
       {
-        "equipment": "R07",
-        "login": "JAZ",
-        "operator": "JOAO ALBERTO ZIMMERMAN",
-        "moves": 77,
-        "firstMove": "2026-09-29T10:10:00.000Z",
-        "lastMove": "2026-09-29T12:18:00.000Z",
-        "productivity": 35.52
+        "equipment": "R10",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 18,
+        "firstMove": "2026-09-29T11:51:00.000Z",
+        "lastMove": "2026-09-29T12:13:00.000Z",
+        "productivity": 29.16
       }
     ]
   },
@@ -117,30 +117,30 @@
         "login": "VSJ",
         "operator": "VANILDO DOS SANTOS JR",
         "moves": 5,
-        "productivity": 2.27,
+        "productivity": 2.14,
         "firstMove": "2026-09-29T10:08:00.000Z",
         "lastMove": "2026-09-29T10:17:00.000Z",
-        "idleMinutes": 123
+        "idleMinutes": 131
       },
       {
         "equipment": "R04",
         "login": "JNA",
         "operator": "JOEL NARDES",
         "moves": 2,
-        "productivity": 1.05,
+        "productivity": 0.98,
         "firstMove": "2026-09-29T10:26:00.000Z",
         "lastMove": "2026-09-29T10:31:00.000Z",
-        "idleMinutes": 109
+        "idleMinutes": 117
       },
       {
         "equipment": "R12",
         "login": "AGR",
         "operator": "ANDRE GIORGIO FACCHINI",
         "moves": 7,
-        "productivity": 3.56,
+        "productivity": 3.33,
         "firstMove": "2026-09-29T10:22:00.000Z",
         "lastMove": "2026-09-29T10:35:00.000Z",
-        "idleMinutes": 105
+        "idleMinutes": 113
       }
     ]
   },
@@ -153,14 +153,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 10,
-      "housekeeping": 164,
-      "housekeepingRatio": 16.4
+      "delivery": 12,
+      "housekeeping": 165,
+      "housekeepingRatio": 13.75
     }
   },
   "stats": {
-    "moveRowsInput": 1715,
-    "rsEventsCurrentPeriod": 111,
+    "moveRowsInput": 1705,
+    "rsEventsCurrentPeriod": 113,
     "ttEventsCurrentPeriod": 0
   }
 }
