@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:23:22.412Z",
-  "reportReferenceTime": "2026-09-29T22:20:03.000Z",
+  "generatedAt": "2026-09-29T22:28:12.491Z",
+  "reportReferenceTime": "2026-09-29T22:28:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-77774232.csv",
-      "receivedAt": "2026-09-29T22:20:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_881592795.csv",
+      "receivedAt": "2026-09-29T22:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_485007673.csv",
-      "receivedAt": "2026-09-29T22:20:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-76752342.csv",
+      "receivedAt": "2026-09-29T22:28:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7700,
+      "occupiedTeus": 7719,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7029
+      "occupancyPct": 0.7046
     },
     "reefer": {
-      "occupiedUnits": 923,
+      "occupiedUnits": 925,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.7705
+      "occupancyPct": 0.7721
     },
     "imo": {
       "occupiedTeus": 117,
@@ -38,21 +38,21 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
+    "rsInOperation": 8,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 28.07,
+    "averageProductivity": 19.92,
     "top": [
       {
         "equipment": "R05",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 6,
+        "moves": 12,
         "firstMove": "2026-09-29T22:10:00.000Z",
-        "lastMove": "2026-09-29T22:17:00.000Z",
-        "productivity": 35.82
+        "lastMove": "2026-09-29T22:27:00.000Z",
+        "productivity": 39.93
       }
     ],
     "lowest": [
@@ -60,10 +60,10 @@
         "equipment": "R05",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 6,
+        "moves": 12,
         "firstMove": "2026-09-29T22:10:00.000Z",
-        "lastMove": "2026-09-29T22:17:00.000Z",
-        "productivity": 35.82
+        "lastMove": "2026-09-29T22:27:00.000Z",
+        "productivity": 39.93
       }
     ]
   },
@@ -73,27 +73,38 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R03",
+        "login": "GGN",
+        "operator": "GERSON GENESIO NASCIMENTO",
+        "moves": 1,
+        "productivity": 3.74,
+        "firstMove": "2026-09-29T22:12:00.000Z",
+        "lastMove": "2026-09-29T22:12:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 242,
+      "receival": 253,
       "load": 0,
       "housekeeping": 141,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 254,
-      "delivery": 149,
+      "delivery": 150,
       "housekeeping": 287,
-      "housekeepingRatio": 1.93
+      "housekeepingRatio": 1.91
     }
   },
   "stats": {
-    "moveRowsInput": 1592,
-    "rsEventsCurrentPeriod": 9,
+    "moveRowsInput": 1589,
+    "rsEventsCurrentPeriod": 21,
     "ttEventsCurrentPeriod": 0
   }
 }
