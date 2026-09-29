@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T04:43:16.487Z",
-  "reportReferenceTime": "2026-09-29T04:40:02.000Z",
+  "generatedAt": "2026-09-29T04:48:12.322Z",
+  "reportReferenceTime": "2026-09-29T04:44:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_441302979.csv",
-      "receivedAt": "2026-09-29T04:40:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_698851915.csv",
+      "receivedAt": "2026-09-29T04:44:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_289063806.csv",
-      "receivedAt": "2026-09-29T04:40:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_301277382.csv",
+      "receivedAt": "2026-09-29T04:44:02.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -39,11 +39,11 @@
   },
   "resources": {
     "rsInOperation": 7,
-    "ttInOperation": 2
+    "ttInOperation": 3
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 8.22,
+    "averageProductivity": 7.57,
     "top": [],
     "lowest": []
   },
@@ -53,9 +53,30 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 2,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R07",
+        "login": "MRW",
+        "operator": "MARCOS ROBERTO MARIA WEST",
+        "moves": 1,
+        "productivity": 3.52,
+        "firstMove": "2026-09-29T04:27:00.000Z",
+        "lastMove": "2026-09-29T04:27:00.000Z",
+        "idleMinutes": 17
+      },
+      {
+        "equipment": "R12",
+        "login": "JRA",
+        "operator": "JEAN RENATO ARDIGO",
+        "moves": 3,
+        "productivity": 8.17,
+        "firstMove": "2026-09-29T04:22:00.000Z",
+        "lastMove": "2026-09-29T04:28:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -67,13 +88,13 @@
     "import": {
       "discharge": 0,
       "delivery": 4,
-      "housekeeping": 0,
-      "housekeepingRatio": 0
+      "housekeeping": 1,
+      "housekeepingRatio": 0.25
     }
   },
   "stats": {
-    "moveRowsInput": 1968,
-    "rsEventsCurrentPeriod": 15,
-    "ttEventsCurrentPeriod": 2
+    "moveRowsInput": 1965,
+    "rsEventsCurrentPeriod": 17,
+    "ttEventsCurrentPeriod": 3
   }
 }
