@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T10:43:12.972Z",
-  "reportReferenceTime": "2026-10-02T10:40:03.000Z",
+  "generatedAt": "2026-10-02T10:48:12.415Z",
+  "reportReferenceTime": "2026-10-02T10:44:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-30499350.csv",
-      "receivedAt": "2026-10-02T10:40:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_771952497.csv",
+      "receivedAt": "2026-10-02T10:44:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_395551623.csv",
-      "receivedAt": "2026-10-02T10:40:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_339003303.csv",
+      "receivedAt": "2026-10-02T10:44:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9038,
+      "occupiedTeus": 9032,
       "capacityTeus": 10955,
-      "occupancyPct": 0.825
+      "occupancyPct": 0.8245
     },
     "reefer": {
       "occupiedUnits": 726,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 18.01,
+    "averageProductivity": 15.91,
     "top": [
       {
         "equipment": "R06",
@@ -52,7 +52,7 @@
         "moves": 10,
         "firstMove": "2026-10-02T10:16:00.000Z",
         "lastMove": "2026-10-02T10:38:00.000Z",
-        "productivity": 24.95
+        "productivity": 21.39
       },
       {
         "equipment": "R11",
@@ -61,16 +61,16 @@
         "moves": 11,
         "firstMove": "2026-10-02T10:09:00.000Z",
         "lastMove": "2026-10-02T10:27:00.000Z",
-        "productivity": 21.26
+        "productivity": 18.83
       },
       {
         "equipment": "R12",
         "login": "MVF",
         "operator": "MARCOS VITORIO FARIAS",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-10-02T10:15:00.000Z",
-        "lastMove": "2026-10-02T10:34:00.000Z",
-        "productivity": 19.16
+        "lastMove": "2026-10-02T10:42:00.000Z",
+        "productivity": 18.59
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 7,
         "firstMove": "2026-10-02T10:15:00.000Z",
         "lastMove": "2026-10-02T10:31:00.000Z",
-        "productivity": 16.77
+        "productivity": 14.46
       },
       {
         "equipment": "R01",
@@ -90,16 +90,16 @@
         "moves": 9,
         "firstMove": "2026-10-02T10:10:00.000Z",
         "lastMove": "2026-10-02T10:38:00.000Z",
-        "productivity": 17.97
+        "productivity": 15.86
       },
       {
         "equipment": "R12",
         "login": "MVF",
         "operator": "MARCOS VITORIO FARIAS",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-10-02T10:15:00.000Z",
-        "lastMove": "2026-10-02T10:34:00.000Z",
-        "productivity": 19.16
+        "lastMove": "2026-10-02T10:42:00.000Z",
+        "productivity": 18.59
       }
     ]
   },
@@ -109,9 +109,20 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R11",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 11,
+        "productivity": 18.83,
+        "firstMove": "2026-10-02T10:09:00.000Z",
+        "lastMove": "2026-10-02T10:27:00.000Z",
+        "idleMinutes": 17
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -122,14 +133,14 @@
     },
     "import": {
       "discharge": 1,
-      "delivery": 170,
+      "delivery": 171,
       "housekeeping": 445,
-      "housekeepingRatio": 2.62
+      "housekeepingRatio": 2.6
     }
   },
   "stats": {
-    "moveRowsInput": 2636,
-    "rsEventsCurrentPeriod": 47,
+    "moveRowsInput": 2627,
+    "rsEventsCurrentPeriod": 48,
     "ttEventsCurrentPeriod": 3
   }
 }
