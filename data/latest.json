@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T04:08:12.426Z",
-  "reportReferenceTime": "2026-10-02T04:08:03.000Z",
+  "generatedAt": "2026-10-02T04:13:14.376Z",
+  "reportReferenceTime": "2026-10-02T04:12:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_231891481.csv",
-      "receivedAt": "2026-10-02T04:08:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_437110570.csv",
+      "receivedAt": "2026-10-02T04:12:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_752894774.csv",
-      "receivedAt": "2026-10-02T04:08:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_916865808.csv",
+      "receivedAt": "2026-10-02T04:12:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 39.34,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 42.55,
+    "top": [
+      {
+        "equipment": "R02",
+        "login": "NLJ",
+        "operator": "NILO JUNGLOS",
+        "moves": 5,
+        "firstMove": "2026-10-02T04:05:00.000Z",
+        "lastMove": "2026-10-02T04:11:00.000Z",
+        "productivity": 42.55
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R02",
+        "login": "NLJ",
+        "operator": "NILO JUNGLOS",
+        "moves": 5,
+        "firstMove": "2026-10-02T04:05:00.000Z",
+        "lastMove": "2026-10-02T04:11:00.000Z",
+        "productivity": 42.55
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -66,14 +86,14 @@
     },
     "import": {
       "discharge": 1,
-      "delivery": 12,
+      "delivery": 15,
       "housekeeping": 80,
-      "housekeepingRatio": 6.67
+      "housekeepingRatio": 5.33
     }
   },
   "stats": {
-    "moveRowsInput": 2814,
-    "rsEventsCurrentPeriod": 2,
+    "moveRowsInput": 2813,
+    "rsEventsCurrentPeriod": 5,
     "ttEventsCurrentPeriod": 0
   }
 }
