@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T16:38:23.609Z",
-  "reportReferenceTime": "2026-10-03T16:36:03.000Z",
+  "generatedAt": "2026-10-03T16:43:12.969Z",
+  "reportReferenceTime": "2026-10-03T16:40:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-52063378.csv",
-      "receivedAt": "2026-10-03T16:36:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-39123594.csv",
+      "receivedAt": "2026-10-03T16:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_534603485.csv",
-      "receivedAt": "2026-10-03T16:36:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-25145654.csv",
+      "receivedAt": "2026-10-03T16:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8230,
+      "occupiedTeus": 8238,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7513
+      "occupancyPct": 0.752
     },
     "reefer": {
-      "occupiedUnits": 799,
+      "occupiedUnits": 800,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.6669
+      "occupancyPct": 0.6678
     },
     "imo": {
       "occupiedTeus": 136,
@@ -43,25 +43,34 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 19.57,
+    "averageProductivity": 19.43,
     "top": [
       {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 13,
+        "moves": 16,
         "firstMove": "2026-10-03T16:20:00.000Z",
-        "lastMove": "2026-10-03T16:36:00.000Z",
-        "productivity": 48.6
+        "lastMove": "2026-10-03T16:39:00.000Z",
+        "productivity": 47.84
+      },
+      {
+        "equipment": "R04",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 5,
+        "firstMove": "2026-10-03T16:18:00.000Z",
+        "lastMove": "2026-10-03T16:38:00.000Z",
+        "productivity": 13.6
       },
       {
         "equipment": "R07",
         "login": "LVS",
         "operator": "LUCIANO VELOSO DOS SANTOS",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-03T16:07:00.000Z",
-        "lastMove": "2026-10-03T16:24:00.000Z",
-        "productivity": 10.33
+        "lastMove": "2026-10-03T16:38:00.000Z",
+        "productivity": 10.89
       }
     ],
     "lowest": [
@@ -69,19 +78,28 @@
         "equipment": "R07",
         "login": "LVS",
         "operator": "LUCIANO VELOSO DOS SANTOS",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-03T16:07:00.000Z",
-        "lastMove": "2026-10-03T16:24:00.000Z",
-        "productivity": 10.33
+        "lastMove": "2026-10-03T16:38:00.000Z",
+        "productivity": 10.89
+      },
+      {
+        "equipment": "R04",
+        "login": "LUP",
+        "operator": "LUCIANO PEREIRA",
+        "moves": 5,
+        "firstMove": "2026-10-03T16:18:00.000Z",
+        "lastMove": "2026-10-03T16:38:00.000Z",
+        "productivity": 13.6
       },
       {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 13,
+        "moves": 16,
         "firstMove": "2026-10-03T16:20:00.000Z",
-        "lastMove": "2026-10-03T16:36:00.000Z",
-        "productivity": 48.6
+        "lastMove": "2026-10-03T16:39:00.000Z",
+        "productivity": 47.84
       }
     ]
   },
@@ -97,21 +115,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 201,
+      "receival": 203,
       "load": 55,
       "housekeeping": 110,
       "housekeepingRatio": 2
     },
     "import": {
-      "discharge": 16,
-      "delivery": 137,
+      "discharge": 19,
+      "delivery": 139,
       "housekeeping": 463,
-      "housekeepingRatio": 3.38
+      "housekeepingRatio": 3.33
     }
   },
   "stats": {
-    "moveRowsInput": 2273,
-    "rsEventsCurrentPeriod": 25,
-    "ttEventsCurrentPeriod": 16
+    "moveRowsInput": 2271,
+    "rsEventsCurrentPeriod": 32,
+    "ttEventsCurrentPeriod": 19
   }
 }
