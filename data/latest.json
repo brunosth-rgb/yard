@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T16:18:13.075Z",
-  "reportReferenceTime": "2026-10-07T16:16:03.000Z",
+  "generatedAt": "2026-10-07T16:23:13.547Z",
+  "reportReferenceTime": "2026-10-07T16:20:09.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-14832412.csv",
-      "receivedAt": "2026-10-07T16:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-23428276.csv",
+      "receivedAt": "2026-10-07T16:20:10.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_559279039.csv",
-      "receivedAt": "2026-10-07T16:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_491108272.csv",
+      "receivedAt": "2026-10-07T16:20:10.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9368,
+      "occupiedTeus": 9366,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8551
+      "occupancyPct": 0.855
     },
     "reefer": {
       "occupiedUnits": 862,
@@ -38,21 +38,30 @@
     }
   },
   "resources": {
-    "rsInOperation": 9,
+    "rsInOperation": 10,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 23.33,
+    "averageProductivity": 16.47,
     "top": [
       {
         "equipment": "R01",
         "login": "CDS",
         "operator": "CARLITO DOS SANTOS",
-        "moves": 5,
+        "moves": 7,
         "firstMove": "2026-10-07T16:11:00.000Z",
-        "lastMove": "2026-10-07T16:15:00.000Z",
-        "productivity": 59.41
+        "lastMove": "2026-10-07T16:18:00.000Z",
+        "productivity": 45.9
+      },
+      {
+        "equipment": "R09",
+        "login": "VCS",
+        "operator": "VANILDO CAMPOS DA SILVA",
+        "moves": 6,
+        "firstMove": "2026-10-07T16:10:00.000Z",
+        "lastMove": "2026-10-07T16:17:00.000Z",
+        "productivity": 35.47
       },
       {
         "equipment": "R02",
@@ -61,7 +70,7 @@
         "moves": 8,
         "firstMove": "2026-10-07T16:02:00.000Z",
         "lastMove": "2026-10-07T16:10:00.000Z",
-        "productivity": 34.16
+        "productivity": 26.45
       }
     ],
     "lowest": [
@@ -72,16 +81,25 @@
         "moves": 8,
         "firstMove": "2026-10-07T16:02:00.000Z",
         "lastMove": "2026-10-07T16:10:00.000Z",
-        "productivity": 34.16
+        "productivity": 26.45
+      },
+      {
+        "equipment": "R09",
+        "login": "VCS",
+        "operator": "VANILDO CAMPOS DA SILVA",
+        "moves": 6,
+        "firstMove": "2026-10-07T16:10:00.000Z",
+        "lastMove": "2026-10-07T16:17:00.000Z",
+        "productivity": 35.47
       },
       {
         "equipment": "R01",
         "login": "CDS",
         "operator": "CARLITO DOS SANTOS",
-        "moves": 5,
+        "moves": 7,
         "firstMove": "2026-10-07T16:11:00.000Z",
-        "lastMove": "2026-10-07T16:15:00.000Z",
-        "productivity": 59.41
+        "lastMove": "2026-10-07T16:18:00.000Z",
+        "productivity": 45.9
       }
     ]
   },
@@ -97,21 +115,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 345,
+      "receival": 347,
       "load": 5,
       "housekeeping": 104,
       "housekeepingRatio": 20.8
     },
     "import": {
       "discharge": 0,
-      "delivery": 161,
-      "housekeeping": 700,
-      "housekeepingRatio": 4.35
+      "delivery": 163,
+      "housekeeping": 701,
+      "housekeepingRatio": 4.3
     }
   },
   "stats": {
-    "moveRowsInput": 2607,
-    "rsEventsCurrentPeriod": 24,
+    "moveRowsInput": 2605,
+    "rsEventsCurrentPeriod": 30,
     "ttEventsCurrentPeriod": 0
   }
 }
