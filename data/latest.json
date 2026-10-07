@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T22:23:44.484Z",
-  "reportReferenceTime": "2026-10-07T22:20:04.000Z",
+  "generatedAt": "2026-10-07T22:29:01.392Z",
+  "reportReferenceTime": "2026-10-07T22:24:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-86439416.csv",
-      "receivedAt": "2026-10-07T22:20:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-33158964.csv",
+      "receivedAt": "2026-10-07T22:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_615536722.csv",
-      "receivedAt": "2026-10-07T22:20:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-61310133.csv",
+      "receivedAt": "2026-10-07T22:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9281,
+      "occupiedTeus": 9283,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8472
+      "occupancyPct": 0.8474
     },
     "reefer": {
       "occupiedUnits": 899,
@@ -38,50 +38,68 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
-    "ttInOperation": 0
+    "rsInOperation": 5,
+    "ttInOperation": 1
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 33.5,
+    "averageProductivity": 28.49,
     "top": [
       {
         "equipment": "R11",
         "login": "NRS",
         "operator": "NILSON ROBERTO DE SOUZA J",
-        "moves": 5,
-        "firstMove": "2026-10-07T22:16:00.000Z",
-        "lastMove": "2026-10-07T22:19:00.000Z",
-        "productivity": 73.77
+        "moves": 8,
+        "firstMove": "2026-10-07T22:14:00.000Z",
+        "lastMove": "2026-10-07T22:22:00.000Z",
+        "productivity": 47.76
       },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 9,
+        "moves": 15,
         "firstMove": "2026-10-07T22:02:00.000Z",
-        "lastMove": "2026-10-07T22:17:00.000Z",
-        "productivity": 29.89
+        "lastMove": "2026-10-07T22:23:00.000Z",
+        "productivity": 40.82
+      },
+      {
+        "equipment": "R07",
+        "login": "MRM",
+        "operator": "MARCOS ROBERTO MAFRA",
+        "moves": 5,
+        "firstMove": "2026-10-07T22:09:00.000Z",
+        "lastMove": "2026-10-07T22:22:00.000Z",
+        "productivity": 19.93
       }
     ],
     "lowest": [
       {
+        "equipment": "R05",
+        "login": "SIR",
+        "operator": "SILVANO IRINEU FERREIRA",
+        "moves": 5,
+        "firstMove": "2026-10-07T22:03:00.000Z",
+        "lastMove": "2026-10-07T22:19:00.000Z",
+        "productivity": 14.25
+      },
+      {
+        "equipment": "R07",
+        "login": "MRM",
+        "operator": "MARCOS ROBERTO MAFRA",
+        "moves": 5,
+        "firstMove": "2026-10-07T22:09:00.000Z",
+        "lastMove": "2026-10-07T22:22:00.000Z",
+        "productivity": 19.93
+      },
+      {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 9,
+        "moves": 15,
         "firstMove": "2026-10-07T22:02:00.000Z",
-        "lastMove": "2026-10-07T22:17:00.000Z",
-        "productivity": 29.89
-      },
-      {
-        "equipment": "R11",
-        "login": "NRS",
-        "operator": "NILSON ROBERTO DE SOUZA J",
-        "moves": 5,
-        "firstMove": "2026-10-07T22:16:00.000Z",
-        "lastMove": "2026-10-07T22:19:00.000Z",
-        "productivity": 73.77
+        "lastMove": "2026-10-07T22:23:00.000Z",
+        "productivity": 40.82
       }
     ]
   },
@@ -97,21 +115,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 416,
+      "receival": 419,
       "load": 5,
       "housekeeping": 173,
       "housekeepingRatio": 34.6
     },
     "import": {
       "discharge": 0,
-      "delivery": 289,
-      "housekeeping": 885,
-      "housekeepingRatio": 3.06
+      "delivery": 291,
+      "housekeeping": 889,
+      "housekeepingRatio": 3.05
     }
   },
   "stats": {
-    "moveRowsInput": 2387,
-    "rsEventsCurrentPeriod": 21,
-    "ttEventsCurrentPeriod": 0
+    "moveRowsInput": 2391,
+    "rsEventsCurrentPeriod": 34,
+    "ttEventsCurrentPeriod": 1
   }
 }
