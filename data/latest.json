@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T22:18:17.067Z",
-  "reportReferenceTime": "2026-10-07T22:16:04.000Z",
+  "generatedAt": "2026-10-07T22:23:44.484Z",
+  "reportReferenceTime": "2026-10-07T22:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-28013909.csv",
-      "receivedAt": "2026-10-07T22:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-86439416.csv",
+      "receivedAt": "2026-10-07T22:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_446138205.csv",
-      "receivedAt": "2026-10-07T22:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_615536722.csv",
+      "receivedAt": "2026-10-07T22:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9285,
+      "occupiedTeus": 9281,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8476
+      "occupancyPct": 0.8472
     },
     "reefer": {
       "occupiedUnits": 899,
@@ -32,27 +32,36 @@
       "occupancyPct": 0.7504
     },
     "imo": {
-      "occupiedTeus": 143,
+      "occupiedTeus": 142,
       "capacityTeus": 254,
-      "occupancyPct": 0.563
+      "occupancyPct": 0.5591
     }
   },
   "resources": {
-    "rsInOperation": 3,
+    "rsInOperation": 4,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 24.57,
+    "averageProductivity": 33.5,
     "top": [
+      {
+        "equipment": "R11",
+        "login": "NRS",
+        "operator": "NILSON ROBERTO DE SOUZA J",
+        "moves": 5,
+        "firstMove": "2026-10-07T22:16:00.000Z",
+        "lastMove": "2026-10-07T22:19:00.000Z",
+        "productivity": 73.77
+      },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-07T22:02:00.000Z",
-        "lastMove": "2026-10-07T22:15:00.000Z",
-        "productivity": 29.86
+        "lastMove": "2026-10-07T22:17:00.000Z",
+        "productivity": 29.89
       }
     ],
     "lowest": [
@@ -60,10 +69,19 @@
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-07T22:02:00.000Z",
-        "lastMove": "2026-10-07T22:15:00.000Z",
-        "productivity": 29.86
+        "lastMove": "2026-10-07T22:17:00.000Z",
+        "productivity": 29.89
+      },
+      {
+        "equipment": "R11",
+        "login": "NRS",
+        "operator": "NILSON ROBERTO DE SOUZA J",
+        "moves": 5,
+        "firstMove": "2026-10-07T22:16:00.000Z",
+        "lastMove": "2026-10-07T22:19:00.000Z",
+        "productivity": 73.77
       }
     ]
   },
@@ -86,14 +104,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 288,
-      "housekeeping": 882,
+      "delivery": 289,
+      "housekeeping": 885,
       "housekeepingRatio": 3.06
     }
   },
   "stats": {
-    "moveRowsInput": 2392,
-    "rsEventsCurrentPeriod": 14,
+    "moveRowsInput": 2387,
+    "rsEventsCurrentPeriod": 21,
     "ttEventsCurrentPeriod": 0
   }
 }
