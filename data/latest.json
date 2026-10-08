@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T10:28:16.697Z",
-  "reportReferenceTime": "2026-10-08T10:24:04.000Z",
+  "generatedAt": "2026-10-08T10:33:28.293Z",
+  "reportReferenceTime": "2026-10-08T10:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_734413080.csv",
-      "receivedAt": "2026-10-08T10:24:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-15938203.csv",
+      "receivedAt": "2026-10-08T10:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_536488240.csv",
-      "receivedAt": "2026-10-08T10:24:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_864150076.csv",
+      "receivedAt": "2026-10-08T10:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,21 +38,39 @@
     }
   },
   "resources": {
-    "rsInOperation": 5,
-    "ttInOperation": 0
+    "rsInOperation": 7,
+    "ttInOperation": 4
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 13.41,
+    "averageProductivity": 32.53,
     "top": [
       {
-        "equipment": "R07",
-        "login": "JAZ",
-        "operator": "JOAO ALBERTO ZIMMERMAN",
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
         "moves": 5,
-        "firstMove": "2026-10-08T10:02:00.000Z",
-        "lastMove": "2026-10-08T10:14:00.000Z",
-        "productivity": 13.6
+        "firstMove": "2026-10-08T10:17:00.000Z",
+        "lastMove": "2026-10-08T10:30:00.000Z",
+        "productivity": 19.91
+      },
+      {
+        "equipment": "R03",
+        "login": "EDB",
+        "operator": "EDISON BRANCO",
+        "moves": 7,
+        "firstMove": "2026-10-08T10:09:00.000Z",
+        "lastMove": "2026-10-08T10:31:00.000Z",
+        "productivity": 18.21
+      },
+      {
+        "equipment": "R04",
+        "login": "MVF",
+        "operator": "MARCOS VITORIO FARIAS",
+        "moves": 5,
+        "firstMove": "2026-10-08T10:09:00.000Z",
+        "lastMove": "2026-10-08T10:27:00.000Z",
+        "productivity": 13.01
       }
     ],
     "lowest": [
@@ -63,7 +81,25 @@
         "moves": 5,
         "firstMove": "2026-10-08T10:02:00.000Z",
         "lastMove": "2026-10-08T10:14:00.000Z",
-        "productivity": 13.6
+        "productivity": 9.98
+      },
+      {
+        "equipment": "R04",
+        "login": "MVF",
+        "operator": "MARCOS VITORIO FARIAS",
+        "moves": 5,
+        "firstMove": "2026-10-08T10:09:00.000Z",
+        "lastMove": "2026-10-08T10:27:00.000Z",
+        "productivity": 13.01
+      },
+      {
+        "equipment": "R03",
+        "login": "EDB",
+        "operator": "EDISON BRANCO",
+        "moves": 7,
+        "firstMove": "2026-10-08T10:09:00.000Z",
+        "lastMove": "2026-10-08T10:31:00.000Z",
+        "productivity": 18.21
       }
     ]
   },
@@ -73,9 +109,20 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R07",
+        "login": "JAZ",
+        "operator": "JOAO ALBERTO ZIMMERMAN",
+        "moves": 5,
+        "productivity": 9.98,
+        "firstMove": "2026-10-08T10:02:00.000Z",
+        "lastMove": "2026-10-08T10:14:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -86,14 +133,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 54,
-      "housekeeping": 481,
-      "housekeepingRatio": 8.91
+      "delivery": 57,
+      "housekeeping": 484,
+      "housekeepingRatio": 8.49
     }
   },
   "stats": {
     "moveRowsInput": 2417,
-    "rsEventsCurrentPeriod": 17,
-    "ttEventsCurrentPeriod": 0
+    "rsEventsCurrentPeriod": 34,
+    "ttEventsCurrentPeriod": 4
   }
 }
