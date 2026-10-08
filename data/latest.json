@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T06:58:16.126Z",
-  "reportReferenceTime": "2026-10-08T06:56:04.000Z",
+  "generatedAt": "2026-10-08T07:03:13.713Z",
+  "reportReferenceTime": "2026-10-08T07:00:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-25119483.csv",
-      "receivedAt": "2026-10-08T06:56:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_705516960.csv",
+      "receivedAt": "2026-10-08T07:00:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-86396054.csv",
-      "receivedAt": "2026-10-08T06:56:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-12590224.csv",
+      "receivedAt": "2026-10-08T07:00:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9398,
+      "occupiedTeus": 9402,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8579
+      "occupancyPct": 0.8582
     },
     "reefer": {
-      "occupiedUnits": 958,
+      "occupiedUnits": 960,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.7997
+      "occupancyPct": 0.8013
     },
     "imo": {
       "occupiedTeus": 132,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 26.29,
+    "averageProductivity": 26,
     "top": [
       {
         "equipment": "R04",
@@ -52,7 +52,7 @@
         "moves": 131,
         "firstMove": "2026-10-08T04:28:00.000Z",
         "lastMove": "2026-10-08T06:55:00.000Z",
-        "productivity": 53.08
+        "productivity": 51.69
       },
       {
         "equipment": "R10",
@@ -61,16 +61,16 @@
         "moves": 100,
         "firstMove": "2026-10-08T04:39:00.000Z",
         "lastMove": "2026-10-08T06:27:00.000Z",
-        "productivity": 43.77
+        "productivity": 42.53
       },
       {
         "equipment": "R11",
         "login": "FJL",
         "operator": "FABIANO JOSE LIMA",
-        "moves": 105,
+        "moves": 107,
         "firstMove": "2026-10-08T04:17:00.000Z",
-        "lastMove": "2026-10-08T06:55:00.000Z",
-        "productivity": 39.61
+        "lastMove": "2026-10-08T06:58:00.000Z",
+        "productivity": 39.37
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 12,
         "firstMove": "2026-10-08T04:17:00.000Z",
         "lastMove": "2026-10-08T06:49:00.000Z",
-        "productivity": 4.53
+        "productivity": 4.42
       },
       {
         "equipment": "R03",
@@ -90,16 +90,16 @@
         "moves": 20,
         "firstMove": "2026-10-08T04:16:00.000Z",
         "lastMove": "2026-10-08T05:39:00.000Z",
-        "productivity": 7.5
+        "productivity": 7.31
       },
       {
         "equipment": "R07",
         "login": "JGR",
         "operator": "JOAO GENTIL RAMPELOTI",
-        "moves": 14,
+        "moves": 16,
         "firstMove": "2026-10-08T05:46:00.000Z",
-        "lastMove": "2026-10-08T06:50:00.000Z",
-        "productivity": 11.99
+        "lastMove": "2026-10-08T06:57:00.000Z",
+        "productivity": 12.96
       }
     ]
   },
@@ -109,7 +109,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 2,
+    "rsCount": 1,
     "ttCount": 1,
     "equipment": [
       {
@@ -117,50 +117,40 @@
         "login": "PAA",
         "operator": "PAULO AUGUSTO",
         "moves": 1,
-        "productivity": 1.05,
+        "productivity": 0.98,
         "firstMove": "2026-10-08T05:59:00.000Z",
         "lastMove": "2026-10-08T05:59:00.000Z",
-        "idleMinutes": 57
+        "idleMinutes": 61
       },
       {
         "equipment": "R10",
         "login": "JAF",
         "operator": "JOSE ANTONIO FORTUNATO",
         "moves": 100,
-        "productivity": 43.77,
+        "productivity": 42.53,
         "firstMove": "2026-10-08T04:39:00.000Z",
         "lastMove": "2026-10-08T06:27:00.000Z",
-        "idleMinutes": 29
-      },
-      {
-        "equipment": "R06",
-        "login": "VSJ",
-        "operator": "VANILDO DOS SANTOS JR",
-        "moves": 44,
-        "productivity": 17.14,
-        "firstMove": "2026-10-08T04:22:00.000Z",
-        "lastMove": "2026-10-08T06:40:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 33
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 110,
+      "receival": 111,
       "load": 0,
-      "housekeeping": 38,
+      "housekeeping": 39,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
       "delivery": 2,
-      "housekeeping": 298,
-      "housekeepingRatio": 149
+      "housekeeping": 301,
+      "housekeepingRatio": 150.5
     }
   },
   "stats": {
-    "moveRowsInput": 2383,
-    "rsEventsCurrentPeriod": 579,
+    "moveRowsInput": 2379,
+    "rsEventsCurrentPeriod": 587,
     "ttEventsCurrentPeriod": 1
   }
 }
