@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T22:48:11.794Z",
-  "reportReferenceTime": "2026-10-09T22:44:03.000Z",
+  "generatedAt": "2026-10-09T22:53:21.578Z",
+  "reportReferenceTime": "2026-10-09T22:52:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_379182990.csv",
-      "receivedAt": "2026-10-09T22:44:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-56996725.csv",
+      "receivedAt": "2026-10-09T22:52:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-55184538.csv",
-      "receivedAt": "2026-10-09T22:44:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_387381455.csv",
+      "receivedAt": "2026-10-09T22:52:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7785,
+      "occupiedTeus": 7787,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7106
+      "occupancyPct": 0.7108
     },
     "reefer": {
-      "occupiedUnits": 1029,
+      "occupiedUnits": 1030,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.8589
+      "occupancyPct": 0.8598
     },
     "imo": {
       "occupiedTeus": 73,
@@ -38,68 +38,68 @@
     }
   },
   "resources": {
-    "rsInOperation": 9,
-    "ttInOperation": 14
+    "rsInOperation": 10,
+    "ttInOperation": 17
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 14.99,
+    "averageProductivity": 15.42,
     "top": [
       {
         "equipment": "R08",
         "login": "LEJ",
         "operator": "LUIS EWERTON DE JESUS",
-        "moves": 24,
+        "moves": 30,
         "firstMove": "2026-10-09T22:15:00.000Z",
-        "lastMove": "2026-10-09T22:41:00.000Z",
-        "productivity": 49.57
+        "lastMove": "2026-10-09T22:51:00.000Z",
+        "productivity": 48.58
+      },
+      {
+        "equipment": "R11",
+        "login": "JRA",
+        "operator": "JEAN RENATO ARDIGO",
+        "moves": 11,
+        "firstMove": "2026-10-09T22:19:00.000Z",
+        "lastMove": "2026-10-09T22:51:00.000Z",
+        "productivity": 19.97
       },
       {
         "equipment": "R03",
         "login": "EDB",
         "operator": "EDISON BRANCO",
-        "moves": 11,
+        "moves": 15,
         "firstMove": "2026-10-09T22:05:00.000Z",
-        "lastMove": "2026-10-09T22:32:00.000Z",
-        "productivity": 16.9
-      },
-      {
-        "equipment": "R11",
-        "login": "JRA",
-        "operator": "JEAN RENATO ARDIGO",
-        "moves": 7,
-        "firstMove": "2026-10-09T22:19:00.000Z",
         "lastMove": "2026-10-09T22:40:00.000Z",
-        "productivity": 16.77
+        "productivity": 19.13
       }
     ],
     "lowest": [
       {
+        "equipment": "R02",
+        "login": "ESO",
+        "operator": "EDUARDO DE SOUZA",
+        "moves": 5,
+        "firstMove": "2026-10-09T22:16:00.000Z",
+        "lastMove": "2026-10-09T22:48:00.000Z",
+        "productivity": 8.32
+      },
+      {
         "equipment": "R09",
         "login": "MAM",
         "operator": "MARCOS MENDONCA",
-        "moves": 5,
+        "moves": 7,
         "firstMove": "2026-10-09T22:06:00.000Z",
-        "lastMove": "2026-10-09T22:27:00.000Z",
-        "productivity": 7.88
+        "lastMove": "2026-10-09T22:48:00.000Z",
+        "productivity": 9.12
       },
       {
         "equipment": "R12",
         "login": "MOV",
         "operator": "MOISES VIEIRA",
-        "moves": 9,
+        "moves": 11,
         "firstMove": "2026-10-09T22:04:00.000Z",
-        "lastMove": "2026-10-09T22:41:00.000Z",
-        "productivity": 13.48
-      },
-      {
-        "equipment": "R11",
-        "login": "JRA",
-        "operator": "JEAN RENATO ARDIGO",
-        "moves": 7,
-        "firstMove": "2026-10-09T22:19:00.000Z",
-        "lastMove": "2026-10-09T22:40:00.000Z",
-        "productivity": 16.77
+        "lastMove": "2026-10-09T22:48:00.000Z",
+        "productivity": 13.74
       }
     ]
   },
@@ -109,58 +109,48 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 3,
-    "ttCount": 0,
+    "rsCount": 1,
+    "ttCount": 1,
     "equipment": [
       {
         "equipment": "R07",
         "login": "MWS",
         "operator": "MARLON WILLIAN DA SILVA",
         "moves": 1,
-        "productivity": 1.62,
+        "productivity": 1.33,
         "firstMove": "2026-10-09T22:07:00.000Z",
         "lastMove": "2026-10-09T22:07:00.000Z",
-        "idleMinutes": 37
+        "idleMinutes": 45
       },
       {
-        "equipment": "R02",
-        "login": "ESO",
-        "operator": "EDUARDO DE SOUZA",
-        "moves": 2,
-        "productivity": 4.28,
-        "firstMove": "2026-10-09T22:16:00.000Z",
-        "lastMove": "2026-10-09T22:23:00.000Z",
+        "equipment": "TT23",
+        "login": "MSM",
+        "operator": "MARIO SERGIO MEDEIROS",
+        "moves": 1,
+        "productivity": 2.85,
+        "firstMove": "2026-10-09T22:31:00.000Z",
+        "lastMove": "2026-10-09T22:31:00.000Z",
         "idleMinutes": 21
-      },
-      {
-        "equipment": "R09",
-        "login": "MAM",
-        "operator": "MARCOS MENDONCA",
-        "moves": 5,
-        "productivity": 7.88,
-        "firstMove": "2026-10-09T22:06:00.000Z",
-        "lastMove": "2026-10-09T22:27:00.000Z",
-        "idleMinutes": 17
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 220,
-      "load": 258,
+      "receival": 223,
+      "load": 264,
       "housekeeping": 164,
-      "housekeepingRatio": 0.64
+      "housekeepingRatio": 0.62
     },
     "import": {
-      "discharge": 134,
-      "delivery": 431,
-      "housekeeping": 541,
-      "housekeepingRatio": 1.26
+      "discharge": 142,
+      "delivery": 434,
+      "housekeeping": 543,
+      "housekeepingRatio": 1.25
     }
   },
   "stats": {
-    "moveRowsInput": 2398,
-    "rsEventsCurrentPeriod": 67,
-    "ttEventsCurrentPeriod": 22
+    "moveRowsInput": 2400,
+    "rsEventsCurrentPeriod": 91,
+    "ttEventsCurrentPeriod": 36
   }
 }
