@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T22:28:12.105Z",
-  "reportReferenceTime": "2026-10-10T22:24:03.000Z",
+  "generatedAt": "2026-10-10T22:33:12.759Z",
+  "reportReferenceTime": "2026-10-10T22:32:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_559766303.csv",
-      "receivedAt": "2026-10-10T22:24:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_588949390.csv",
+      "receivedAt": "2026-10-10T22:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-30541028.csv",
-      "receivedAt": "2026-10-10T22:24:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_901509191.csv",
+      "receivedAt": "2026-10-10T22:32:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7469,
+      "occupiedTeus": 7481,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6818
+      "occupancyPct": 0.6829
     },
     "reefer": {
       "occupiedUnits": 932,
@@ -43,27 +43,45 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 18.25,
+    "averageProductivity": 16.53,
     "top": [
       {
         "equipment": "R04",
         "login": "LSL",
         "operator": "LEANDRO SANTANA LOPES",
-        "moves": 6,
+        "moves": 12,
         "firstMove": "2026-10-10T22:14:00.000Z",
-        "lastMove": "2026-10-10T22:20:00.000Z",
-        "productivity": 35.82
+        "lastMove": "2026-10-10T22:30:00.000Z",
+        "productivity": 39.93
+      },
+      {
+        "equipment": "R11",
+        "login": "SSI",
+        "operator": "SERGIO RENATO LAUDINO",
+        "moves": 6,
+        "firstMove": "2026-10-10T22:09:00.000Z",
+        "lastMove": "2026-10-10T22:28:00.000Z",
+        "productivity": 15.63
       }
     ],
     "lowest": [
       {
+        "equipment": "R11",
+        "login": "SSI",
+        "operator": "SERGIO RENATO LAUDINO",
+        "moves": 6,
+        "firstMove": "2026-10-10T22:09:00.000Z",
+        "lastMove": "2026-10-10T22:28:00.000Z",
+        "productivity": 15.63
+      },
+      {
         "equipment": "R04",
         "login": "LSL",
         "operator": "LEANDRO SANTANA LOPES",
-        "moves": 6,
+        "moves": 12,
         "firstMove": "2026-10-10T22:14:00.000Z",
-        "lastMove": "2026-10-10T22:20:00.000Z",
-        "productivity": 35.82
+        "lastMove": "2026-10-10T22:30:00.000Z",
+        "productivity": 39.93
       }
     ]
   },
@@ -73,27 +91,38 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R06",
+        "login": "VSJ",
+        "operator": "VANILDO DOS SANTOS JR",
+        "moves": 1,
+        "productivity": 3.15,
+        "firstMove": "2026-10-10T22:13:00.000Z",
+        "lastMove": "2026-10-10T22:13:00.000Z",
+        "idleMinutes": 19
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 427,
+      "receival": 433,
       "load": 664,
-      "housekeeping": 170,
+      "housekeeping": 171,
       "housekeepingRatio": 0.26
     },
     "import": {
       "discharge": 407,
       "delivery": 119,
-      "housekeeping": 348,
-      "housekeepingRatio": 2.92
+      "housekeeping": 349,
+      "housekeepingRatio": 2.93
     }
   },
   "stats": {
-    "moveRowsInput": 2884,
-    "rsEventsCurrentPeriod": 15,
+    "moveRowsInput": 2876,
+    "rsEventsCurrentPeriod": 25,
     "ttEventsCurrentPeriod": 0
   }
 }
