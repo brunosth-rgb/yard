@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T22:53:12.676Z",
-  "reportReferenceTime": "2026-10-10T22:52:03.000Z",
+  "generatedAt": "2026-10-10T22:58:12.400Z",
+  "reportReferenceTime": "2026-10-10T22:56:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-79911769.csv",
-      "receivedAt": "2026-10-10T22:52:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_505384033.csv",
+      "receivedAt": "2026-10-10T22:56:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_886280772.csv",
-      "receivedAt": "2026-10-10T22:52:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-78654315.csv",
+      "receivedAt": "2026-10-10T22:56:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7511,
+      "occupiedTeus": 7517,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6856
+      "occupancyPct": 0.6862
     },
     "reefer": {
       "occupiedUnits": 933,
@@ -43,16 +43,16 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 14.92,
+    "averageProductivity": 13.83,
     "top": [
       {
         "equipment": "R04",
         "login": "LSL",
         "operator": "LEANDRO SANTANA LOPES",
-        "moves": 25,
+        "moves": 28,
         "firstMove": "2026-10-10T22:14:00.000Z",
-        "lastMove": "2026-10-10T22:47:00.000Z",
-        "productivity": 39.42
+        "lastMove": "2026-10-10T22:54:00.000Z",
+        "productivity": 39.95
       },
       {
         "equipment": "R11",
@@ -61,16 +61,16 @@
         "moves": 11,
         "firstMove": "2026-10-10T22:09:00.000Z",
         "lastMove": "2026-10-10T22:38:00.000Z",
-        "productivity": 15.33
+        "productivity": 14.03
       },
       {
         "equipment": "R01",
         "login": "AAN",
         "operator": "ANDERSON ANDREI NASCIMENT",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-10T22:17:00.000Z",
-        "lastMove": "2026-10-10T22:51:00.000Z",
-        "productivity": 11.98
+        "lastMove": "2026-10-10T22:55:00.000Z",
+        "productivity": 13.83
       }
     ],
     "lowest": [
@@ -81,16 +81,16 @@
         "moves": 5,
         "firstMove": "2026-10-10T22:13:00.000Z",
         "lastMove": "2026-10-10T22:49:00.000Z",
-        "productivity": 7.68
+        "productivity": 6.97
       },
       {
         "equipment": "R01",
         "login": "AAN",
         "operator": "ANDERSON ANDREI NASCIMENT",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-10T22:17:00.000Z",
-        "lastMove": "2026-10-10T22:51:00.000Z",
-        "productivity": 11.98
+        "lastMove": "2026-10-10T22:55:00.000Z",
+        "productivity": 13.83
       },
       {
         "equipment": "R11",
@@ -99,7 +99,7 @@
         "moves": 11,
         "firstMove": "2026-10-10T22:09:00.000Z",
         "lastMove": "2026-10-10T22:38:00.000Z",
-        "productivity": 15.33
+        "productivity": 14.03
       }
     ]
   },
@@ -109,34 +109,54 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
-    "ttCount": 1,
+    "rsCount": 2,
+    "ttCount": 2,
     "equipment": [
       {
         "equipment": "R12",
         "login": "EMA",
         "operator": "EVANDRO LUIS MARTIN",
         "moves": 1,
-        "productivity": 3.74,
+        "productivity": 2.99,
         "firstMove": "2026-10-10T22:36:00.000Z",
         "lastMove": "2026-10-10T22:36:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
       },
       {
         "equipment": "TT25",
         "login": "HJV",
         "operator": "H��lio Jos�� Carvalho",
         "moves": 1,
-        "productivity": 3.74,
+        "productivity": 2.99,
         "firstMove": "2026-10-10T22:36:00.000Z",
         "lastMove": "2026-10-10T22:36:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
+      },
+      {
+        "equipment": "R11",
+        "login": "SSI",
+        "operator": "SERGIO RENATO LAUDINO",
+        "moves": 11,
+        "productivity": 14.03,
+        "firstMove": "2026-10-10T22:09:00.000Z",
+        "lastMove": "2026-10-10T22:38:00.000Z",
+        "idleMinutes": 18
+      },
+      {
+        "equipment": "TT19",
+        "login": "CSV",
+        "operator": "CLEBER DOS SANTOS VIEIRA",
+        "moves": 1,
+        "productivity": 3.52,
+        "firstMove": "2026-10-10T22:39:00.000Z",
+        "lastMove": "2026-10-10T22:39:00.000Z",
+        "idleMinutes": 17
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 448,
+      "receival": 451,
       "load": 664,
       "housekeeping": 177,
       "housekeepingRatio": 0.27
@@ -144,13 +164,13 @@
     "import": {
       "discharge": 407,
       "delivery": 120,
-      "housekeeping": 359,
-      "housekeepingRatio": 2.99
+      "housekeeping": 360,
+      "housekeepingRatio": 3
     }
   },
   "stats": {
-    "moveRowsInput": 2859,
-    "rsEventsCurrentPeriod": 61,
+    "moveRowsInput": 2855,
+    "rsEventsCurrentPeriod": 66,
     "ttEventsCurrentPeriod": 5
   }
 }
