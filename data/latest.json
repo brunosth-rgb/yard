@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T16:53:12.065Z",
-  "reportReferenceTime": "2026-10-11T16:52:02.000Z",
+  "generatedAt": "2026-10-11T16:58:12.134Z",
+  "reportReferenceTime": "2026-10-11T16:56:02.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-76745774.csv",
-      "receivedAt": "2026-10-11T16:52:03.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_586514671.csv",
+      "receivedAt": "2026-10-11T16:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-56348015.csv",
-      "receivedAt": "2026-10-11T16:52:03.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-29676028.csv",
+      "receivedAt": "2026-10-11T16:56:03.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 6634,
+      "occupiedTeus": 6628,
       "capacityTeus": 10955,
-      "occupancyPct": 0.6056
+      "occupancyPct": 0.605
     },
     "reefer": {
       "occupiedUnits": 783,
@@ -43,8 +43,17 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 9.73,
+    "averageProductivity": 12.8,
     "top": [
+      {
+        "equipment": "R07",
+        "login": "JGR",
+        "operator": "JOAO GENTIL RAMPELOTI",
+        "moves": 6,
+        "firstMove": "2026-10-11T16:36:00.000Z",
+        "lastMove": "2026-10-11T16:54:00.000Z",
+        "productivity": 17.97
+      },
       {
         "equipment": "R11",
         "login": "MJR",
@@ -52,7 +61,7 @@
         "moves": 7,
         "firstMove": "2026-10-11T16:01:00.000Z",
         "lastMove": "2026-10-11T16:13:00.000Z",
-        "productivity": 8.23
+        "productivity": 7.63
       }
     ],
     "lowest": [
@@ -63,7 +72,16 @@
         "moves": 7,
         "firstMove": "2026-10-11T16:01:00.000Z",
         "lastMove": "2026-10-11T16:13:00.000Z",
-        "productivity": 8.23
+        "productivity": 7.63
+      },
+      {
+        "equipment": "R07",
+        "login": "JGR",
+        "operator": "JOAO GENTIL RAMPELOTI",
+        "moves": 6,
+        "firstMove": "2026-10-11T16:36:00.000Z",
+        "lastMove": "2026-10-11T16:54:00.000Z",
+        "productivity": 17.97
       }
     ]
   },
@@ -81,10 +99,10 @@
         "login": "MJR",
         "operator": "MARCIO JOSE REBELLO",
         "moves": 7,
-        "productivity": 8.23,
+        "productivity": 7.63,
         "firstMove": "2026-10-11T16:01:00.000Z",
         "lastMove": "2026-10-11T16:13:00.000Z",
-        "idleMinutes": 39
+        "idleMinutes": 43
       }
     ]
   },
@@ -97,14 +115,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 123,
+      "delivery": 126,
       "housekeeping": 13,
-      "housekeepingRatio": 0.11
+      "housekeepingRatio": 0.1
     }
   },
   "stats": {
-    "moveRowsInput": 1613,
-    "rsEventsCurrentPeriod": 10,
+    "moveRowsInput": 1604,
+    "rsEventsCurrentPeriod": 13,
     "ttEventsCurrentPeriod": 0
   }
 }
