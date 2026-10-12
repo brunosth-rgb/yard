@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T04:18:12.436Z",
-  "reportReferenceTime": "2026-10-12T04:16:03.000Z",
+  "generatedAt": "2026-10-12T04:23:11.742Z",
+  "reportReferenceTime": "2026-10-12T04:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-87854546.csv",
-      "receivedAt": "2026-10-12T04:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-33052927.csv",
+      "receivedAt": "2026-10-12T04:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_763746312.csv",
-      "receivedAt": "2026-10-12T04:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_534195727.csv",
+      "receivedAt": "2026-10-12T04:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 7687,
+      "occupiedTeus": 7695,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7017
+      "occupancyPct": 0.7024
     },
     "reefer": {
       "occupiedUnits": 794,
@@ -39,11 +39,11 @@
   },
   "resources": {
     "rsInOperation": 5,
-    "ttInOperation": 8
+    "ttInOperation": 10
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 24.25,
+    "averageProductivity": 13.64,
     "top": [],
     "lowest": []
   },
@@ -53,9 +53,40 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "rsCount": 1,
+    "ttCount": 2,
+    "equipment": [
+      {
+        "equipment": "R08",
+        "login": "MRW",
+        "operator": "MARCOS ROBERTO MARIA WEST",
+        "moves": 1,
+        "productivity": 3.52,
+        "firstMove": "2026-10-12T04:03:00.000Z",
+        "lastMove": "2026-10-12T04:03:00.000Z",
+        "idleMinutes": 17
+      },
+      {
+        "equipment": "TT02",
+        "login": "EJM",
+        "operator": "Euclides Jos�� Mello",
+        "moves": 1,
+        "productivity": 3.73,
+        "firstMove": "2026-10-12T04:04:00.000Z",
+        "lastMove": "2026-10-12T04:04:00.000Z",
+        "idleMinutes": 16
+      },
+      {
+        "equipment": "TT08",
+        "login": "FRS",
+        "operator": "FELIPE ROBERTO SILVA",
+        "moves": 1,
+        "productivity": 3.73,
+        "firstMove": "2026-10-12T04:04:00.000Z",
+        "lastMove": "2026-10-12T04:04:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -65,15 +96,15 @@
       "housekeepingRatio": null
     },
     "import": {
-      "discharge": 56,
+      "discharge": 59,
       "delivery": 0,
       "housekeeping": 13,
       "housekeepingRatio": null
     }
   },
   "stats": {
-    "moveRowsInput": 1604,
-    "rsEventsCurrentPeriod": 10,
-    "ttEventsCurrentPeriod": 9
+    "moveRowsInput": 1607,
+    "rsEventsCurrentPeriod": 12,
+    "ttEventsCurrentPeriod": 11
   }
 }
