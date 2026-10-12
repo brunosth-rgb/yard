@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T10:38:11.903Z",
-  "reportReferenceTime": "2026-10-12T10:36:03.000Z",
+  "generatedAt": "2026-10-12T10:43:12.566Z",
+  "reportReferenceTime": "2026-10-12T10:40:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-84714785.csv",
-      "receivedAt": "2026-10-12T10:36:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_720805183.csv",
+      "receivedAt": "2026-10-12T10:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_274756428.csv",
-      "receivedAt": "2026-10-12T10:36:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-24282286.csv",
+      "receivedAt": "2026-10-12T10:40:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8369,
+      "occupiedTeus": 8371,
       "capacityTeus": 10955,
-      "occupancyPct": 0.7639
+      "occupancyPct": 0.7641
     },
     "reefer": {
       "occupiedUnits": 797,
@@ -38,30 +38,30 @@
     }
   },
   "resources": {
-    "rsInOperation": 5,
-    "ttInOperation": 1
+    "rsInOperation": 6,
+    "ttInOperation": 2
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 24.23,
+    "averageProductivity": 22.83,
     "top": [
-      {
-        "equipment": "R01",
-        "login": "JMA",
-        "operator": "JAIRO MARIANO",
-        "moves": 8,
-        "firstMove": "2026-10-12T10:25:00.000Z",
-        "lastMove": "2026-10-12T10:35:00.000Z",
-        "productivity": 43.44
-      },
       {
         "equipment": "R12",
         "login": "ILN",
         "operator": "IVAN LUCIO NUNES",
-        "moves": 10,
+        "moves": 12,
         "firstMove": "2026-10-12T10:20:00.000Z",
-        "lastMove": "2026-10-12T10:35:00.000Z",
-        "productivity": 37.38
+        "lastMove": "2026-10-12T10:39:00.000Z",
+        "productivity": 35.91
+      },
+      {
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
+        "moves": 9,
+        "firstMove": "2026-10-12T10:25:00.000Z",
+        "lastMove": "2026-10-12T10:38:00.000Z",
+        "productivity": 35.88
       },
       {
         "equipment": "R11",
@@ -70,7 +70,7 @@
         "moves": 19,
         "firstMove": "2026-10-12T10:03:00.000Z",
         "lastMove": "2026-10-12T10:36:00.000Z",
-        "productivity": 34.49
+        "productivity": 30.77
       }
     ],
     "lowest": [
@@ -81,25 +81,25 @@
         "moves": 19,
         "firstMove": "2026-10-12T10:03:00.000Z",
         "lastMove": "2026-10-12T10:36:00.000Z",
-        "productivity": 34.49
-      },
-      {
-        "equipment": "R12",
-        "login": "ILN",
-        "operator": "IVAN LUCIO NUNES",
-        "moves": 10,
-        "firstMove": "2026-10-12T10:20:00.000Z",
-        "lastMove": "2026-10-12T10:35:00.000Z",
-        "productivity": 37.38
+        "productivity": 30.77
       },
       {
         "equipment": "R01",
         "login": "JMA",
         "operator": "JAIRO MARIANO",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-10-12T10:25:00.000Z",
-        "lastMove": "2026-10-12T10:35:00.000Z",
-        "productivity": 43.44
+        "lastMove": "2026-10-12T10:38:00.000Z",
+        "productivity": 35.88
+      },
+      {
+        "equipment": "R12",
+        "login": "ILN",
+        "operator": "IVAN LUCIO NUNES",
+        "moves": 12,
+        "firstMove": "2026-10-12T10:20:00.000Z",
+        "lastMove": "2026-10-12T10:39:00.000Z",
+        "productivity": 35.91
       }
     ]
   },
@@ -117,20 +117,20 @@
         "login": "FBP",
         "operator": "FERNANDO BARBOZA PEREIRA",
         "moves": 2,
-        "productivity": 3.63,
+        "productivity": 3.24,
         "firstMove": "2026-10-12T10:03:00.000Z",
         "lastMove": "2026-10-12T10:04:00.000Z",
-        "idleMinutes": 32
+        "idleMinutes": 36
       },
       {
         "equipment": "R02",
         "login": "DFC",
         "operator": "DAVI FRANCISCO COELHO",
         "moves": 1,
-        "productivity": 2.22,
+        "productivity": 1.93,
         "firstMove": "2026-10-12T10:09:00.000Z",
         "lastMove": "2026-10-12T10:09:00.000Z",
-        "idleMinutes": 27
+        "idleMinutes": 31
       }
     ]
   },
@@ -138,19 +138,19 @@
     "export": {
       "receival": 9,
       "load": 28,
-      "housekeeping": 10,
-      "housekeepingRatio": 0.36
+      "housekeeping": 11,
+      "housekeepingRatio": 0.39
     },
     "import": {
-      "discharge": 386,
-      "delivery": 8,
+      "discharge": 387,
+      "delivery": 9,
       "housekeeping": 27,
-      "housekeepingRatio": 3.38
+      "housekeepingRatio": 3
     }
   },
   "stats": {
-    "moveRowsInput": 1618,
-    "rsEventsCurrentPeriod": 40,
-    "ttEventsCurrentPeriod": 2
+    "moveRowsInput": 1615,
+    "rsEventsCurrentPeriod": 44,
+    "ttEventsCurrentPeriod": 3
   }
 }
