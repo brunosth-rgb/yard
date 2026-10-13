@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T22:28:13.802Z",
-  "reportReferenceTime": "2026-10-13T22:24:04.000Z",
+  "generatedAt": "2026-10-13T22:33:45.769Z",
+  "reportReferenceTime": "2026-10-13T22:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_763457930.csv",
-      "receivedAt": "2026-10-13T22:24:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_805359796.csv",
+      "receivedAt": "2026-10-13T22:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_598965282.csv",
-      "receivedAt": "2026-10-13T22:24:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-83901223.csv",
+      "receivedAt": "2026-10-13T22:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9503,
+      "occupiedTeus": 9495,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8675
+      "occupancyPct": 0.8667
     },
     "reefer": {
       "occupiedUnits": 812,
@@ -38,50 +38,68 @@
     }
   },
   "resources": {
-    "rsInOperation": 9,
-    "ttInOperation": 6
+    "rsInOperation": 10,
+    "ttInOperation": 11
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 11.46,
+    "averageProductivity": 11.49,
     "top": [
       {
-        "equipment": "R01",
-        "login": "FJL",
-        "operator": "FABIANO JOSE LIMA",
-        "moves": 6,
-        "firstMove": "2026-10-13T22:07:00.000Z",
-        "lastMove": "2026-10-13T22:23:00.000Z",
-        "productivity": 21.09
+        "equipment": "R04",
+        "login": "NRS",
+        "operator": "NILSON ROBERTO DE SOUZA J",
+        "moves": 5,
+        "firstMove": "2026-10-13T22:17:00.000Z",
+        "lastMove": "2026-10-13T22:31:00.000Z",
+        "productivity": 19.91
       },
       {
         "equipment": "R12",
         "login": "MOV",
         "operator": "MOISES VIEIRA",
-        "moves": 8,
+        "moves": 10,
         "firstMove": "2026-10-13T22:01:00.000Z",
-        "lastMove": "2026-10-13T22:21:00.000Z",
-        "productivity": 20.81
+        "lastMove": "2026-10-13T22:26:00.000Z",
+        "productivity": 19.31
+      },
+      {
+        "equipment": "R01",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 8,
+        "firstMove": "2026-10-13T22:07:00.000Z",
+        "lastMove": "2026-10-13T22:31:00.000Z",
+        "productivity": 19.15
       }
     ],
     "lowest": [
       {
-        "equipment": "R12",
-        "login": "MOV",
-        "operator": "MOISES VIEIRA",
-        "moves": 8,
-        "firstMove": "2026-10-13T22:01:00.000Z",
-        "lastMove": "2026-10-13T22:21:00.000Z",
-        "productivity": 20.81
+        "equipment": "R11",
+        "login": "GGS",
+        "operator": "GIOVANI GILBERTO DA SILVA",
+        "moves": 7,
+        "firstMove": "2026-10-13T22:09:00.000Z",
+        "lastMove": "2026-10-13T22:30:00.000Z",
+        "productivity": 18.21
       },
       {
         "equipment": "R01",
         "login": "FJL",
         "operator": "FABIANO JOSE LIMA",
-        "moves": 6,
+        "moves": 8,
         "firstMove": "2026-10-13T22:07:00.000Z",
-        "lastMove": "2026-10-13T22:23:00.000Z",
-        "productivity": 21.09
+        "lastMove": "2026-10-13T22:31:00.000Z",
+        "productivity": 19.15
+      },
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 10,
+        "firstMove": "2026-10-13T22:01:00.000Z",
+        "lastMove": "2026-10-13T22:26:00.000Z",
+        "productivity": 19.31
       }
     ]
   },
@@ -91,38 +109,78 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
-    "ttCount": 0,
+    "rsCount": 3,
+    "ttCount": 2,
     "equipment": [
+      {
+        "equipment": "R10",
+        "login": "GCC",
+        "operator": "GESIEL CLAUDIONIR CRUZ",
+        "moves": 2,
+        "productivity": 3.99,
+        "firstMove": "2026-10-13T22:02:00.000Z",
+        "lastMove": "2026-10-13T22:04:00.000Z",
+        "idleMinutes": 28
+      },
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
+        "moves": 2,
+        "productivity": 4.28,
+        "firstMove": "2026-10-13T22:04:00.000Z",
+        "lastMove": "2026-10-13T22:05:00.000Z",
+        "idleMinutes": 27
+      },
+      {
+        "equipment": "TT12",
+        "login": "PFC",
+        "operator": "PEDRO FRANCISCO COELHO",
         "moves": 1,
         "productivity": 3.15,
-        "firstMove": "2026-10-13T22:05:00.000Z",
-        "lastMove": "2026-10-13T22:05:00.000Z",
+        "firstMove": "2026-10-13T22:13:00.000Z",
+        "lastMove": "2026-10-13T22:13:00.000Z",
         "idleMinutes": 19
+      },
+      {
+        "equipment": "R08",
+        "login": "RAP",
+        "operator": "RICARDO AURELIO PAULO",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-10-13T22:14:00.000Z",
+        "lastMove": "2026-10-13T22:14:00.000Z",
+        "idleMinutes": 18
+      },
+      {
+        "equipment": "TT25",
+        "login": "JAN",
+        "operator": "JEAN MARLOS ANTONIO",
+        "moves": 1,
+        "productivity": 3.52,
+        "firstMove": "2026-10-13T22:15:00.000Z",
+        "lastMove": "2026-10-13T22:15:00.000Z",
+        "idleMinutes": 17
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 176,
-      "load": 117,
+      "receival": 177,
+      "load": 122,
       "housekeeping": 118,
-      "housekeepingRatio": 1.01
+      "housekeepingRatio": 0.97
     },
     "import": {
       "discharge": 287,
-      "delivery": 215,
-      "housekeeping": 129,
-      "housekeepingRatio": 0.6
+      "delivery": 217,
+      "housekeeping": 135,
+      "housekeepingRatio": 0.62
     }
   },
   "stats": {
-    "moveRowsInput": 1791,
-    "rsEventsCurrentPeriod": 24,
-    "ttEventsCurrentPeriod": 6
+    "moveRowsInput": 1795,
+    "rsEventsCurrentPeriod": 42,
+    "ttEventsCurrentPeriod": 11
   }
 }
