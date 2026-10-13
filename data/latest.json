@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T17:28:30.888Z",
-  "reportReferenceTime": "2026-10-13T17:24:04.000Z",
+  "generatedAt": "2026-10-13T17:33:51.830Z",
+  "reportReferenceTime": "2026-10-13T17:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_940881983.csv",
-      "receivedAt": "2026-10-13T17:24:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_204192920.csv",
+      "receivedAt": "2026-10-13T17:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_180159878.csv",
-      "receivedAt": "2026-10-13T17:24:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-13929725.csv",
+      "receivedAt": "2026-10-13T17:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9268,
+      "occupiedTeus": 9262,
       "capacityTeus": 10955,
-      "occupancyPct": 0.846
+      "occupancyPct": 0.8455
     },
     "reefer": {
       "occupiedUnits": 799,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 9.9,
+    "averageProductivity": 9.82,
     "top": [
       {
         "equipment": "R05",
@@ -52,45 +52,36 @@
         "moves": 42,
         "firstMove": "2026-10-13T16:13:00.000Z",
         "lastMove": "2026-10-13T17:18:00.000Z",
-        "productivity": 35.46
+        "productivity": 31.87
       },
       {
         "equipment": "R11",
         "login": "JCR",
         "operator": "JEFFERSON CARDOSO RUFINO",
-        "moves": 23,
+        "moves": 29,
         "firstMove": "2026-10-13T16:17:00.000Z",
-        "lastMove": "2026-10-13T17:23:00.000Z",
-        "productivity": 20.58
+        "lastMove": "2026-10-13T17:29:00.000Z",
+        "productivity": 23.18
       },
-      {
-        "equipment": "R12",
-        "login": "CFA",
-        "operator": "CLAUDIO FRANCISCO AMORIM",
-        "moves": 11,
-        "firstMove": "2026-10-13T16:03:00.000Z",
-        "lastMove": "2026-10-13T17:21:00.000Z",
-        "productivity": 8.14
-      }
-    ],
-    "lowest": [
       {
         "equipment": "R04",
         "login": "EAM",
         "operator": "EDUARDO ANTERO MARQUETTI",
-        "moves": 7,
+        "moves": 13,
         "firstMove": "2026-10-13T16:18:00.000Z",
-        "lastMove": "2026-10-13T17:20:00.000Z",
-        "productivity": 6.36
-      },
+        "lastMove": "2026-10-13T17:32:00.000Z",
+        "productivity": 10.53
+      }
+    ],
+    "lowest": [
       {
         "equipment": "R09",
         "login": "VCS",
         "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-10-13T16:12:00.000Z",
-        "lastMove": "2026-10-13T17:21:00.000Z",
-        "productivity": 6.66
+        "lastMove": "2026-10-13T17:30:00.000Z",
+        "productivity": 6.74
       },
       {
         "equipment": "R08",
@@ -99,7 +90,16 @@
         "moves": 10,
         "firstMove": "2026-10-13T16:06:00.000Z",
         "lastMove": "2026-10-13T17:23:00.000Z",
-        "productivity": 7.69
+        "productivity": 6.97
+      },
+      {
+        "equipment": "R12",
+        "login": "CFA",
+        "operator": "CLAUDIO FRANCISCO AMORIM",
+        "moves": 11,
+        "firstMove": "2026-10-13T16:03:00.000Z",
+        "lastMove": "2026-10-13T17:21:00.000Z",
+        "productivity": 7.41
       }
     ]
   },
@@ -110,67 +110,87 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 4,
-    "ttCount": 2,
+    "ttCount": 4,
     "equipment": [
       {
         "equipment": "R06",
         "login": "RJS",
         "operator": "RENATO JOSE DA SILVA FILH",
         "moves": 2,
-        "productivity": 1.9,
+        "productivity": 1.69,
         "firstMove": "2026-10-13T16:21:00.000Z",
         "lastMove": "2026-10-13T16:22:00.000Z",
-        "idleMinutes": 62
+        "idleMinutes": 70
       },
       {
         "equipment": "R07",
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
         "moves": 3,
-        "productivity": 4.86,
+        "productivity": 3.99,
         "firstMove": "2026-10-13T16:47:00.000Z",
         "lastMove": "2026-10-13T16:58:00.000Z",
-        "idleMinutes": 26
+        "idleMinutes": 34
       },
       {
         "equipment": "R02",
         "login": "IVL",
         "operator": "IVAN LUIZ DA CRUZ",
         "moves": 4,
-        "productivity": 3.87,
+        "productivity": 3.43,
         "firstMove": "2026-10-13T16:22:00.000Z",
         "lastMove": "2026-10-13T17:04:00.000Z",
-        "idleMinutes": 20
+        "idleMinutes": 28
       },
       {
         "equipment": "TT07",
         "login": "FEP",
         "operator": "FELIPE PAMPLONA",
         "moves": 3,
-        "productivity": 3.1,
+        "productivity": 2.72,
         "firstMove": "2026-10-13T16:26:00.000Z",
         "lastMove": "2026-10-13T17:05:00.000Z",
-        "idleMinutes": 19
+        "idleMinutes": 27
       },
       {
         "equipment": "R10",
         "login": "GCC",
         "operator": "GESIEL CLAUDIONIR CRUZ",
         "moves": 1,
-        "productivity": 3.52,
+        "productivity": 2.39,
         "firstMove": "2026-10-13T17:07:00.000Z",
         "lastMove": "2026-10-13T17:07:00.000Z",
-        "idleMinutes": 17
+        "idleMinutes": 25
       },
       {
         "equipment": "TT23",
         "login": "PRO",
         "operator": "PAULO ROBERTO ROSSI",
         "moves": 1,
-        "productivity": 3.52,
+        "productivity": 2.39,
         "firstMove": "2026-10-13T17:07:00.000Z",
         "lastMove": "2026-10-13T17:07:00.000Z",
-        "idleMinutes": 17
+        "idleMinutes": 25
+      },
+      {
+        "equipment": "TT15",
+        "login": "TLS",
+        "operator": "TIAGO LUIZ DA SILVA",
+        "moves": 1,
+        "productivity": 2.6,
+        "firstMove": "2026-10-13T17:09:00.000Z",
+        "lastMove": "2026-10-13T17:09:00.000Z",
+        "idleMinutes": 23
+      },
+      {
+        "equipment": "TT25",
+        "login": "DCS",
+        "operator": "DEIVID CARVALHO DA SILVA",
+        "moves": 2,
+        "productivity": 4.13,
+        "firstMove": "2026-10-13T17:03:00.000Z",
+        "lastMove": "2026-10-13T17:12:00.000Z",
+        "idleMinutes": 20
       }
     ]
   },
@@ -183,14 +203,14 @@
     },
     "import": {
       "discharge": 86,
-      "delivery": 111,
-      "housekeeping": 99,
-      "housekeepingRatio": 0.89
+      "delivery": 112,
+      "housekeeping": 105,
+      "housekeepingRatio": 0.94
     }
   },
   "stats": {
-    "moveRowsInput": 1696,
-    "rsEventsCurrentPeriod": 111,
+    "moveRowsInput": 1697,
+    "rsEventsCurrentPeriod": 124,
     "ttEventsCurrentPeriod": 12
   }
 }
