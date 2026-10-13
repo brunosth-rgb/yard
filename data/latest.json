@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T04:23:20.167Z",
-  "reportReferenceTime": "2026-10-13T04:20:05.000Z",
+  "generatedAt": "2026-10-13T04:28:15.057Z",
+  "reportReferenceTime": "2026-10-13T04:24:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-21962536.csv",
-      "receivedAt": "2026-10-13T04:20:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-65932744.csv",
+      "receivedAt": "2026-10-13T04:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_233947091.csv",
-      "receivedAt": "2026-10-13T04:20:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_864109433.csv",
+      "receivedAt": "2026-10-13T04:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 29.19,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 29.72,
+    "top": [
+      {
+        "equipment": "R09",
+        "login": "WAM",
+        "operator": "WILLIAM ANDRE MACHADO",
+        "moves": 6,
+        "firstMove": "2026-10-13T04:17:00.000Z",
+        "lastMove": "2026-10-13T04:21:00.000Z",
+        "productivity": 50.94
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R09",
+        "login": "WAM",
+        "operator": "WILLIAM ANDRE MACHADO",
+        "moves": 6,
+        "firstMove": "2026-10-13T04:17:00.000Z",
+        "lastMove": "2026-10-13T04:21:00.000Z",
+        "productivity": 50.94
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -61,8 +81,8 @@
     "export": {
       "receival": 4,
       "load": 4,
-      "housekeeping": 2,
-      "housekeepingRatio": 0.5
+      "housekeeping": 4,
+      "housekeepingRatio": 1
     },
     "import": {
       "discharge": 14,
@@ -72,8 +92,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 1848,
-    "rsEventsCurrentPeriod": 3,
+    "moveRowsInput": 1846,
+    "rsEventsCurrentPeriod": 7,
     "ttEventsCurrentPeriod": 2
   }
 }
