@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T22:13:28.599Z",
-  "reportReferenceTime": "2026-10-13T22:12:04.000Z",
+  "generatedAt": "2026-10-13T22:18:13.111Z",
+  "reportReferenceTime": "2026-10-13T22:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-57428999.csv",
-      "receivedAt": "2026-10-13T22:12:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_365430017.csv",
+      "receivedAt": "2026-10-13T22:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-35344108.csv",
-      "receivedAt": "2026-10-13T22:12:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-55807401.csv",
+      "receivedAt": "2026-10-13T22:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9511,
+      "occupiedTeus": 9501,
       "capacityTeus": 10955,
-      "occupancyPct": 0.8682
+      "occupancyPct": 0.8673
     },
     "reefer": {
-      "occupiedUnits": 811,
+      "occupiedUnits": 809,
       "capacityPlugs": 1198,
-      "occupancyPct": 0.677
+      "occupancyPct": 0.6753
     },
     "imo": {
       "occupiedTeus": 165,
@@ -38,14 +38,34 @@
     }
   },
   "resources": {
-    "rsInOperation": 3,
-    "ttInOperation": 0
+    "rsInOperation": 5,
+    "ttInOperation": 2
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 21.65,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 23.68,
+    "top": [
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-13T22:01:00.000Z",
+        "lastMove": "2026-10-13T22:11:00.000Z",
+        "productivity": 19.91
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-13T22:01:00.000Z",
+        "lastMove": "2026-10-13T22:11:00.000Z",
+        "productivity": 19.91
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -59,21 +79,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 167,
-      "load": 110,
+      "receival": 168,
+      "load": 113,
       "housekeeping": 118,
-      "housekeepingRatio": 1.07
+      "housekeepingRatio": 1.04
     },
     "import": {
       "discharge": 287,
-      "delivery": 208,
+      "delivery": 211,
       "housekeeping": 129,
-      "housekeepingRatio": 0.62
+      "housekeepingRatio": 0.61
     }
   },
   "stats": {
     "moveRowsInput": 1784,
-    "rsEventsCurrentPeriod": 7,
-    "ttEventsCurrentPeriod": 0
+    "rsEventsCurrentPeriod": 12,
+    "ttEventsCurrentPeriod": 2
   }
 }
