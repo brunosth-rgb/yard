@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T10:23:12.092Z",
-  "reportReferenceTime": "2026-10-14T10:20:06.000Z",
+  "generatedAt": "2026-10-14T10:28:11.585Z",
+  "reportReferenceTime": "2026-10-14T10:24:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_508205613.csv",
-      "receivedAt": "2026-10-14T10:20:07.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-18518438.csv",
+      "receivedAt": "2026-10-14T10:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_866023754.csv",
-      "receivedAt": "2026-10-14T10:20:07.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_268138325.csv",
+      "receivedAt": "2026-10-14T10:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -39,20 +39,29 @@
   },
   "resources": {
     "rsInOperation": 9,
-    "ttInOperation": 7
+    "ttInOperation": 9
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.43,
+    "averageProductivity": 14.09,
     "top": [
       {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 9,
+        "moves": 11,
         "firstMove": "2026-10-14T10:02:00.000Z",
-        "lastMove": "2026-10-14T10:19:00.000Z",
-        "productivity": 29.83
+        "lastMove": "2026-10-14T10:22:00.000Z",
+        "productivity": 29.91
+      },
+      {
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
+        "moves": 11,
+        "firstMove": "2026-10-14T10:01:00.000Z",
+        "lastMove": "2026-10-14T10:23:00.000Z",
+        "productivity": 28.61
       },
       {
         "equipment": "R11",
@@ -61,45 +70,36 @@
         "moves": 9,
         "firstMove": "2026-10-14T10:00:00.000Z",
         "lastMove": "2026-10-14T10:15:00.000Z",
-        "productivity": 26.87
-      },
-      {
-        "equipment": "R01",
-        "login": "JMA",
-        "operator": "JAIRO MARIANO",
-        "moves": 8,
-        "firstMove": "2026-10-14T10:01:00.000Z",
-        "lastMove": "2026-10-14T10:18:00.000Z",
-        "productivity": 25.13
+        "productivity": 22.44
       }
     ],
     "lowest": [
       {
-        "equipment": "R01",
-        "login": "JMA",
-        "operator": "JAIRO MARIANO",
-        "moves": 8,
-        "firstMove": "2026-10-14T10:01:00.000Z",
-        "lastMove": "2026-10-14T10:18:00.000Z",
-        "productivity": 25.13
-      },
-      {
         "equipment": "R11",
         "login": "MUS",
         "operator": "MURILO DA SILVA",
         "moves": 9,
         "firstMove": "2026-10-14T10:00:00.000Z",
         "lastMove": "2026-10-14T10:15:00.000Z",
-        "productivity": 26.87
+        "productivity": 22.44
+      },
+      {
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
+        "moves": 11,
+        "firstMove": "2026-10-14T10:01:00.000Z",
+        "lastMove": "2026-10-14T10:23:00.000Z",
+        "productivity": 28.61
       },
       {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 9,
+        "moves": 11,
         "firstMove": "2026-10-14T10:02:00.000Z",
-        "lastMove": "2026-10-14T10:19:00.000Z",
-        "productivity": 29.83
+        "lastMove": "2026-10-14T10:22:00.000Z",
+        "productivity": 29.91
       }
     ]
   },
@@ -117,30 +117,30 @@
         "login": "SVE",
         "operator": "Silvio Vergilio",
         "moves": 1,
-        "productivity": 3.31,
+        "productivity": 2.72,
         "firstMove": "2026-10-14T10:02:00.000Z",
         "lastMove": "2026-10-14T10:02:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
       },
       {
         "equipment": "TT03",
         "login": "FPR",
         "operator": "FRANCISCO PAULO DA ROCHA",
         "moves": 1,
-        "productivity": 3.31,
+        "productivity": 2.72,
         "firstMove": "2026-10-14T10:02:00.000Z",
         "lastMove": "2026-10-14T10:02:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
       },
       {
         "equipment": "R04",
         "login": "MVF",
         "operator": "MARCOS VITORIO FARIAS",
         "moves": 1,
-        "productivity": 3.73,
+        "productivity": 2.99,
         "firstMove": "2026-10-14T10:04:00.000Z",
         "lastMove": "2026-10-14T10:04:00.000Z",
-        "idleMinutes": 16
+        "idleMinutes": 20
       }
     ]
   },
@@ -152,15 +152,15 @@
       "housekeepingRatio": 0.03
     },
     "import": {
-      "discharge": 359,
-      "delivery": 41,
+      "discharge": 361,
+      "delivery": 44,
       "housekeeping": 238,
-      "housekeepingRatio": 5.8
+      "housekeepingRatio": 5.41
     }
   },
   "stats": {
-    "moveRowsInput": 2543,
-    "rsEventsCurrentPeriod": 36,
-    "ttEventsCurrentPeriod": 9
+    "moveRowsInput": 2544,
+    "rsEventsCurrentPeriod": 41,
+    "ttEventsCurrentPeriod": 11
   }
 }
