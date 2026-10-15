@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T10:13:20.567Z",
-  "reportReferenceTime": "2026-10-15T10:12:04.000Z",
+  "generatedAt": "2026-10-15T10:18:26.378Z",
+  "reportReferenceTime": "2026-10-15T10:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-71452998.csv",
-      "receivedAt": "2026-10-15T10:12:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_675947554.csv",
+      "receivedAt": "2026-10-15T10:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_810509375.csv",
-      "receivedAt": "2026-10-15T10:12:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_457980927.csv",
+      "receivedAt": "2026-10-15T10:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 11247,
+      "occupiedTeus": 11245,
       "capacityTeus": 10955,
-      "occupancyPct": 1.0267
+      "occupancyPct": 1.0265
     },
     "reefer": {
       "occupiedUnits": 740,
@@ -39,31 +39,49 @@
   },
   "resources": {
     "rsInOperation": 5,
-    "ttInOperation": 7
+    "ttInOperation": 9
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 21.53,
+    "averageProductivity": 20.57,
     "top": [
       {
         "equipment": "R11",
         "login": "MUS",
         "operator": "MURILO DA SILVA",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-15T10:00:00.000Z",
-        "lastMove": "2026-10-15T10:09:00.000Z",
-        "productivity": 34.81
+        "lastMove": "2026-10-15T10:14:00.000Z",
+        "productivity": 33.61
+      },
+      {
+        "equipment": "R10",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 6,
+        "firstMove": "2026-10-15T10:02:00.000Z",
+        "lastMove": "2026-10-15T10:15:00.000Z",
+        "productivity": 25.59
       }
     ],
     "lowest": [
       {
+        "equipment": "R10",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 6,
+        "firstMove": "2026-10-15T10:02:00.000Z",
+        "lastMove": "2026-10-15T10:15:00.000Z",
+        "productivity": 25.59
+      },
+      {
         "equipment": "R11",
         "login": "MUS",
         "operator": "MURILO DA SILVA",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-15T10:00:00.000Z",
-        "lastMove": "2026-10-15T10:09:00.000Z",
-        "productivity": 34.81
+        "lastMove": "2026-10-15T10:14:00.000Z",
+        "productivity": 33.61
       }
     ]
   },
@@ -85,15 +103,15 @@
       "housekeepingRatio": 0.51
     },
     "import": {
-      "discharge": 328,
-      "delivery": 90,
+      "discharge": 331,
+      "delivery": 93,
       "housekeeping": 295,
-      "housekeepingRatio": 3.28
+      "housekeepingRatio": 3.17
     }
   },
   "stats": {
-    "moveRowsInput": 2854,
-    "rsEventsCurrentPeriod": 19,
-    "ttEventsCurrentPeriod": 7
+    "moveRowsInput": 2855,
+    "rsEventsCurrentPeriod": 25,
+    "ttEventsCurrentPeriod": 10
   }
 }
