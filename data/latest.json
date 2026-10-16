@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T10:23:13.545Z",
-  "reportReferenceTime": "2026-10-16T10:20:04.000Z",
+  "generatedAt": "2026-10-16T10:28:13.698Z",
+  "reportReferenceTime": "2026-10-16T10:24:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-47273956.csv",
-      "receivedAt": "2026-10-16T10:20:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_602549217.csv",
+      "receivedAt": "2026-10-16T10:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_439088410.csv",
-      "receivedAt": "2026-10-16T10:20:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-13484107.csv",
+      "receivedAt": "2026-10-16T10:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 10005,
+      "occupiedTeus": 10000,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7604
+      "occupancyPct": 0.76
     },
     "reefer": {
       "occupiedUnits": 732,
@@ -43,45 +43,45 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 26.37,
+    "averageProductivity": 25.43,
     "top": [
+      {
+        "equipment": "R09",
+        "login": "VCS",
+        "operator": "VANILDO CAMPOS DA SILVA",
+        "moves": 18,
+        "firstMove": "2026-10-16T10:09:00.000Z",
+        "lastMove": "2026-10-16T10:23:00.000Z",
+        "productivity": 71.76
+      },
       {
         "equipment": "R04",
         "login": "VLP",
         "operator": "VLADEMIR PORTO",
-        "moves": 16,
+        "moves": 18,
         "firstMove": "2026-10-16T10:06:00.000Z",
-        "lastMove": "2026-10-16T10:19:00.000Z",
-        "productivity": 68.25
+        "lastMove": "2026-10-16T10:22:00.000Z",
+        "productivity": 59.83
       },
-      {
-        "equipment": "R09",
-        "login": "VCS",
-        "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 12,
-        "firstMove": "2026-10-16T10:09:00.000Z",
-        "lastMove": "2026-10-16T10:18:00.000Z",
-        "productivity": 65.06
-      },
-      {
-        "equipment": "R02",
-        "login": "IVL",
-        "operator": "IVAN LUIZ DA CRUZ",
-        "moves": 5,
-        "firstMove": "2026-10-16T10:10:00.000Z",
-        "lastMove": "2026-10-16T10:15:00.000Z",
-        "productivity": 29.8
-      }
-    ],
-    "lowest": [
       {
         "equipment": "R10",
         "login": "GCC",
         "operator": "GESIEL CLAUDIONIR CRUZ",
-        "moves": 5,
+        "moves": 9,
         "firstMove": "2026-10-16T10:09:00.000Z",
-        "lastMove": "2026-10-16T10:19:00.000Z",
-        "productivity": 27.11
+        "lastMove": "2026-10-16T10:23:00.000Z",
+        "productivity": 35.88
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R03",
+        "login": "ANE",
+        "operator": "ANTONI NEVES",
+        "moves": 5,
+        "firstMove": "2026-10-16T10:02:00.000Z",
+        "lastMove": "2026-10-16T10:23:00.000Z",
+        "productivity": 13.61
       },
       {
         "equipment": "R02",
@@ -90,16 +90,16 @@
         "moves": 5,
         "firstMove": "2026-10-16T10:10:00.000Z",
         "lastMove": "2026-10-16T10:15:00.000Z",
-        "productivity": 29.8
+        "productivity": 21.35
       },
       {
-        "equipment": "R09",
-        "login": "VCS",
-        "operator": "VANILDO CAMPOS DA SILVA",
-        "moves": 12,
+        "equipment": "R10",
+        "login": "GCC",
+        "operator": "GESIEL CLAUDIONIR CRUZ",
+        "moves": 9,
         "firstMove": "2026-10-16T10:09:00.000Z",
-        "lastMove": "2026-10-16T10:18:00.000Z",
-        "productivity": 65.06
+        "lastMove": "2026-10-16T10:23:00.000Z",
+        "productivity": 35.88
       }
     ]
   },
@@ -113,14 +113,14 @@
     "ttCount": 0,
     "equipment": [
       {
-        "equipment": "R03",
-        "login": "ANE",
-        "operator": "ANTONI NEVES",
-        "moves": 1,
-        "productivity": 3.32,
-        "firstMove": "2026-10-16T10:02:00.000Z",
-        "lastMove": "2026-10-16T10:02:00.000Z",
-        "idleMinutes": 18
+        "equipment": "R12",
+        "login": "CFA",
+        "operator": "CLAUDIO FRANCISCO AMORIM",
+        "moves": 2,
+        "productivity": 6.3,
+        "firstMove": "2026-10-16T10:05:00.000Z",
+        "lastMove": "2026-10-16T10:07:00.000Z",
+        "idleMinutes": 17
       }
     ]
   },
@@ -128,19 +128,19 @@
     "export": {
       "receival": 138,
       "load": 51,
-      "housekeeping": 19,
-      "housekeepingRatio": 0.37
+      "housekeeping": 21,
+      "housekeepingRatio": 0.41
     },
     "import": {
       "discharge": 8,
-      "delivery": 127,
-      "housekeeping": 600,
-      "housekeepingRatio": 4.72
+      "delivery": 128,
+      "housekeeping": 607,
+      "housekeepingRatio": 4.74
     }
   },
   "stats": {
-    "moveRowsInput": 3121,
-    "rsEventsCurrentPeriod": 46,
+    "moveRowsInput": 3124,
+    "rsEventsCurrentPeriod": 65,
     "ttEventsCurrentPeriod": 0
   }
 }
