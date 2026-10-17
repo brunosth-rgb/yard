@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T16:13:18.611Z",
-  "reportReferenceTime": "2026-10-17T16:12:05.000Z",
+  "generatedAt": "2026-10-17T16:18:12.171Z",
+  "reportReferenceTime": "2026-10-17T16:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_445973810.csv",
-      "receivedAt": "2026-10-17T16:12:06.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_797961242.csv",
+      "receivedAt": "2026-10-17T16:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-71751605.csv",
-      "receivedAt": "2026-10-17T16:12:06.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_414754514.csv",
+      "receivedAt": "2026-10-17T16:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -39,13 +39,33 @@
   },
   "resources": {
     "rsInOperation": 5,
-    "ttInOperation": 4
+    "ttInOperation": 5
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 31.58,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 24.52,
+    "top": [
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-17T16:05:00.000Z",
+        "lastMove": "2026-10-17T16:12:00.000Z",
+        "productivity": 27.11
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-17T16:05:00.000Z",
+        "lastMove": "2026-10-17T16:12:00.000Z",
+        "productivity": 27.11
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -54,8 +74,19 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT06",
+        "login": "AMR",
+        "operator": "AMARILDO RICARDO",
+        "moves": 1,
+        "productivity": 3.73,
+        "firstMove": "2026-10-17T16:00:00.000Z",
+        "lastMove": "2026-10-17T16:00:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -65,15 +96,15 @@
       "housekeepingRatio": 0.81
     },
     "import": {
-      "discharge": 132,
-      "delivery": 214,
-      "housekeeping": 733,
-      "housekeepingRatio": 3.43
+      "discharge": 134,
+      "delivery": 218,
+      "housekeeping": 734,
+      "housekeepingRatio": 3.37
     }
   },
   "stats": {
     "moveRowsInput": 2656,
-    "rsEventsCurrentPeriod": 8,
-    "ttEventsCurrentPeriod": 5
+    "rsEventsCurrentPeriod": 16,
+    "ttEventsCurrentPeriod": 7
   }
 }
