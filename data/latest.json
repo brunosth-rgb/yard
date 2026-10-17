@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T11:58:44.135Z",
-  "reportReferenceTime": "2026-10-17T11:56:05.000Z",
+  "generatedAt": "2026-10-17T12:03:11.986Z",
+  "reportReferenceTime": "2026-10-17T12:00:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-25375841.csv",
-      "receivedAt": "2026-10-17T11:56:06.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-21545991.csv",
+      "receivedAt": "2026-10-17T12:00:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-71545096.csv",
-      "receivedAt": "2026-10-17T11:56:06.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-40390192.csv",
+      "receivedAt": "2026-10-17T12:00:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9894,
+      "occupiedTeus": 9888,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7519
+      "occupancyPct": 0.7515
     },
     "reefer": {
       "occupiedUnits": 766,
@@ -43,25 +43,25 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 16.52,
+    "averageProductivity": 16.45,
     "top": [
       {
         "equipment": "R09",
         "login": "LEJ",
         "operator": "LUIS EWERTON DE JESUS",
-        "moves": 57,
+        "moves": 59,
         "firstMove": "2026-10-17T10:10:00.000Z",
-        "lastMove": "2026-10-17T11:55:00.000Z",
-        "productivity": 32.24
+        "lastMove": "2026-10-17T11:56:00.000Z",
+        "productivity": 32.16
       },
       {
         "equipment": "R03",
         "login": "GGN",
         "operator": "GERSON GENESIO NASCIMENTO",
-        "moves": 47,
+        "moves": 51,
         "firstMove": "2026-10-17T10:13:00.000Z",
-        "lastMove": "2026-10-17T11:52:00.000Z",
-        "productivity": 27.36
+        "lastMove": "2026-10-17T11:59:00.000Z",
+        "productivity": 28.58
       },
       {
         "equipment": "R08",
@@ -70,7 +70,7 @@
         "moves": 34,
         "firstMove": "2026-10-17T10:29:00.000Z",
         "lastMove": "2026-10-17T11:34:00.000Z",
-        "productivity": 23.43
+        "productivity": 22.4
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 7,
         "firstMove": "2026-10-17T10:34:00.000Z",
         "lastMove": "2026-10-17T11:44:00.000Z",
-        "productivity": 5.12
+        "productivity": 4.88
       },
       {
         "equipment": "R12",
@@ -90,7 +90,7 @@
         "moves": 9,
         "firstMove": "2026-10-17T10:14:00.000Z",
         "lastMove": "2026-10-17T11:39:00.000Z",
-        "productivity": 5.29
+        "productivity": 5.09
       },
       {
         "equipment": "R11",
@@ -99,7 +99,7 @@
         "moves": 8,
         "firstMove": "2026-10-17T10:31:00.000Z",
         "lastMove": "2026-10-17T11:55:00.000Z",
-        "productivity": 5.64
+        "productivity": 5.39
       }
     ]
   },
@@ -109,7 +109,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 2,
+    "rsCount": 4,
     "ttCount": 0,
     "equipment": [
       {
@@ -117,20 +117,40 @@
         "login": "EJD",
         "operator": "EDILTO JOSE DIAS",
         "moves": 34,
-        "productivity": 23.43,
+        "productivity": 22.4,
         "firstMove": "2026-10-17T10:29:00.000Z",
         "lastMove": "2026-10-17T11:34:00.000Z",
-        "idleMinutes": 22
+        "idleMinutes": 26
       },
       {
         "equipment": "R12",
         "login": "MOV",
         "operator": "MOISES VIEIRA",
         "moves": 9,
-        "productivity": 5.29,
+        "productivity": 5.09,
         "firstMove": "2026-10-17T10:14:00.000Z",
         "lastMove": "2026-10-17T11:39:00.000Z",
-        "idleMinutes": 17
+        "idleMinutes": 21
+      },
+      {
+        "equipment": "R07",
+        "login": "MRM",
+        "operator": "MARCOS ROBERTO MAFRA",
+        "moves": 30,
+        "productivity": 16.66,
+        "firstMove": "2026-10-17T10:12:00.000Z",
+        "lastMove": "2026-10-17T11:42:00.000Z",
+        "idleMinutes": 18
+      },
+      {
+        "equipment": "R02",
+        "login": "JDG",
+        "operator": "JUVENAL DUTRA GARCIA JR",
+        "moves": 7,
+        "productivity": 4.88,
+        "firstMove": "2026-10-17T10:34:00.000Z",
+        "lastMove": "2026-10-17T11:44:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -144,13 +164,13 @@
     "import": {
       "discharge": 21,
       "delivery": 108,
-      "housekeeping": 636,
-      "housekeepingRatio": 5.89
+      "housekeeping": 645,
+      "housekeepingRatio": 5.97
     }
   },
   "stats": {
-    "moveRowsInput": 2689,
-    "rsEventsCurrentPeriod": 216,
+    "moveRowsInput": 2688,
+    "rsEventsCurrentPeriod": 224,
     "ttEventsCurrentPeriod": 0
   }
 }
