@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T22:13:12.645Z",
-  "reportReferenceTime": "2026-10-17T22:12:04.000Z",
+  "generatedAt": "2026-10-17T22:18:12.104Z",
+  "reportReferenceTime": "2026-10-17T22:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_731551593.csv",
-      "receivedAt": "2026-10-17T22:12:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-86069666.csv",
+      "receivedAt": "2026-10-17T22:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-60007301.csv",
-      "receivedAt": "2026-10-17T22:12:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_579280054.csv",
+      "receivedAt": "2026-10-17T22:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9879,
+      "occupiedTeus": 9869,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7508
+      "occupancyPct": 0.75
     },
     "reefer": {
       "occupiedUnits": 717,
@@ -39,13 +39,33 @@
   },
   "resources": {
     "rsInOperation": 6,
-    "ttInOperation": 1
+    "ttInOperation": 4
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 16.51,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 17.75,
+    "top": [
+      {
+        "equipment": "R10",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 8,
+        "firstMove": "2026-10-17T22:06:00.000Z",
+        "lastMove": "2026-10-17T22:15:00.000Z",
+        "productivity": 47.68
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R10",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 8,
+        "firstMove": "2026-10-17T22:06:00.000Z",
+        "lastMove": "2026-10-17T22:15:00.000Z",
+        "productivity": 47.68
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -60,20 +80,20 @@
   "dailyFlows": {
     "export": {
       "receival": 169,
-      "load": 305,
+      "load": 308,
       "housekeeping": 66,
-      "housekeepingRatio": 0.22
+      "housekeepingRatio": 0.21
     },
     "import": {
       "discharge": 333,
-      "delivery": 306,
-      "housekeeping": 795,
+      "delivery": 308,
+      "housekeeping": 800,
       "housekeepingRatio": 2.6
     }
   },
   "stats": {
-    "moveRowsInput": 2647,
-    "rsEventsCurrentPeriod": 11,
-    "ttEventsCurrentPeriod": 1
+    "moveRowsInput": 2650,
+    "rsEventsCurrentPeriod": 19,
+    "ttEventsCurrentPeriod": 4
   }
 }
