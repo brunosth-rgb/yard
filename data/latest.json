@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T22:23:12.576Z",
-  "reportReferenceTime": "2026-10-17T22:20:04.000Z",
+  "generatedAt": "2026-10-17T22:28:13.155Z",
+  "reportReferenceTime": "2026-10-17T22:24:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_757064641.csv",
-      "receivedAt": "2026-10-17T22:20:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-83534645.csv",
+      "receivedAt": "2026-10-17T22:24:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_589022163.csv",
-      "receivedAt": "2026-10-17T22:20:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_444995130.csv",
+      "receivedAt": "2026-10-17T22:24:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,30 +38,39 @@
     }
   },
   "resources": {
-    "rsInOperation": 6,
-    "ttInOperation": 4
+    "rsInOperation": 7,
+    "ttInOperation": 7
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 14.28,
+    "averageProductivity": 20.39,
     "top": [
+      {
+        "equipment": "R11",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 15,
+        "firstMove": "2026-10-17T22:02:00.000Z",
+        "lastMove": "2026-10-17T22:22:00.000Z",
+        "productivity": 40.79
+      },
       {
         "equipment": "R10",
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
-        "moves": 8,
+        "moves": 11,
         "firstMove": "2026-10-17T22:06:00.000Z",
-        "lastMove": "2026-10-17T22:15:00.000Z",
-        "productivity": 34.12
+        "lastMove": "2026-10-17T22:22:00.000Z",
+        "productivity": 36.53
       },
       {
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 5,
+        "moves": 9,
         "firstMove": "2026-10-17T22:06:00.000Z",
-        "lastMove": "2026-10-17T22:19:00.000Z",
-        "productivity": 21.33
+        "lastMove": "2026-10-17T22:23:00.000Z",
+        "productivity": 29.89
       }
     ],
     "lowest": [
@@ -69,19 +78,28 @@
         "equipment": "R03",
         "login": "HRS",
         "operator": "HERIVELTO RAMON DA SILVA",
-        "moves": 5,
+        "moves": 9,
         "firstMove": "2026-10-17T22:06:00.000Z",
-        "lastMove": "2026-10-17T22:19:00.000Z",
-        "productivity": 21.33
+        "lastMove": "2026-10-17T22:23:00.000Z",
+        "productivity": 29.89
       },
       {
         "equipment": "R10",
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
-        "moves": 8,
+        "moves": 11,
         "firstMove": "2026-10-17T22:06:00.000Z",
-        "lastMove": "2026-10-17T22:15:00.000Z",
-        "productivity": 34.12
+        "lastMove": "2026-10-17T22:22:00.000Z",
+        "productivity": 36.53
+      },
+      {
+        "equipment": "R11",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 15,
+        "firstMove": "2026-10-17T22:02:00.000Z",
+        "lastMove": "2026-10-17T22:22:00.000Z",
+        "productivity": 40.79
       }
     ]
   },
@@ -91,48 +109,48 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 2,
-    "ttCount": 0,
+    "rsCount": 1,
+    "ttCount": 1,
     "equipment": [
-      {
-        "equipment": "R11",
-        "login": "MUS",
-        "operator": "MURILO DA SILVA",
-        "moves": 2,
-        "productivity": 6.64,
-        "firstMove": "2026-10-17T22:02:00.000Z",
-        "lastMove": "2026-10-17T22:02:00.000Z",
-        "idleMinutes": 18
-      },
       {
         "equipment": "R05",
         "login": "FBP",
         "operator": "FERNANDO BARBOZA PEREIRA",
         "moves": 1,
-        "productivity": 3.52,
+        "productivity": 2.85,
         "firstMove": "2026-10-17T22:03:00.000Z",
         "lastMove": "2026-10-17T22:03:00.000Z",
-        "idleMinutes": 17
+        "idleMinutes": 21
+      },
+      {
+        "equipment": "TT12",
+        "login": "RSL",
+        "operator": "RUAN DOS SANTOS LUCIANO",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-10-17T22:06:00.000Z",
+        "lastMove": "2026-10-17T22:06:00.000Z",
+        "idleMinutes": 18
       }
     ]
   },
   "dailyFlows": {
     "export": {
       "receival": 169,
-      "load": 309,
+      "load": 310,
       "housekeeping": 66,
       "housekeepingRatio": 0.21
     },
     "import": {
-      "discharge": 333,
-      "delivery": 308,
-      "housekeeping": 801,
+      "discharge": 334,
+      "delivery": 311,
+      "housekeeping": 810,
       "housekeepingRatio": 2.6
     }
   },
   "stats": {
-    "moveRowsInput": 2644,
-    "rsEventsCurrentPeriod": 21,
-    "ttEventsCurrentPeriod": 4
+    "moveRowsInput": 2657,
+    "rsEventsCurrentPeriod": 45,
+    "ttEventsCurrentPeriod": 7
   }
 }
