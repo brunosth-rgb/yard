@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T11:13:15.123Z",
-  "reportReferenceTime": "2026-10-20T11:12:04.000Z",
+  "generatedAt": "2026-10-20T11:18:19.858Z",
+  "reportReferenceTime": "2026-10-20T11:16:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_805384254.csv",
-      "receivedAt": "2026-10-20T11:12:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_646921025.csv",
+      "receivedAt": "2026-10-20T11:16:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_826657706.csv",
-      "receivedAt": "2026-10-20T11:12:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-83056458.csv",
+      "receivedAt": "2026-10-20T11:16:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8191,
+      "occupiedTeus": 8184,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6225
+      "occupancyPct": 0.622
     },
     "reefer": {
       "occupiedUnits": 518,
@@ -32,9 +32,9 @@
       "occupancyPct": 0.3648
     },
     "imo": {
-      "occupiedTeus": 227,
+      "occupiedTeus": 225,
       "capacityTeus": 254,
-      "occupancyPct": 0.8937
+      "occupancyPct": 0.8858
     }
   },
   "resources": {
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 18.73,
+    "averageProductivity": 17.55,
     "top": [
       {
         "equipment": "R04",
@@ -52,7 +52,7 @@
         "moves": 56,
         "firstMove": "2026-10-20T10:09:00.000Z",
         "lastMove": "2026-10-20T11:07:00.000Z",
-        "productivity": 53.28
+        "productivity": 50.11
       },
       {
         "equipment": "R07",
@@ -61,7 +61,7 @@
         "moves": 40,
         "firstMove": "2026-10-20T10:19:00.000Z",
         "lastMove": "2026-10-20T11:07:00.000Z",
-        "productivity": 45.23
+        "productivity": 42.07
       },
       {
         "equipment": "R05",
@@ -70,7 +70,7 @@
         "moves": 40,
         "firstMove": "2026-10-20T10:16:00.000Z",
         "lastMove": "2026-10-20T11:02:00.000Z",
-        "productivity": 42.81
+        "productivity": 39.97
       }
     ],
     "lowest": [
@@ -81,7 +81,7 @@
         "moves": 5,
         "firstMove": "2026-10-20T10:09:00.000Z",
         "lastMove": "2026-10-20T10:37:00.000Z",
-        "productivity": 4.76
+        "productivity": 4.47
       },
       {
         "equipment": "R06",
@@ -90,7 +90,7 @@
         "moves": 10,
         "firstMove": "2026-10-20T10:01:00.000Z",
         "lastMove": "2026-10-20T11:02:00.000Z",
-        "productivity": 8.44
+        "productivity": 7.99
       },
       {
         "equipment": "R11",
@@ -99,7 +99,7 @@
         "moves": 11,
         "firstMove": "2026-10-20T10:11:00.000Z",
         "lastMove": "2026-10-20T11:02:00.000Z",
-        "productivity": 10.81
+        "productivity": 10.15
       }
     ]
   },
@@ -112,7 +112,7 @@
         "moves": 5,
         "firstMove": "2026-10-20T10:36:00.000Z",
         "lastMove": "2026-10-20T11:05:00.000Z",
-        "productivity": 8.32
+        "productivity": 7.49
       }
     ],
     "lowest": [
@@ -123,34 +123,74 @@
         "moves": 5,
         "firstMove": "2026-10-20T10:36:00.000Z",
         "lastMove": "2026-10-20T11:05:00.000Z",
-        "productivity": 8.32
+        "productivity": 7.49
       }
     ]
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
-    "ttCount": 1,
+    "rsCount": 2,
+    "ttCount": 4,
     "equipment": [
       {
         "equipment": "R08",
         "login": "CGB",
         "operator": "CLAUDIO GENEDIR BAUNGARTN",
         "moves": 5,
-        "productivity": 4.76,
+        "productivity": 4.47,
         "firstMove": "2026-10-20T10:09:00.000Z",
         "lastMove": "2026-10-20T10:37:00.000Z",
-        "idleMinutes": 35
+        "idleMinutes": 39
       },
       {
         "equipment": "TT08",
         "login": "FJS",
         "operator": "FJS",
         "moves": 1,
-        "productivity": 3.52,
+        "productivity": 2.85,
         "firstMove": "2026-10-20T10:55:00.000Z",
         "lastMove": "2026-10-20T10:55:00.000Z",
+        "idleMinutes": 21
+      },
+      {
+        "equipment": "TT12",
+        "login": "ERV",
+        "operator": "EDUARDO RAMOS VIGO",
+        "moves": 2,
+        "productivity": 6.3,
+        "firstMove": "2026-10-20T10:57:00.000Z",
+        "lastMove": "2026-10-20T10:59:00.000Z",
         "idleMinutes": 17
+      },
+      {
+        "equipment": "TT18",
+        "login": "ULS",
+        "operator": "ULS",
+        "moves": 3,
+        "productivity": 4.86,
+        "firstMove": "2026-10-20T10:39:00.000Z",
+        "lastMove": "2026-10-20T10:59:00.000Z",
+        "idleMinutes": 17
+      },
+      {
+        "equipment": "R12",
+        "login": "CFA",
+        "operator": "CLAUDIO FRANCISCO AMORIM",
+        "moves": 3,
+        "productivity": 3.67,
+        "firstMove": "2026-10-20T10:27:00.000Z",
+        "lastMove": "2026-10-20T11:00:00.000Z",
+        "idleMinutes": 16
+      },
+      {
+        "equipment": "TT19",
+        "login": "WRM",
+        "operator": "WESLEY RODRIGO MORAES",
+        "moves": 3,
+        "productivity": 7.48,
+        "firstMove": "2026-10-20T10:52:00.000Z",
+        "lastMove": "2026-10-20T11:00:00.000Z",
+        "idleMinutes": 16
       }
     ]
   },
@@ -169,7 +209,7 @@
     }
   },
   "stats": {
-    "moveRowsInput": 2842,
+    "moveRowsInput": 2838,
     "rsEventsCurrentPeriod": 206,
     "ttEventsCurrentPeriod": 19
   }
