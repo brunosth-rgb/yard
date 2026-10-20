@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T10:43:12.626Z",
-  "reportReferenceTime": "2026-10-20T10:40:04.000Z",
+  "generatedAt": "2026-10-20T10:48:12.161Z",
+  "reportReferenceTime": "2026-10-20T10:44:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_260481772.csv",
-      "receivedAt": "2026-10-20T10:40:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_836000252.csv",
+      "receivedAt": "2026-10-20T10:44:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_538666046.csv",
-      "receivedAt": "2026-10-20T10:40:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-12550731.csv",
+      "receivedAt": "2026-10-20T10:44:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,34 +43,34 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 20.67,
+    "averageProductivity": 19.99,
     "top": [
       {
         "equipment": "R05",
         "login": "SIR",
         "operator": "SILVANO IRINEU FERREIRA",
-        "moves": 24,
+        "moves": 28,
         "firstMove": "2026-10-20T10:16:00.000Z",
-        "lastMove": "2026-10-20T10:37:00.000Z",
-        "productivity": 59.83
+        "lastMove": "2026-10-20T10:42:00.000Z",
+        "productivity": 59.89
       },
       {
         "equipment": "R07",
         "login": "RMB",
         "operator": "RICARDO MAURINO BORBA SOU",
-        "moves": 20,
+        "moves": 22,
         "firstMove": "2026-10-20T10:19:00.000Z",
-        "lastMove": "2026-10-20T10:39:00.000Z",
-        "productivity": 56.96
+        "lastMove": "2026-10-20T10:41:00.000Z",
+        "productivity": 52.69
       },
       {
         "equipment": "R04",
         "login": "VLP",
         "operator": "VLADEMIR PORTO",
-        "moves": 23,
+        "moves": 25,
         "firstMove": "2026-10-20T10:09:00.000Z",
-        "lastMove": "2026-10-20T10:39:00.000Z",
-        "productivity": 44.42
+        "lastMove": "2026-10-20T10:42:00.000Z",
+        "productivity": 42.8
       }
     ],
     "lowest": [
@@ -81,7 +81,16 @@
         "moves": 5,
         "firstMove": "2026-10-20T10:09:00.000Z",
         "lastMove": "2026-10-20T10:37:00.000Z",
-        "productivity": 9.66
+        "productivity": 8.56
+      },
+      {
+        "equipment": "R11",
+        "login": "MJR",
+        "operator": "MARCIO JOSE REBELLO",
+        "moves": 6,
+        "firstMove": "2026-10-20T10:11:00.000Z",
+        "lastMove": "2026-10-20T10:41:00.000Z",
+        "productivity": 10.89
       },
       {
         "equipment": "R06",
@@ -90,16 +99,7 @@
         "moves": 8,
         "firstMove": "2026-10-20T10:01:00.000Z",
         "lastMove": "2026-10-20T10:31:00.000Z",
-        "productivity": 12.29
-      },
-      {
-        "equipment": "R03",
-        "login": "LAT",
-        "operator": "LUCIMAR ARY TABALIPA",
-        "moves": 9,
-        "firstMove": "2026-10-20T10:01:00.000Z",
-        "lastMove": "2026-10-20T10:33:00.000Z",
-        "productivity": 13.82
+        "productivity": 11.15
       }
     ]
   },
@@ -109,7 +109,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 2,
+    "rsCount": 3,
     "ttCount": 0,
     "equipment": [
       {
@@ -117,20 +117,30 @@
         "login": "LLI",
         "operator": "LUCIANO LIMA",
         "moves": 1,
-        "productivity": 1.54,
+        "productivity": 1.39,
         "firstMove": "2026-10-20T10:01:00.000Z",
         "lastMove": "2026-10-20T10:01:00.000Z",
-        "idleMinutes": 39
+        "idleMinutes": 43
       },
       {
         "equipment": "R01",
         "login": "SRS",
         "operator": "SANDRO ROBERTO DA SILVA",
         "moves": 2,
-        "productivity": 3.15,
+        "productivity": 2.85,
         "firstMove": "2026-10-20T10:02:00.000Z",
         "lastMove": "2026-10-20T10:15:00.000Z",
-        "idleMinutes": 25
+        "idleMinutes": 29
+      },
+      {
+        "equipment": "R12",
+        "login": "CFA",
+        "operator": "CLAUDIO FRANCISCO AMORIM",
+        "moves": 2,
+        "productivity": 7.04,
+        "firstMove": "2026-10-20T10:27:00.000Z",
+        "lastMove": "2026-10-20T10:27:00.000Z",
+        "idleMinutes": 17
       }
     ]
   },
@@ -138,19 +148,19 @@
     "export": {
       "receival": 140,
       "load": 166,
-      "housekeeping": 34,
-      "housekeepingRatio": 0.2
+      "housekeeping": 35,
+      "housekeepingRatio": 0.21
     },
     "import": {
       "discharge": 5,
       "delivery": 60,
-      "housekeeping": 661,
-      "housekeepingRatio": 11.02
+      "housekeeping": 665,
+      "housekeepingRatio": 11.08
     }
   },
   "stats": {
     "moveRowsInput": 2831,
-    "rsEventsCurrentPeriod": 102,
+    "rsEventsCurrentPeriod": 114,
     "ttEventsCurrentPeriod": 3
   }
 }
