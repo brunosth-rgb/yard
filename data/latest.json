@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T16:33:39.916Z",
-  "reportReferenceTime": "2026-10-20T16:32:03.000Z",
+  "generatedAt": "2026-10-20T16:38:16.799Z",
+  "reportReferenceTime": "2026-10-20T16:36:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_112432697.csv",
-      "receivedAt": "2026-10-20T16:32:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_676163061.csv",
+      "receivedAt": "2026-10-20T16:36:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_642743124.csv",
-      "receivedAt": "2026-10-20T16:32:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_811466607.csv",
+      "receivedAt": "2026-10-20T16:36:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8058,
+      "occupiedTeus": 8056,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6124
+      "occupancyPct": 0.6123
     },
     "reefer": {
       "occupiedUnits": 543,
@@ -39,20 +39,20 @@
   },
   "resources": {
     "rsInOperation": 8,
-    "ttInOperation": 0
+    "ttInOperation": 1
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 12.91,
+    "averageProductivity": 10.88,
     "top": [
       {
         "equipment": "R10",
         "login": "RSI",
         "operator": "ROGERIO DA SILVA",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-20T16:18:00.000Z",
-        "lastMove": "2026-10-20T16:30:00.000Z",
-        "productivity": 21.35
+        "lastMove": "2026-10-20T16:34:00.000Z",
+        "productivity": 19.94
       },
       {
         "equipment": "R12",
@@ -61,7 +61,7 @@
         "moves": 6,
         "firstMove": "2026-10-20T16:03:00.000Z",
         "lastMove": "2026-10-20T16:27:00.000Z",
-        "productivity": 12.39
+        "productivity": 10.89
       }
     ],
     "lowest": [
@@ -72,16 +72,16 @@
         "moves": 6,
         "firstMove": "2026-10-20T16:03:00.000Z",
         "lastMove": "2026-10-20T16:27:00.000Z",
-        "productivity": 12.39
+        "productivity": 10.89
       },
       {
         "equipment": "R10",
         "login": "RSI",
         "operator": "ROGERIO DA SILVA",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-20T16:18:00.000Z",
-        "lastMove": "2026-10-20T16:30:00.000Z",
-        "productivity": 21.35
+        "lastMove": "2026-10-20T16:34:00.000Z",
+        "productivity": 19.94
       }
     ]
   },
@@ -91,20 +91,9 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
+    "rsCount": 0,
     "ttCount": 0,
-    "equipment": [
-      {
-        "equipment": "R07",
-        "login": "MRM",
-        "operator": "MARCOS ROBERTO MAFRA",
-        "moves": 3,
-        "productivity": 7.19,
-        "firstMove": "2026-10-20T16:07:00.000Z",
-        "lastMove": "2026-10-20T16:13:00.000Z",
-        "idleMinutes": 19
-      }
-    ]
+    "equipment": []
   },
   "dailyFlows": {
     "export": {
@@ -115,14 +104,14 @@
     },
     "import": {
       "discharge": 5,
-      "delivery": 197,
+      "delivery": 200,
       "housekeeping": 890,
-      "housekeepingRatio": 4.52
+      "housekeepingRatio": 4.45
     }
   },
   "stats": {
-    "moveRowsInput": 2844,
-    "rsEventsCurrentPeriod": 27,
-    "ttEventsCurrentPeriod": 0
+    "moveRowsInput": 2845,
+    "rsEventsCurrentPeriod": 31,
+    "ttEventsCurrentPeriod": 1
   }
 }
