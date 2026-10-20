@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T04:18:51.097Z",
-  "reportReferenceTime": "2026-10-20T04:16:04.000Z",
+  "generatedAt": "2026-10-20T04:23:28.170Z",
+  "reportReferenceTime": "2026-10-20T04:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-23459980.csv",
-      "receivedAt": "2026-10-20T04:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_694120815.csv",
+      "receivedAt": "2026-10-20T04:20:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_696576004.csv",
-      "receivedAt": "2026-10-20T04:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_427954158.csv",
+      "receivedAt": "2026-10-20T04:20:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -38,14 +38,52 @@
     }
   },
   "resources": {
-    "rsInOperation": 5,
+    "rsInOperation": 7,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 28.83,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 25.69,
+    "top": [
+      {
+        "equipment": "R07",
+        "login": "CMI",
+        "operator": "CIRLESIO DE MIRANDA",
+        "moves": 6,
+        "firstMove": "2026-10-20T04:13:00.000Z",
+        "lastMove": "2026-10-20T04:18:00.000Z",
+        "productivity": 50.94
+      },
+      {
+        "equipment": "R03",
+        "login": "HRS",
+        "operator": "HERIVELTO RAMON DA SILVA",
+        "moves": 8,
+        "firstMove": "2026-10-20T04:09:00.000Z",
+        "lastMove": "2026-10-20T04:19:00.000Z",
+        "productivity": 43.37
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R03",
+        "login": "HRS",
+        "operator": "HERIVELTO RAMON DA SILVA",
+        "moves": 8,
+        "firstMove": "2026-10-20T04:09:00.000Z",
+        "lastMove": "2026-10-20T04:19:00.000Z",
+        "productivity": 43.37
+      },
+      {
+        "equipment": "R07",
+        "login": "CMI",
+        "operator": "CIRLESIO DE MIRANDA",
+        "moves": 6,
+        "firstMove": "2026-10-20T04:13:00.000Z",
+        "lastMove": "2026-10-20T04:18:00.000Z",
+        "productivity": 50.94
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -53,9 +91,20 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R11",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 3,
+        "productivity": 8.97,
+        "firstMove": "2026-10-20T04:00:00.000Z",
+        "lastMove": "2026-10-20T04:03:00.000Z",
+        "idleMinutes": 17
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -66,14 +115,14 @@
     },
     "import": {
       "discharge": 5,
-      "delivery": 7,
-      "housekeeping": 34,
-      "housekeepingRatio": 4.86
+      "delivery": 8,
+      "housekeeping": 38,
+      "housekeepingRatio": 4.75
     }
   },
   "stats": {
-    "moveRowsInput": 2392,
-    "rsEventsCurrentPeriod": 14,
+    "moveRowsInput": 2389,
+    "rsEventsCurrentPeriod": 23,
     "ttEventsCurrentPeriod": 0
   }
 }
