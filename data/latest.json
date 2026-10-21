@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T23:03:12.791Z",
-  "reportReferenceTime": "2026-10-21T23:00:05.000Z",
+  "generatedAt": "2026-10-21T23:08:19.880Z",
+  "reportReferenceTime": "2026-10-21T23:04:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-63011745.csv",
-      "receivedAt": "2026-10-21T23:00:06.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_561366384.csv",
+      "receivedAt": "2026-10-21T23:04:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_881506959.csv",
-      "receivedAt": "2026-10-21T23:00:06.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_666125106.csv",
+      "receivedAt": "2026-10-21T23:04:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8764,
+      "occupiedTeus": 8762,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6661
+      "occupancyPct": 0.6659
     },
     "reefer": {
       "occupiedUnits": 455,
@@ -43,7 +43,7 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 9.35,
+    "averageProductivity": 9.11,
     "top": [
       {
         "equipment": "R11",
@@ -52,7 +52,7 @@
         "moves": 19,
         "firstMove": "2026-10-21T22:14:00.000Z",
         "lastMove": "2026-10-21T22:58:00.000Z",
-        "productivity": 24.74
+        "productivity": 22.77
       },
       {
         "equipment": "R08",
@@ -61,7 +61,7 @@
         "moves": 10,
         "firstMove": "2026-10-21T22:25:00.000Z",
         "lastMove": "2026-10-21T22:58:00.000Z",
-        "productivity": 17.1
+        "productivity": 15.36
       },
       {
         "equipment": "R09",
@@ -70,18 +70,27 @@
         "moves": 6,
         "firstMove": "2026-10-21T22:34:00.000Z",
         "lastMove": "2026-10-21T22:41:00.000Z",
-        "productivity": 13.8
+        "productivity": 11.97
       }
     ],
     "lowest": [
       {
+        "equipment": "R04",
+        "login": "LSL",
+        "operator": "LEANDRO SANTANA LOPES",
+        "moves": 5,
+        "firstMove": "2026-10-21T22:05:00.000Z",
+        "lastMove": "2026-10-21T23:01:00.000Z",
+        "productivity": 5.08
+      },
+      {
         "equipment": "R02",
         "login": "NLJ",
         "operator": "NILO JUNGLOS",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-21T22:17:00.000Z",
-        "lastMove": "2026-10-21T22:57:00.000Z",
-        "productivity": 6.96
+        "lastMove": "2026-10-21T22:59:00.000Z",
+        "productivity": 7.65
       },
       {
         "equipment": "R07",
@@ -90,16 +99,7 @@
         "moves": 11,
         "firstMove": "2026-10-21T22:02:00.000Z",
         "lastMove": "2026-10-21T22:56:00.000Z",
-        "productivity": 11.36
-      },
-      {
-        "equipment": "R09",
-        "login": "AHN",
-        "operator": "ANTONIO HENRIQUE SILVA NE",
-        "moves": 6,
-        "firstMove": "2026-10-21T22:34:00.000Z",
-        "lastMove": "2026-10-21T22:41:00.000Z",
-        "productivity": 13.8
+        "productivity": 10.63
       }
     ]
   },
@@ -109,48 +109,18 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 4,
+    "rsCount": 1,
     "ttCount": 0,
     "equipment": [
-      {
-        "equipment": "R10",
-        "login": "RSI",
-        "operator": "ROGERIO DA SILVA",
-        "moves": 3,
-        "productivity": 3.15,
-        "firstMove": "2026-10-21T22:03:00.000Z",
-        "lastMove": "2026-10-21T22:15:00.000Z",
-        "idleMinutes": 45
-      },
-      {
-        "equipment": "R03",
-        "login": "RSA",
-        "operator": "ROBERTO JOSE SALES",
-        "moves": 2,
-        "productivity": 2.92,
-        "firstMove": "2026-10-21T22:19:00.000Z",
-        "lastMove": "2026-10-21T22:30:00.000Z",
-        "idleMinutes": 30
-      },
-      {
-        "equipment": "R04",
-        "login": "LSL",
-        "operator": "LEANDRO SANTANA LOPES",
-        "moves": 4,
-        "productivity": 4.36,
-        "firstMove": "2026-10-21T22:05:00.000Z",
-        "lastMove": "2026-10-21T22:31:00.000Z",
-        "idleMinutes": 29
-      },
       {
         "equipment": "R09",
         "login": "AHN",
         "operator": "ANTONIO HENRIQUE SILVA NE",
         "moves": 6,
-        "productivity": 13.8,
+        "productivity": 11.97,
         "firstMove": "2026-10-21T22:34:00.000Z",
         "lastMove": "2026-10-21T22:41:00.000Z",
-        "idleMinutes": 19
+        "idleMinutes": 23
       }
     ]
   },
@@ -158,19 +128,19 @@
     "export": {
       "receival": 481,
       "load": 183,
-      "housekeeping": 156,
-      "housekeepingRatio": 0.85
+      "housekeeping": 157,
+      "housekeepingRatio": 0.86
     },
     "import": {
       "discharge": 448,
-      "delivery": 282,
+      "delivery": 285,
       "housekeeping": 885,
-      "housekeepingRatio": 3.14
+      "housekeepingRatio": 3.11
     }
   },
   "stats": {
-    "moveRowsInput": 3123,
-    "rsEventsCurrentPeriod": 67,
-    "ttEventsCurrentPeriod": 1
+    "moveRowsInput": 3119,
+    "rsEventsCurrentPeriod": 72,
+    "ttEventsCurrentPeriod": 2
   }
 }
