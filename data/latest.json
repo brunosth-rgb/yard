@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T16:13:18.074Z",
-  "reportReferenceTime": "2026-10-22T16:12:05.000Z",
+  "generatedAt": "2026-10-22T16:19:26.619Z",
+  "reportReferenceTime": "2026-10-22T16:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-56794064.csv",
-      "receivedAt": "2026-10-22T16:12:06.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_333502584.csv",
+      "receivedAt": "2026-10-22T16:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_485868785.csv",
-      "receivedAt": "2026-10-22T16:12:06.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_174374657.csv",
+      "receivedAt": "2026-10-22T16:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9373,
+      "occupiedTeus": 9368,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7123
+      "occupancyPct": 0.712
     },
     "reefer": {
       "occupiedUnits": 546,
@@ -38,21 +38,30 @@
     }
   },
   "resources": {
-    "rsInOperation": 6,
-    "ttInOperation": 3
+    "rsInOperation": 7,
+    "ttInOperation": 4
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 35.06,
+    "averageProductivity": 34.65,
     "top": [
+      {
+        "equipment": "R10",
+        "login": "RSI",
+        "operator": "ROGERIO DA SILVA",
+        "moves": 5,
+        "firstMove": "2026-10-22T16:09:00.000Z",
+        "lastMove": "2026-10-22T16:13:00.000Z",
+        "productivity": 42.45
+      },
       {
         "equipment": "R01",
         "login": "FJL",
         "operator": "FABIANO JOSE LIMA",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-22T16:00:00.000Z",
-        "lastMove": "2026-10-22T16:09:00.000Z",
-        "productivity": 34.76
+        "lastMove": "2026-10-22T16:14:00.000Z",
+        "productivity": 33.61
       },
       {
         "equipment": "R09",
@@ -61,7 +70,7 @@
         "moves": 5,
         "firstMove": "2026-10-22T16:00:00.000Z",
         "lastMove": "2026-10-22T16:08:00.000Z",
-        "productivity": 24.83
+        "productivity": 18.67
       }
     ],
     "lowest": [
@@ -72,16 +81,25 @@
         "moves": 5,
         "firstMove": "2026-10-22T16:00:00.000Z",
         "lastMove": "2026-10-22T16:08:00.000Z",
-        "productivity": 24.83
+        "productivity": 18.67
       },
       {
         "equipment": "R01",
         "login": "FJL",
         "operator": "FABIANO JOSE LIMA",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-22T16:00:00.000Z",
-        "lastMove": "2026-10-22T16:09:00.000Z",
-        "productivity": 34.76
+        "lastMove": "2026-10-22T16:14:00.000Z",
+        "productivity": 33.61
+      },
+      {
+        "equipment": "R10",
+        "login": "RSI",
+        "operator": "ROGERIO DA SILVA",
+        "moves": 5,
+        "firstMove": "2026-10-22T16:09:00.000Z",
+        "lastMove": "2026-10-22T16:13:00.000Z",
+        "productivity": 42.45
       }
     ]
   },
@@ -92,8 +110,19 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT25",
+        "login": "DCS",
+        "operator": "DEIVID CARVALHO DA SILVA",
+        "moves": 1,
+        "productivity": 3.73,
+        "firstMove": "2026-10-22T16:00:00.000Z",
+        "lastMove": "2026-10-22T16:00:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -103,15 +132,15 @@
       "housekeepingRatio": null
     },
     "import": {
-      "discharge": 353,
+      "discharge": 355,
       "delivery": 180,
-      "housekeeping": 791,
-      "housekeepingRatio": 4.39
+      "housekeeping": 793,
+      "housekeepingRatio": 4.41
     }
   },
   "stats": {
-    "moveRowsInput": 3037,
-    "rsEventsCurrentPeriod": 23,
-    "ttEventsCurrentPeriod": 4
+    "moveRowsInput": 3036,
+    "rsEventsCurrentPeriod": 29,
+    "ttEventsCurrentPeriod": 6
   }
 }
