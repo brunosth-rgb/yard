@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T04:28:11.772Z",
-  "reportReferenceTime": "2026-10-22T04:24:03.000Z",
+  "generatedAt": "2026-10-22T04:33:13.895Z",
+  "reportReferenceTime": "2026-10-22T04:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-61468351.csv",
-      "receivedAt": "2026-10-22T04:24:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_298988756.csv",
+      "receivedAt": "2026-10-22T04:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-85517913.csv",
-      "receivedAt": "2026-10-22T04:24:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_281047792.csv",
+      "receivedAt": "2026-10-22T04:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8748,
+      "occupiedTeus": 8762,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6648
+      "occupancyPct": 0.6659
     },
     "reefer": {
-      "occupiedUnits": 477,
+      "occupiedUnits": 478,
       "capacityPlugs": 1420,
-      "occupancyPct": 0.3359
+      "occupancyPct": 0.3366
     },
     "imo": {
       "occupiedTeus": 192,
@@ -38,68 +38,68 @@
     }
   },
   "resources": {
-    "rsInOperation": 10,
+    "rsInOperation": 11,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 33.24,
+    "averageProductivity": 31.69,
     "top": [
       {
         "equipment": "R03",
         "login": "JNA",
         "operator": "JOEL NARDES",
-        "moves": 14,
+        "moves": 26,
         "firstMove": "2026-10-22T04:15:00.000Z",
-        "lastMove": "2026-10-22T04:20:00.000Z",
-        "productivity": 92.82
+        "lastMove": "2026-10-22T04:30:00.000Z",
+        "productivity": 91.41
+      },
+      {
+        "equipment": "R12",
+        "login": "MRE",
+        "operator": "MARCIO REGIS",
+        "moves": 22,
+        "firstMove": "2026-10-22T04:08:00.000Z",
+        "lastMove": "2026-10-22T04:30:00.000Z",
+        "productivity": 54.85
       },
       {
         "equipment": "R04",
         "login": "MVF",
         "operator": "MARCOS VITORIO FARIAS",
-        "moves": 14,
+        "moves": 20,
         "firstMove": "2026-10-22T04:10:00.000Z",
-        "lastMove": "2026-10-22T04:22:00.000Z",
-        "productivity": 59.79
-      },
-      {
-        "equipment": "R12",
-        "login": "MRE",
-        "operator": "MARCIO REGIS",
-        "moves": 12,
-        "firstMove": "2026-10-22T04:08:00.000Z",
-        "lastMove": "2026-10-22T04:21:00.000Z",
-        "productivity": 44.86
+        "lastMove": "2026-10-22T04:31:00.000Z",
+        "productivity": 54.38
       }
     ],
     "lowest": [
       {
-        "equipment": "R10",
-        "login": "VJU",
-        "operator": "VILMAR MARTINHO LAMIM JR",
-        "moves": 8,
-        "firstMove": "2026-10-22T04:12:00.000Z",
-        "lastMove": "2026-10-22T04:16:00.000Z",
-        "productivity": 39.83
-      },
-      {
         "equipment": "R11",
         "login": "JMA",
         "operator": "JAIRO MARIANO",
-        "moves": 14,
+        "moves": 19,
         "firstMove": "2026-10-22T04:03:00.000Z",
-        "lastMove": "2026-10-22T04:23:00.000Z",
-        "productivity": 39.9
+        "lastMove": "2026-10-22T04:31:00.000Z",
+        "productivity": 39.22
       },
       {
-        "equipment": "R12",
-        "login": "MRE",
-        "operator": "MARCIO REGIS",
-        "moves": 12,
-        "firstMove": "2026-10-22T04:08:00.000Z",
-        "lastMove": "2026-10-22T04:21:00.000Z",
-        "productivity": 44.86
+        "equipment": "R10",
+        "login": "VJU",
+        "operator": "VILMAR MARTINHO LAMIM JR",
+        "moves": 16,
+        "firstMove": "2026-10-22T04:12:00.000Z",
+        "lastMove": "2026-10-22T04:31:00.000Z",
+        "productivity": 47.84
+      },
+      {
+        "equipment": "R04",
+        "login": "MVF",
+        "operator": "MARCOS VITORIO FARIAS",
+        "moves": 20,
+        "firstMove": "2026-10-22T04:10:00.000Z",
+        "lastMove": "2026-10-22T04:31:00.000Z",
+        "productivity": 54.38
       }
     ]
   },
@@ -109,38 +109,27 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
+    "rsCount": 0,
     "ttCount": 0,
-    "equipment": [
-      {
-        "equipment": "R02",
-        "login": "DFC",
-        "operator": "DAVI FRANCISCO COELHO",
-        "moves": 2,
-        "productivity": 5.99,
-        "firstMove": "2026-10-22T04:04:00.000Z",
-        "lastMove": "2026-10-22T04:07:00.000Z",
-        "idleMinutes": 17
-      }
-    ]
+    "equipment": []
   },
   "dailyFlows": {
     "export": {
-      "receival": 25,
+      "receival": 33,
       "load": 0,
-      "housekeeping": 21,
+      "housekeeping": 28,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
       "delivery": 17,
-      "housekeeping": 67,
-      "housekeepingRatio": 3.94
+      "housekeeping": 80,
+      "housekeepingRatio": 4.71
     }
   },
   "stats": {
-    "moveRowsInput": 2934,
-    "rsEventsCurrentPeriod": 70,
+    "moveRowsInput": 2944,
+    "rsEventsCurrentPeriod": 118,
     "ttEventsCurrentPeriod": 0
   }
 }
