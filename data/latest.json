@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:23:13.160Z",
-  "reportReferenceTime": "2026-10-23T16:20:06.000Z",
+  "generatedAt": "2026-10-23T16:28:14.247Z",
+  "reportReferenceTime": "2026-10-23T16:24:03.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-50016647.csv",
-      "receivedAt": "2026-10-23T16:20:07.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_426937224.csv",
+      "receivedAt": "2026-10-23T16:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_772279897.csv",
-      "receivedAt": "2026-10-23T16:20:07.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-43415036.csv",
+      "receivedAt": "2026-10-23T16:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8984,
+      "occupiedTeus": 8982,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6828
+      "occupancyPct": 0.6826
     },
     "reefer": {
-      "occupiedUnits": 622,
+      "occupiedUnits": 623,
       "capacityPlugs": 1420,
-      "occupancyPct": 0.438
+      "occupancyPct": 0.4387
     },
     "imo": {
       "occupiedTeus": 166,
@@ -38,50 +38,68 @@
     }
   },
   "resources": {
-    "rsInOperation": 6,
-    "ttInOperation": 2
+    "rsInOperation": 7,
+    "ttInOperation": 6
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 31.99,
+    "averageProductivity": 36.19,
     "top": [
+      {
+        "equipment": "R10",
+        "login": "RSI",
+        "operator": "ROGERIO DA SILVA",
+        "moves": 6,
+        "firstMove": "2026-10-23T16:19:00.000Z",
+        "lastMove": "2026-10-23T16:23:00.000Z",
+        "productivity": 71.29
+      },
       {
         "equipment": "R07",
         "login": "MRM",
         "operator": "MARCOS ROBERTO MAFRA",
-        "moves": 10,
+        "moves": 13,
         "firstMove": "2026-10-23T16:08:00.000Z",
-        "lastMove": "2026-10-23T16:19:00.000Z",
-        "productivity": 49.59
+        "lastMove": "2026-10-23T16:21:00.000Z",
+        "productivity": 48.6
       },
       {
         "equipment": "R06",
         "login": "ABS",
         "operator": "ALAN GREISON BELLINI",
-        "moves": 10,
+        "moves": 12,
         "firstMove": "2026-10-23T16:08:00.000Z",
-        "lastMove": "2026-10-23T16:18:00.000Z",
-        "productivity": 49.59
+        "lastMove": "2026-10-23T16:20:00.000Z",
+        "productivity": 44.86
       }
     ],
     "lowest": [
       {
-        "equipment": "R07",
-        "login": "MRM",
-        "operator": "MARCOS ROBERTO MAFRA",
-        "moves": 10,
-        "firstMove": "2026-10-23T16:08:00.000Z",
-        "lastMove": "2026-10-23T16:19:00.000Z",
-        "productivity": 49.59
+        "equipment": "R09",
+        "login": "RFC",
+        "operator": "ROBSON FLORIANO COSTA",
+        "moves": 5,
+        "firstMove": "2026-10-23T16:16:00.000Z",
+        "lastMove": "2026-10-23T16:21:00.000Z",
+        "productivity": 37.27
       },
       {
         "equipment": "R06",
         "login": "ABS",
         "operator": "ALAN GREISON BELLINI",
-        "moves": 10,
+        "moves": 12,
         "firstMove": "2026-10-23T16:08:00.000Z",
-        "lastMove": "2026-10-23T16:18:00.000Z",
-        "productivity": 49.59
+        "lastMove": "2026-10-23T16:20:00.000Z",
+        "productivity": 44.86
+      },
+      {
+        "equipment": "R07",
+        "login": "MRM",
+        "operator": "MARCOS ROBERTO MAFRA",
+        "moves": 13,
+        "firstMove": "2026-10-23T16:08:00.000Z",
+        "lastMove": "2026-10-23T16:21:00.000Z",
+        "productivity": 48.6
       }
     ]
   },
@@ -97,21 +115,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 131,
+      "receival": 132,
       "load": 0,
-      "housekeeping": 108,
+      "housekeeping": 109,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
-      "delivery": 165,
-      "housekeeping": 572,
-      "housekeepingRatio": 3.47
+      "delivery": 168,
+      "housekeeping": 574,
+      "housekeepingRatio": 3.42
     }
   },
   "stats": {
-    "moveRowsInput": 2298,
-    "rsEventsCurrentPeriod": 31,
-    "ttEventsCurrentPeriod": 2
+    "moveRowsInput": 2297,
+    "rsEventsCurrentPeriod": 47,
+    "ttEventsCurrentPeriod": 6
   }
 }
