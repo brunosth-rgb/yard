@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:28:14.247Z",
-  "reportReferenceTime": "2026-10-23T16:24:03.000Z",
+  "generatedAt": "2026-10-23T16:33:13.416Z",
+  "reportReferenceTime": "2026-10-23T16:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_426937224.csv",
-      "receivedAt": "2026-10-23T16:24:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_503344368.csv",
+      "receivedAt": "2026-10-23T16:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-43415036.csv",
-      "receivedAt": "2026-10-23T16:24:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_807043458.csv",
+      "receivedAt": "2026-10-23T16:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8982,
+      "occupiedTeus": 8978,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6826
+      "occupancyPct": 0.6823
     },
     "reefer": {
       "occupiedUnits": 623,
@@ -39,29 +39,29 @@
   },
   "resources": {
     "rsInOperation": 7,
-    "ttInOperation": 6
+    "ttInOperation": 8
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 36.19,
+    "averageProductivity": 24.62,
     "top": [
       {
         "equipment": "R10",
         "login": "RSI",
         "operator": "ROGERIO DA SILVA",
-        "moves": 6,
+        "moves": 10,
         "firstMove": "2026-10-23T16:19:00.000Z",
-        "lastMove": "2026-10-23T16:23:00.000Z",
-        "productivity": 71.29
+        "lastMove": "2026-10-23T16:28:00.000Z",
+        "productivity": 45.92
       },
       {
         "equipment": "R07",
         "login": "MRM",
         "operator": "MARCOS ROBERTO MAFRA",
-        "moves": 13,
+        "moves": 15,
         "firstMove": "2026-10-23T16:08:00.000Z",
-        "lastMove": "2026-10-23T16:21:00.000Z",
-        "productivity": 48.6
+        "lastMove": "2026-10-23T16:25:00.000Z",
+        "productivity": 37.4
       },
       {
         "equipment": "R06",
@@ -70,36 +70,36 @@
         "moves": 12,
         "firstMove": "2026-10-23T16:08:00.000Z",
         "lastMove": "2026-10-23T16:20:00.000Z",
-        "productivity": 44.86
+        "productivity": 29.92
       }
     ],
     "lowest": [
       {
+        "equipment": "R05",
+        "login": "ALB",
+        "operator": "ALBERTO LAURINDO PINTO",
+        "moves": 5,
+        "firstMove": "2026-10-23T16:06:00.000Z",
+        "lastMove": "2026-10-23T16:29:00.000Z",
+        "productivity": 11.51
+      },
+      {
+        "equipment": "R12",
+        "login": "JME",
+        "operator": "JOELSIO MEIRINHO",
+        "moves": 5,
+        "firstMove": "2026-10-23T16:13:00.000Z",
+        "lastMove": "2026-10-23T16:30:00.000Z",
+        "productivity": 15.73
+      },
+      {
         "equipment": "R09",
         "login": "RFC",
         "operator": "ROBSON FLORIANO COSTA",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-23T16:16:00.000Z",
-        "lastMove": "2026-10-23T16:21:00.000Z",
-        "productivity": 37.27
-      },
-      {
-        "equipment": "R06",
-        "login": "ABS",
-        "operator": "ALAN GREISON BELLINI",
-        "moves": 12,
-        "firstMove": "2026-10-23T16:08:00.000Z",
-        "lastMove": "2026-10-23T16:20:00.000Z",
-        "productivity": 44.86
-      },
-      {
-        "equipment": "R07",
-        "login": "MRM",
-        "operator": "MARCOS ROBERTO MAFRA",
-        "moves": 13,
-        "firstMove": "2026-10-23T16:08:00.000Z",
-        "lastMove": "2026-10-23T16:21:00.000Z",
-        "productivity": 48.6
+        "lastMove": "2026-10-23T16:24:00.000Z",
+        "productivity": 22.41
       }
     ]
   },
@@ -110,8 +110,29 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 2,
+    "equipment": [
+      {
+        "equipment": "TT03",
+        "login": "LRE",
+        "operator": "Luciano Regalin",
+        "moves": 1,
+        "productivity": 3.15,
+        "firstMove": "2026-10-23T16:13:00.000Z",
+        "lastMove": "2026-10-23T16:13:00.000Z",
+        "idleMinutes": 19
+      },
+      {
+        "equipment": "TT04",
+        "login": "PFC",
+        "operator": "PEDRO FRANCISCO COELHO",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-10-23T16:14:00.000Z",
+        "lastMove": "2026-10-23T16:14:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
@@ -122,14 +143,14 @@
     },
     "import": {
       "discharge": 0,
-      "delivery": 168,
-      "housekeeping": 574,
-      "housekeepingRatio": 3.42
+      "delivery": 171,
+      "housekeeping": 575,
+      "housekeepingRatio": 3.36
     }
   },
   "stats": {
-    "moveRowsInput": 2297,
-    "rsEventsCurrentPeriod": 47,
-    "ttEventsCurrentPeriod": 6
+    "moveRowsInput": 2281,
+    "rsEventsCurrentPeriod": 56,
+    "ttEventsCurrentPeriod": 8
   }
 }
