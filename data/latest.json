@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T10:18:13.667Z",
-  "reportReferenceTime": "2026-10-23T10:16:03.000Z",
+  "generatedAt": "2026-10-23T10:23:12.166Z",
+  "reportReferenceTime": "2026-10-23T10:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_664687231.csv",
-      "receivedAt": "2026-10-23T10:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-47378830.csv",
+      "receivedAt": "2026-10-23T10:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-59288752.csv",
-      "receivedAt": "2026-10-23T10:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-87761646.csv",
+      "receivedAt": "2026-10-23T10:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9122,
+      "occupiedTeus": 9126,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6933
+      "occupancyPct": 0.6936
     },
     "reefer": {
-      "occupiedUnits": 597,
+      "occupiedUnits": 598,
       "capacityPlugs": 1420,
-      "occupancyPct": 0.4204
+      "occupancyPct": 0.4211
     },
     "imo": {
       "occupiedTeus": 170,
@@ -38,14 +38,34 @@
     }
   },
   "resources": {
-    "rsInOperation": 3,
-    "ttInOperation": 0
+    "rsInOperation": 7,
+    "ttInOperation": 1
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 19.53,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 28.95,
+    "top": [
+      {
+        "equipment": "R10",
+        "login": "GCC",
+        "operator": "GESIEL CLAUDIONIR CRUZ",
+        "moves": 6,
+        "firstMove": "2026-10-23T10:14:00.000Z",
+        "lastMove": "2026-10-23T10:18:00.000Z",
+        "productivity": 59.34
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R10",
+        "login": "GCC",
+        "operator": "GESIEL CLAUDIONIR CRUZ",
+        "moves": 6,
+        "firstMove": "2026-10-23T10:14:00.000Z",
+        "lastMove": "2026-10-23T10:18:00.000Z",
+        "productivity": 59.34
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -54,26 +74,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT04",
+        "login": "FEP",
+        "operator": "FELIPE PAMPLONA",
+        "moves": 1,
+        "productivity": 2.99,
+        "firstMove": "2026-10-23T10:00:00.000Z",
+        "lastMove": "2026-10-23T10:00:00.000Z",
+        "idleMinutes": 20
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 76,
+      "receival": 79,
       "load": 0,
-      "housekeeping": 44,
+      "housekeeping": 45,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
-      "delivery": 31,
-      "housekeeping": 372,
-      "housekeepingRatio": 12
+      "delivery": 33,
+      "housekeeping": 375,
+      "housekeepingRatio": 11.36
     }
   },
   "stats": {
-    "moveRowsInput": 2762,
-    "rsEventsCurrentPeriod": 8,
-    "ttEventsCurrentPeriod": 0
+    "moveRowsInput": 2763,
+    "rsEventsCurrentPeriod": 19,
+    "ttEventsCurrentPeriod": 1
   }
 }
