@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T04:18:13.870Z",
-  "reportReferenceTime": "2026-10-24T04:16:03.000Z",
+  "generatedAt": "2026-10-24T04:23:12.221Z",
+  "reportReferenceTime": "2026-10-24T04:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_577204041.csv",
-      "receivedAt": "2026-10-24T04:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_700530244.csv",
+      "receivedAt": "2026-10-24T04:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-67175512.csv",
-      "receivedAt": "2026-10-24T04:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_599526116.csv",
+      "receivedAt": "2026-10-24T04:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 8759,
+      "occupiedTeus": 8767,
       "capacityTeus": 13158,
-      "occupancyPct": 0.6657
+      "occupancyPct": 0.6663
     },
     "reefer": {
-      "occupiedUnits": 675,
+      "occupiedUnits": 676,
       "capacityPlugs": 1420,
-      "occupancyPct": 0.4754
+      "occupancyPct": 0.4761
     },
     "imo": {
       "occupiedTeus": 160,
@@ -38,50 +38,68 @@
     }
   },
   "resources": {
-    "rsInOperation": 5,
+    "rsInOperation": 6,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 49.83,
+    "averageProductivity": 39.27,
     "top": [
       {
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 18,
+        "moves": 22,
         "firstMove": "2026-10-24T04:01:00.000Z",
-        "lastMove": "2026-10-24T04:14:00.000Z",
-        "productivity": 71.76
+        "lastMove": "2026-10-24T04:19:00.000Z",
+        "productivity": 69.23
       },
       {
         "equipment": "R10",
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
-        "moves": 8,
+        "moves": 11,
         "firstMove": "2026-10-24T04:05:00.000Z",
-        "lastMove": "2026-10-24T04:14:00.000Z",
-        "productivity": 43.44
+        "lastMove": "2026-10-24T04:18:00.000Z",
+        "productivity": 43.81
+      },
+      {
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
+        "moves": 6,
+        "firstMove": "2026-10-24T04:11:00.000Z",
+        "lastMove": "2026-10-24T04:19:00.000Z",
+        "productivity": 39.71
       }
     ],
     "lowest": [
       {
+        "equipment": "R01",
+        "login": "JMA",
+        "operator": "JAIRO MARIANO",
+        "moves": 6,
+        "firstMove": "2026-10-24T04:11:00.000Z",
+        "lastMove": "2026-10-24T04:19:00.000Z",
+        "productivity": 39.71
+      },
+      {
         "equipment": "R10",
         "login": "VJU",
         "operator": "VILMAR MARTINHO LAMIM JR",
-        "moves": 8,
+        "moves": 11,
         "firstMove": "2026-10-24T04:05:00.000Z",
-        "lastMove": "2026-10-24T04:14:00.000Z",
-        "productivity": 43.44
+        "lastMove": "2026-10-24T04:18:00.000Z",
+        "productivity": 43.81
       },
       {
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 18,
+        "moves": 22,
         "firstMove": "2026-10-24T04:01:00.000Z",
-        "lastMove": "2026-10-24T04:14:00.000Z",
-        "productivity": 71.76
+        "lastMove": "2026-10-24T04:19:00.000Z",
+        "productivity": 69.23
       }
     ]
   },
@@ -97,21 +115,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 31,
+      "receival": 36,
       "load": 0,
       "housekeeping": 0,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 0,
-      "delivery": 25,
-      "housekeeping": 42,
-      "housekeepingRatio": 1.68
+      "delivery": 28,
+      "housekeeping": 45,
+      "housekeepingRatio": 1.61
     }
   },
   "stats": {
-    "moveRowsInput": 2109,
-    "rsEventsCurrentPeriod": 32,
+    "moveRowsInput": 2120,
+    "rsEventsCurrentPeriod": 46,
     "ttEventsCurrentPeriod": 0
   }
 }
