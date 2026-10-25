@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T16:18:12.865Z",
-  "reportReferenceTime": "2026-10-25T16:16:03.000Z",
+  "generatedAt": "2026-10-25T16:23:29.012Z",
+  "reportReferenceTime": "2026-10-25T16:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_697458856.csv",
-      "receivedAt": "2026-10-25T16:16:04.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_218055361.csv",
+      "receivedAt": "2026-10-25T16:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-15348045.csv",
-      "receivedAt": "2026-10-25T16:16:04.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-79978779.csv",
+      "receivedAt": "2026-10-25T16:20:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9382,
+      "occupiedTeus": 9380,
       "capacityTeus": 13158,
-      "occupancyPct": 0.713
+      "occupancyPct": 0.7129
     },
     "reefer": {
       "occupiedUnits": 731,
@@ -38,12 +38,12 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
+    "rsInOperation": 5,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 22.23,
+    "averageProductivity": 15.01,
     "top": [
       {
         "equipment": "R09",
@@ -52,7 +52,7 @@
         "moves": 7,
         "firstMove": "2026-10-25T16:05:00.000Z",
         "lastMove": "2026-10-25T16:14:00.000Z",
-        "productivity": 38.01
+        "productivity": 27.88
       }
     ],
     "lowest": [
@@ -63,7 +63,7 @@
         "moves": 7,
         "firstMove": "2026-10-25T16:05:00.000Z",
         "lastMove": "2026-10-25T16:14:00.000Z",
-        "productivity": 38.01
+        "productivity": 27.88
       }
     ]
   },
@@ -73,13 +73,24 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R04",
+        "login": "VLP",
+        "operator": "VLADEMIR PORTO",
+        "moves": 4,
+        "productivity": 11.96,
+        "firstMove": "2026-10-25T16:00:00.000Z",
+        "lastMove": "2026-10-25T16:04:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 412,
+      "receival": 413,
       "load": 535,
       "housekeeping": 19,
       "housekeepingRatio": 0.04
@@ -92,8 +103,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 2735,
-    "rsEventsCurrentPeriod": 15,
+    "moveRowsInput": 2730,
+    "rsEventsCurrentPeriod": 16,
     "ttEventsCurrentPeriod": 0
   }
 }
