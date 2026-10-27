@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T04:28:11.834Z",
-  "reportReferenceTime": "2026-10-27T04:24:04.000Z",
+  "generatedAt": "2026-10-27T04:33:13.701Z",
+  "reportReferenceTime": "2026-10-27T04:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-52087293.csv",
-      "receivedAt": "2026-10-27T04:24:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-33148474.csv",
+      "receivedAt": "2026-10-27T04:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_576781996.csv",
-      "receivedAt": "2026-10-27T04:24:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_393383419.csv",
+      "receivedAt": "2026-10-27T04:32:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9693,
+      "occupiedTeus": 9711,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7367
+      "occupancyPct": 0.738
     },
     "reefer": {
       "occupiedUnits": 794,
@@ -38,39 +38,39 @@
     }
   },
   "resources": {
-    "rsInOperation": 8,
-    "ttInOperation": 1
+    "rsInOperation": 10,
+    "ttInOperation": 4
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 22.06,
+    "averageProductivity": 18.66,
     "top": [
       {
         "equipment": "R01",
         "login": "JMA",
         "operator": "JAIRO MARIANO",
-        "moves": 15,
+        "moves": 19,
         "firstMove": "2026-10-27T04:03:00.000Z",
-        "lastMove": "2026-10-27T04:20:00.000Z",
-        "productivity": 42.72
+        "lastMove": "2026-10-27T04:24:00.000Z",
+        "productivity": 39.22
       },
       {
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-10-27T04:08:00.000Z",
-        "lastMove": "2026-10-27T04:15:00.000Z",
-        "productivity": 29.88
+        "lastMove": "2026-10-27T04:27:00.000Z",
+        "productivity": 22.44
       },
       {
         "equipment": "R12",
         "login": "ACJ",
         "operator": "AUGUSTO CELIO DE JESUS JR",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-27T04:03:00.000Z",
-        "lastMove": "2026-10-27T04:22:00.000Z",
-        "productivity": 19.94
+        "lastMove": "2026-10-27T04:29:00.000Z",
+        "productivity": 18.58
       }
     ],
     "lowest": [
@@ -78,28 +78,28 @@
         "equipment": "R12",
         "login": "ACJ",
         "operator": "AUGUSTO CELIO DE JESUS JR",
-        "moves": 7,
+        "moves": 9,
         "firstMove": "2026-10-27T04:03:00.000Z",
-        "lastMove": "2026-10-27T04:22:00.000Z",
-        "productivity": 19.94
+        "lastMove": "2026-10-27T04:29:00.000Z",
+        "productivity": 18.58
       },
       {
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 8,
+        "moves": 9,
         "firstMove": "2026-10-27T04:08:00.000Z",
-        "lastMove": "2026-10-27T04:15:00.000Z",
-        "productivity": 29.88
+        "lastMove": "2026-10-27T04:27:00.000Z",
+        "productivity": 22.44
       },
       {
         "equipment": "R01",
         "login": "JMA",
         "operator": "JAIRO MARIANO",
-        "moves": 15,
+        "moves": 19,
         "firstMove": "2026-10-27T04:03:00.000Z",
-        "lastMove": "2026-10-27T04:20:00.000Z",
-        "productivity": 42.72
+        "lastMove": "2026-10-27T04:24:00.000Z",
+        "productivity": 39.22
       }
     ]
   },
@@ -113,34 +113,34 @@
     "ttCount": 0,
     "equipment": [
       {
-        "equipment": "R11",
-        "login": "MUS",
-        "operator": "MURILO DA SILVA",
-        "moves": 1,
-        "productivity": 3.52,
-        "firstMove": "2026-10-27T04:07:00.000Z",
-        "lastMove": "2026-10-27T04:07:00.000Z",
-        "idleMinutes": 17
+        "equipment": "R08",
+        "login": "MAM",
+        "operator": "MARCOS MENDONCA",
+        "moves": 4,
+        "productivity": 9.97,
+        "firstMove": "2026-10-27T04:08:00.000Z",
+        "lastMove": "2026-10-27T04:14:00.000Z",
+        "idleMinutes": 18
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 48,
+      "receival": 54,
       "load": 0,
       "housekeeping": 1,
       "housekeepingRatio": null
     },
     "import": {
-      "discharge": 1,
-      "delivery": 2,
-      "housekeeping": 21,
-      "housekeepingRatio": 10.5
+      "discharge": 4,
+      "delivery": 3,
+      "housekeeping": 23,
+      "housekeepingRatio": 7.67
     }
   },
   "stats": {
-    "moveRowsInput": 2464,
-    "rsEventsCurrentPeriod": 38,
-    "ttEventsCurrentPeriod": 1
+    "moveRowsInput": 2465,
+    "rsEventsCurrentPeriod": 50,
+    "ttEventsCurrentPeriod": 4
   }
 }
