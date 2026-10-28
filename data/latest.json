@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T10:23:12.807Z",
-  "reportReferenceTime": "2026-10-28T10:20:05.000Z",
+  "generatedAt": "2026-10-28T10:28:13.802Z",
+  "reportReferenceTime": "2026-10-28T10:24:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-68504664.csv",
-      "receivedAt": "2026-10-28T10:20:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_360087794.csv",
+      "receivedAt": "2026-10-28T10:24:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-43391708.csv",
-      "receivedAt": "2026-10-28T10:20:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_879406707.csv",
+      "receivedAt": "2026-10-28T10:24:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 11590,
+      "occupiedTeus": 11587,
       "capacityTeus": 13158,
-      "occupancyPct": 0.8808
+      "occupancyPct": 0.8806
     },
     "reefer": {
       "occupiedUnits": 935,
@@ -38,32 +38,50 @@
     }
   },
   "resources": {
-    "rsInOperation": 6,
-    "ttInOperation": 6
+    "rsInOperation": 8,
+    "ttInOperation": 10
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 16.9,
+    "averageProductivity": 31.26,
     "top": [
       {
         "equipment": "R04",
         "login": "VLP",
         "operator": "VLADEMIR PORTO",
-        "moves": 6,
+        "moves": 7,
         "firstMove": "2026-10-28T10:09:00.000Z",
-        "lastMove": "2026-10-28T10:19:00.000Z",
-        "productivity": 32.48
+        "lastMove": "2026-10-28T10:23:00.000Z",
+        "productivity": 27.88
+      },
+      {
+        "equipment": "R10",
+        "login": "GCC",
+        "operator": "GESIEL CLAUDIONIR CRUZ",
+        "moves": 6,
+        "firstMove": "2026-10-28T10:07:00.000Z",
+        "lastMove": "2026-10-28T10:18:00.000Z",
+        "productivity": 21.09
       }
     ],
     "lowest": [
       {
+        "equipment": "R10",
+        "login": "GCC",
+        "operator": "GESIEL CLAUDIONIR CRUZ",
+        "moves": 6,
+        "firstMove": "2026-10-28T10:07:00.000Z",
+        "lastMove": "2026-10-28T10:18:00.000Z",
+        "productivity": 21.09
+      },
+      {
         "equipment": "R04",
         "login": "VLP",
         "operator": "VLADEMIR PORTO",
-        "moves": 6,
+        "moves": 7,
         "firstMove": "2026-10-28T10:09:00.000Z",
-        "lastMove": "2026-10-28T10:19:00.000Z",
-        "productivity": 32.48
+        "lastMove": "2026-10-28T10:23:00.000Z",
+        "productivity": 27.88
       }
     ]
   },
@@ -81,30 +99,30 @@
         "login": "ROV",
         "operator": "ROV",
         "moves": 1,
-        "productivity": 3.32,
+        "productivity": 2.72,
         "firstMove": "2026-10-28T10:02:00.000Z",
         "lastMove": "2026-10-28T10:02:00.000Z",
-        "idleMinutes": 18
+        "idleMinutes": 22
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 168,
-      "load": 10,
+      "receival": 169,
+      "load": 15,
       "housekeeping": 16,
-      "housekeepingRatio": 1.6
+      "housekeepingRatio": 1.07
     },
     "import": {
-      "discharge": 411,
-      "delivery": 96,
+      "discharge": 413,
+      "delivery": 102,
       "housekeeping": 455,
-      "housekeepingRatio": 4.74
+      "housekeepingRatio": 4.46
     }
   },
   "stats": {
-    "moveRowsInput": 3026,
-    "rsEventsCurrentPeriod": 18,
-    "ttEventsCurrentPeriod": 6
+    "moveRowsInput": 3033,
+    "rsEventsCurrentPeriod": 30,
+    "ttEventsCurrentPeriod": 13
   }
 }
