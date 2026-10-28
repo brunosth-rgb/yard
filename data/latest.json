@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T16:13:12.855Z",
-  "reportReferenceTime": "2026-10-28T16:12:07.000Z",
+  "generatedAt": "2026-10-28T16:18:12.379Z",
+  "reportReferenceTime": "2026-10-28T16:16:06.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_426635543.csv",
-      "receivedAt": "2026-10-28T16:12:08.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_117086806.csv",
+      "receivedAt": "2026-10-28T16:16:07.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_654407702.csv",
-      "receivedAt": "2026-10-28T16:12:08.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-14986131.csv",
+      "receivedAt": "2026-10-28T16:16:07.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 11542,
+      "occupiedTeus": 11537,
       "capacityTeus": 13158,
-      "occupancyPct": 0.8772
+      "occupancyPct": 0.8768
     },
     "reefer": {
       "occupiedUnits": 953,
@@ -38,13 +38,22 @@
     }
   },
   "resources": {
-    "rsInOperation": 4,
-    "ttInOperation": 1
+    "rsInOperation": 6,
+    "ttInOperation": 3
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 19.63,
+    "averageProductivity": 21.78,
     "top": [
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-28T16:04:00.000Z",
+        "lastMove": "2026-10-28T16:14:00.000Z",
+        "productivity": 24.79
+      },
       {
         "equipment": "R09",
         "login": "VCS",
@@ -52,7 +61,7 @@
         "moves": 5,
         "firstMove": "2026-10-28T16:01:00.000Z",
         "lastMove": "2026-10-28T16:10:00.000Z",
-        "productivity": 26.99
+        "productivity": 19.87
       }
     ],
     "lowest": [
@@ -63,7 +72,16 @@
         "moves": 5,
         "firstMove": "2026-10-28T16:01:00.000Z",
         "lastMove": "2026-10-28T16:10:00.000Z",
-        "productivity": 26.99
+        "productivity": 19.87
+      },
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-28T16:04:00.000Z",
+        "lastMove": "2026-10-28T16:14:00.000Z",
+        "productivity": 24.79
       }
     ]
   },
@@ -80,20 +98,20 @@
   "dailyFlows": {
     "export": {
       "receival": 248,
-      "load": 201,
+      "load": 203,
       "housekeeping": 22,
       "housekeepingRatio": 0.11
     },
     "import": {
       "discharge": 633,
-      "delivery": 250,
-      "housekeeping": 558,
-      "housekeepingRatio": 2.23
+      "delivery": 253,
+      "housekeeping": 559,
+      "housekeepingRatio": 2.21
     }
   },
   "stats": {
     "moveRowsInput": 3057,
-    "rsEventsCurrentPeriod": 11,
-    "ttEventsCurrentPeriod": 2
+    "rsEventsCurrentPeriod": 17,
+    "ttEventsCurrentPeriod": 4
   }
 }
