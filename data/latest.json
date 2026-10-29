@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T22:38:13.259Z",
-  "reportReferenceTime": "2026-10-29T22:36:04.000Z",
+  "generatedAt": "2026-10-29T22:43:38.999Z",
+  "reportReferenceTime": "2026-10-29T22:40:05.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-17117742.csv",
-      "receivedAt": "2026-10-29T22:36:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-61079129.csv",
+      "receivedAt": "2026-10-29T22:40:06.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_254641910.csv",
-      "receivedAt": "2026-10-29T22:36:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_180470680.csv",
+      "receivedAt": "2026-10-29T22:40:06.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 10070,
+      "occupiedTeus": 10068,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7653
+      "occupancyPct": 0.7652
     },
     "reefer": {
       "occupiedUnits": 816,
@@ -39,11 +39,11 @@
   },
   "resources": {
     "rsInOperation": 9,
-    "ttInOperation": 1
+    "ttInOperation": 2
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 10.25,
+    "averageProductivity": 8.92,
     "top": [
       {
         "equipment": "R12",
@@ -52,25 +52,25 @@
         "moves": 6,
         "firstMove": "2026-10-29T22:24:00.000Z",
         "lastMove": "2026-10-29T22:33:00.000Z",
-        "productivity": 29.83
+        "productivity": 22.38
       },
       {
         "equipment": "R08",
         "login": "MRW",
         "operator": "MARCOS ROBERTO MARIA WEST",
-        "moves": 11,
+        "moves": 12,
         "firstMove": "2026-10-29T22:01:00.000Z",
-        "lastMove": "2026-10-29T22:17:00.000Z",
-        "productivity": 18.82
+        "lastMove": "2026-10-29T22:38:00.000Z",
+        "productivity": 18.42
       },
       {
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-29T22:05:00.000Z",
-        "lastMove": "2026-10-29T22:32:00.000Z",
-        "productivity": 9.66
+        "lastMove": "2026-10-29T22:36:00.000Z",
+        "productivity": 10.26
       }
     ],
     "lowest": [
@@ -78,19 +78,19 @@
         "equipment": "R07",
         "login": "GRJ",
         "operator": "GERSON ROBERTO JAQUES",
-        "moves": 5,
+        "moves": 6,
         "firstMove": "2026-10-29T22:05:00.000Z",
-        "lastMove": "2026-10-29T22:32:00.000Z",
-        "productivity": 9.66
+        "lastMove": "2026-10-29T22:36:00.000Z",
+        "productivity": 10.26
       },
       {
         "equipment": "R08",
         "login": "MRW",
         "operator": "MARCOS ROBERTO MARIA WEST",
-        "moves": 11,
+        "moves": 12,
         "firstMove": "2026-10-29T22:01:00.000Z",
-        "lastMove": "2026-10-29T22:17:00.000Z",
-        "productivity": 18.82
+        "lastMove": "2026-10-29T22:38:00.000Z",
+        "productivity": 18.42
       },
       {
         "equipment": "R12",
@@ -99,7 +99,7 @@
         "moves": 6,
         "firstMove": "2026-10-29T22:24:00.000Z",
         "lastMove": "2026-10-29T22:33:00.000Z",
-        "productivity": 29.83
+        "productivity": 22.38
       }
     ]
   },
@@ -109,38 +109,18 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 3,
+    "rsCount": 1,
     "ttCount": 0,
     "equipment": [
-      {
-        "equipment": "R02",
-        "login": "JDG",
-        "operator": "JUVENAL DUTRA GARCIA JR",
-        "moves": 1,
-        "productivity": 1.71,
-        "firstMove": "2026-10-29T22:01:00.000Z",
-        "lastMove": "2026-10-29T22:01:00.000Z",
-        "idleMinutes": 35
-      },
-      {
-        "equipment": "R08",
-        "login": "MRW",
-        "operator": "MARCOS ROBERTO MARIA WEST",
-        "moves": 11,
-        "productivity": 18.82,
-        "firstMove": "2026-10-29T22:01:00.000Z",
-        "lastMove": "2026-10-29T22:17:00.000Z",
-        "idleMinutes": 19
-      },
       {
         "equipment": "R11",
         "login": "ALU",
         "operator": "ALBERTO LUIZ DA SILVA",
         "moves": 2,
-        "productivity": 6.29,
+        "productivity": 5.2,
         "firstMove": "2026-10-29T22:17:00.000Z",
         "lastMove": "2026-10-29T22:19:00.000Z",
-        "idleMinutes": 17
+        "idleMinutes": 21
       }
     ]
   },
@@ -152,15 +132,15 @@
       "housekeepingRatio": 0.12
     },
     "import": {
-      "discharge": 403,
-      "delivery": 358,
+      "discharge": 404,
+      "delivery": 360,
       "housekeeping": 575,
-      "housekeepingRatio": 1.61
+      "housekeepingRatio": 1.6
     }
   },
   "stats": {
-    "moveRowsInput": 3257,
-    "rsEventsCurrentPeriod": 33,
-    "ttEventsCurrentPeriod": 1
+    "moveRowsInput": 3250,
+    "rsEventsCurrentPeriod": 36,
+    "ttEventsCurrentPeriod": 2
   }
 }
