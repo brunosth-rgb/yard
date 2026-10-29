@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T10:23:12.191Z",
-  "reportReferenceTime": "2026-10-29T10:20:05.000Z",
+  "generatedAt": "2026-10-29T10:28:13.214Z",
+  "reportReferenceTime": "2026-10-29T10:24:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-81480994.csv",
-      "receivedAt": "2026-10-29T10:20:06.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_523320482.csv",
+      "receivedAt": "2026-10-29T10:24:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-74832233.csv",
-      "receivedAt": "2026-10-29T10:20:06.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-56425669.csv",
+      "receivedAt": "2026-10-29T10:24:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 10911,
+      "occupiedTeus": 10903,
       "capacityTeus": 13158,
-      "occupancyPct": 0.8292
+      "occupancyPct": 0.8286
     },
     "reefer": {
       "occupiedUnits": 826,
@@ -38,14 +38,52 @@
     }
   },
   "resources": {
-    "rsInOperation": 6,
-    "ttInOperation": 9
+    "rsInOperation": 7,
+    "ttInOperation": 13
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.48,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 16.31,
+    "top": [
+      {
+        "equipment": "R07",
+        "login": "EDB",
+        "operator": "EDISON BRANCO",
+        "moves": 5,
+        "firstMove": "2026-10-29T10:13:00.000Z",
+        "lastMove": "2026-10-29T10:22:00.000Z",
+        "productivity": 27.11
+      },
+      {
+        "equipment": "R09",
+        "login": "VCS",
+        "operator": "VANILDO CAMPOS DA SILVA",
+        "moves": 5,
+        "firstMove": "2026-10-29T10:13:00.000Z",
+        "lastMove": "2026-10-29T10:23:00.000Z",
+        "productivity": 27.11
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R07",
+        "login": "EDB",
+        "operator": "EDISON BRANCO",
+        "moves": 5,
+        "firstMove": "2026-10-29T10:13:00.000Z",
+        "lastMove": "2026-10-29T10:22:00.000Z",
+        "productivity": 27.11
+      },
+      {
+        "equipment": "R09",
+        "login": "VCS",
+        "operator": "VANILDO CAMPOS DA SILVA",
+        "moves": 5,
+        "firstMove": "2026-10-29T10:13:00.000Z",
+        "lastMove": "2026-10-29T10:23:00.000Z",
+        "productivity": 27.11
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -54,26 +92,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT19",
+        "login": "FJS",
+        "operator": "FJS",
+        "moves": 1,
+        "productivity": 3.32,
+        "firstMove": "2026-10-29T10:06:00.000Z",
+        "lastMove": "2026-10-29T10:06:00.000Z",
+        "idleMinutes": 18
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
       "receival": 83,
-      "load": 285,
+      "load": 289,
       "housekeeping": 45,
       "housekeepingRatio": 0.16
     },
     "import": {
-      "discharge": 146,
-      "delivery": 81,
-      "housekeeping": 365,
-      "housekeepingRatio": 4.51
+      "discharge": 147,
+      "delivery": 84,
+      "housekeeping": 366,
+      "housekeepingRatio": 4.36
     }
   },
   "stats": {
-    "moveRowsInput": 3214,
-    "rsEventsCurrentPeriod": 15,
-    "ttEventsCurrentPeriod": 9
+    "moveRowsInput": 3209,
+    "rsEventsCurrentPeriod": 24,
+    "ttEventsCurrentPeriod": 14
   }
 }
