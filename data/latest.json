@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T22:28:14.171Z",
-  "reportReferenceTime": "2026-10-29T22:24:04.000Z",
+  "generatedAt": "2026-10-29T22:33:15.532Z",
+  "reportReferenceTime": "2026-10-29T22:32:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_373833386.csv",
-      "receivedAt": "2026-10-29T22:24:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-23022890.csv",
+      "receivedAt": "2026-10-29T22:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_-15645145.csv",
-      "receivedAt": "2026-10-29T22:24:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_375919864.csv",
+      "receivedAt": "2026-10-29T22:32:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 10074,
+      "occupiedTeus": 10072,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7656
+      "occupancyPct": 0.7655
     },
     "reefer": {
       "occupiedUnits": 816,
@@ -38,12 +38,12 @@
     }
   },
   "resources": {
-    "rsInOperation": 7,
+    "rsInOperation": 9,
     "ttInOperation": 0
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 11.64,
+    "averageProductivity": 10.79,
     "top": [
       {
         "equipment": "R08",
@@ -52,7 +52,7 @@
         "moves": 11,
         "firstMove": "2026-10-29T22:01:00.000Z",
         "lastMove": "2026-10-29T22:17:00.000Z",
-        "productivity": 28.61
+        "productivity": 21.24
       }
     ],
     "lowest": [
@@ -63,7 +63,7 @@
         "moves": 11,
         "firstMove": "2026-10-29T22:01:00.000Z",
         "lastMove": "2026-10-29T22:17:00.000Z",
-        "productivity": 28.61
+        "productivity": 21.24
       }
     ]
   },
@@ -73,7 +73,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 1,
+    "rsCount": 3,
     "ttCount": 0,
     "equipment": [
       {
@@ -81,30 +81,50 @@
         "login": "JDG",
         "operator": "JUVENAL DUTRA GARCIA JR",
         "moves": 1,
-        "productivity": 2.6,
+        "productivity": 1.93,
         "firstMove": "2026-10-29T22:01:00.000Z",
         "lastMove": "2026-10-29T22:01:00.000Z",
-        "idleMinutes": 23
+        "idleMinutes": 31
+      },
+      {
+        "equipment": "R06",
+        "login": "VSJ",
+        "operator": "VANILDO DOS SANTOS JR",
+        "moves": 1,
+        "productivity": 2.85,
+        "firstMove": "2026-10-29T22:11:00.000Z",
+        "lastMove": "2026-10-29T22:11:00.000Z",
+        "idleMinutes": 21
+      },
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 4,
+        "productivity": 8.87,
+        "firstMove": "2026-10-29T22:05:00.000Z",
+        "lastMove": "2026-10-29T22:14:00.000Z",
+        "idleMinutes": 18
       }
     ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 287,
+      "receival": 288,
       "load": 850,
       "housekeeping": 100,
       "housekeepingRatio": 0.12
     },
     "import": {
       "discharge": 402,
-      "delivery": 349,
-      "housekeeping": 573,
-      "housekeepingRatio": 1.64
+      "delivery": 355,
+      "housekeeping": 574,
+      "housekeepingRatio": 1.62
     }
   },
   "stats": {
-    "moveRowsInput": 3263,
-    "rsEventsCurrentPeriod": 21,
+    "moveRowsInput": 3260,
+    "rsEventsCurrentPeriod": 28,
     "ttEventsCurrentPeriod": 0
   }
 }
