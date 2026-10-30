@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T04:18:49.465Z",
-  "reportReferenceTime": "2026-10-30T04:16:04.000Z",
+  "generatedAt": "2026-10-30T04:23:18.536Z",
+  "reportReferenceTime": "2026-10-30T04:20:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_163221069.csv",
-      "receivedAt": "2026-10-30T04:16:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-89681305.csv",
+      "receivedAt": "2026-10-30T04:20:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_656055766.csv",
-      "receivedAt": "2026-10-30T04:16:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_279868312.csv",
+      "receivedAt": "2026-10-30T04:20:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9749,
+      "occupiedTeus": 9745,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7409
+      "occupancyPct": 0.7406
     },
     "reefer": {
-      "occupiedUnits": 825,
+      "occupiedUnits": 826,
       "capacityPlugs": 1420,
-      "occupancyPct": 0.581
+      "occupancyPct": 0.5817
     },
     "imo": {
       "occupiedTeus": 173,
@@ -43,8 +43,17 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.22,
+    "averageProductivity": 15.48,
     "top": [
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 8,
+        "firstMove": "2026-10-30T04:00:00.000Z",
+        "lastMove": "2026-10-30T04:18:00.000Z",
+        "productivity": 23.92
+      },
       {
         "equipment": "R11",
         "login": "MUS",
@@ -52,36 +61,27 @@
         "moves": 7,
         "firstMove": "2026-10-30T04:01:00.000Z",
         "lastMove": "2026-10-30T04:15:00.000Z",
-        "productivity": 27.88
-      },
-      {
-        "equipment": "R07",
-        "login": "GRJ",
-        "operator": "GERSON ROBERTO JAQUES",
-        "moves": 6,
-        "firstMove": "2026-10-30T04:00:00.000Z",
-        "lastMove": "2026-10-30T04:10:00.000Z",
-        "productivity": 22.41
+        "productivity": 22.03
       }
     ],
     "lowest": [
       {
-        "equipment": "R07",
-        "login": "GRJ",
-        "operator": "GERSON ROBERTO JAQUES",
-        "moves": 6,
-        "firstMove": "2026-10-30T04:00:00.000Z",
-        "lastMove": "2026-10-30T04:10:00.000Z",
-        "productivity": 22.41
-      },
-      {
         "equipment": "R11",
         "login": "MUS",
         "operator": "MURILO DA SILVA",
         "moves": 7,
         "firstMove": "2026-10-30T04:01:00.000Z",
         "lastMove": "2026-10-30T04:15:00.000Z",
-        "productivity": 27.88
+        "productivity": 22.03
+      },
+      {
+        "equipment": "R07",
+        "login": "GRJ",
+        "operator": "GERSON ROBERTO JAQUES",
+        "moves": 8,
+        "firstMove": "2026-10-30T04:00:00.000Z",
+        "lastMove": "2026-10-30T04:18:00.000Z",
+        "productivity": 23.92
       }
     ]
   },
@@ -92,26 +92,37 @@
   "idle": {
     "alertMinutes": 15,
     "rsCount": 0,
-    "ttCount": 0,
-    "equipment": []
+    "ttCount": 1,
+    "equipment": [
+      {
+        "equipment": "TT23",
+        "login": "ROV",
+        "operator": "ROV",
+        "moves": 2,
+        "productivity": 6.64,
+        "firstMove": "2026-10-30T04:02:00.000Z",
+        "lastMove": "2026-10-30T04:03:00.000Z",
+        "idleMinutes": 17
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 10,
+      "receival": 11,
       "load": 0,
       "housekeeping": 13,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 28,
-      "delivery": 28,
+      "delivery": 31,
       "housekeeping": 48,
-      "housekeepingRatio": 1.71
+      "housekeepingRatio": 1.55
     }
   },
   "stats": {
-    "moveRowsInput": 3202,
-    "rsEventsCurrentPeriod": 21,
+    "moveRowsInput": 3201,
+    "rsEventsCurrentPeriod": 25,
     "ttEventsCurrentPeriod": 2
   }
 }
