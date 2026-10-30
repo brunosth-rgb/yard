@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T04:13:17.861Z",
-  "reportReferenceTime": "2026-10-30T04:12:04.000Z",
+  "generatedAt": "2026-10-30T04:18:49.465Z",
+  "reportReferenceTime": "2026-10-30T04:16:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_704602103.csv",
-      "receivedAt": "2026-10-30T04:12:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_163221069.csv",
+      "receivedAt": "2026-10-30T04:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_736425135.csv",
-      "receivedAt": "2026-10-30T04:12:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_656055766.csv",
+      "receivedAt": "2026-10-30T04:16:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,14 +22,14 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9753,
+      "occupiedTeus": 9749,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7412
+      "occupancyPct": 0.7409
     },
     "reefer": {
-      "occupiedUnits": 824,
+      "occupiedUnits": 825,
       "capacityPlugs": 1420,
-      "occupancyPct": 0.5803
+      "occupancyPct": 0.581
     },
     "imo": {
       "occupiedTeus": 173,
@@ -43,8 +43,17 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 17.53,
+    "averageProductivity": 17.22,
     "top": [
+      {
+        "equipment": "R11",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 7,
+        "firstMove": "2026-10-30T04:01:00.000Z",
+        "lastMove": "2026-10-30T04:15:00.000Z",
+        "productivity": 27.88
+      },
       {
         "equipment": "R07",
         "login": "GRJ",
@@ -52,7 +61,7 @@
         "moves": 6,
         "firstMove": "2026-10-30T04:00:00.000Z",
         "lastMove": "2026-10-30T04:10:00.000Z",
-        "productivity": 29.83
+        "productivity": 22.41
       }
     ],
     "lowest": [
@@ -63,7 +72,16 @@
         "moves": 6,
         "firstMove": "2026-10-30T04:00:00.000Z",
         "lastMove": "2026-10-30T04:10:00.000Z",
-        "productivity": 29.83
+        "productivity": 22.41
+      },
+      {
+        "equipment": "R11",
+        "login": "MUS",
+        "operator": "MURILO DA SILVA",
+        "moves": 7,
+        "firstMove": "2026-10-30T04:01:00.000Z",
+        "lastMove": "2026-10-30T04:15:00.000Z",
+        "productivity": 27.88
       }
     ]
   },
@@ -79,21 +97,21 @@
   },
   "dailyFlows": {
     "export": {
-      "receival": 8,
+      "receival": 10,
       "load": 0,
-      "housekeeping": 12,
+      "housekeeping": 13,
       "housekeepingRatio": null
     },
     "import": {
       "discharge": 28,
       "delivery": 28,
-      "housekeeping": 46,
-      "housekeepingRatio": 1.64
+      "housekeeping": 48,
+      "housekeepingRatio": 1.71
     }
   },
   "stats": {
-    "moveRowsInput": 3205,
-    "rsEventsCurrentPeriod": 13,
+    "moveRowsInput": 3202,
+    "rsEventsCurrentPeriod": 21,
     "ttEventsCurrentPeriod": 2
   }
 }
