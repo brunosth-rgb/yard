@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T17:03:13.816Z",
-  "reportReferenceTime": "2026-10-31T17:00:04.000Z",
+  "generatedAt": "2026-10-31T17:08:30.428Z",
+  "reportReferenceTime": "2026-10-31T17:04:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_517239507.csv",
-      "receivedAt": "2026-10-31T17:00:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_657354260.csv",
+      "receivedAt": "2026-10-31T17:04:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_520480774.csv",
-      "receivedAt": "2026-10-31T17:00:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-52491780.csv",
+      "receivedAt": "2026-10-31T17:04:05.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -43,46 +43,37 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 26.9,
+    "averageProductivity": 27.12,
     "top": [
       {
         "equipment": "R09",
         "login": "JMO",
         "operator": "JEAN MOSER",
-        "moves": 34,
+        "moves": 38,
         "firstMove": "2026-10-31T16:25:00.000Z",
-        "lastMove": "2026-10-31T16:58:00.000Z",
-        "productivity": 58.17
+        "lastMove": "2026-10-31T17:02:00.000Z",
+        "productivity": 58.36
       },
       {
         "equipment": "R10",
         "login": "RSI",
         "operator": "ROGERIO DA SILVA",
-        "moves": 18,
+        "moves": 22,
         "firstMove": "2026-10-31T16:37:00.000Z",
-        "lastMove": "2026-10-31T16:56:00.000Z",
-        "productivity": 46.82
+        "lastMove": "2026-10-31T17:03:00.000Z",
+        "productivity": 48.77
       },
       {
         "equipment": "R02",
         "login": "JDG",
         "operator": "JUVENAL DUTRA GARCIA JR",
-        "moves": 15,
+        "moves": 17,
         "firstMove": "2026-10-31T16:24:00.000Z",
-        "lastMove": "2026-10-31T16:59:00.000Z",
-        "productivity": 24.95
+        "lastMove": "2026-10-31T17:01:00.000Z",
+        "productivity": 25.46
       }
     ],
     "lowest": [
-      {
-        "equipment": "R08",
-        "login": "FJL",
-        "operator": "FABIANO JOSE LIMA",
-        "moves": 9,
-        "firstMove": "2026-10-31T16:00:00.000Z",
-        "lastMove": "2026-10-31T16:41:00.000Z",
-        "productivity": 8.99
-      },
       {
         "equipment": "R07",
         "login": "ESO",
@@ -90,7 +81,16 @@
         "moves": 8,
         "firstMove": "2026-10-31T16:12:00.000Z",
         "lastMove": "2026-10-31T16:58:00.000Z",
-        "productivity": 9.99
+        "productivity": 9.22
+      },
+      {
+        "equipment": "R08",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 10,
+        "firstMove": "2026-10-31T16:00:00.000Z",
+        "lastMove": "2026-10-31T17:00:00.000Z",
+        "productivity": 9.37
       },
       {
         "equipment": "R12",
@@ -99,7 +99,7 @@
         "moves": 10,
         "firstMove": "2026-10-31T16:12:00.000Z",
         "lastMove": "2026-10-31T16:34:00.000Z",
-        "productivity": 12.48
+        "productivity": 11.52
       }
     ]
   },
@@ -109,7 +109,7 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 2,
+    "rsCount": 1,
     "ttCount": 0,
     "equipment": [
       {
@@ -117,20 +117,10 @@
         "login": "MOV",
         "operator": "MOISES VIEIRA",
         "moves": 10,
-        "productivity": 12.48,
+        "productivity": 11.52,
         "firstMove": "2026-10-31T16:12:00.000Z",
         "lastMove": "2026-10-31T16:34:00.000Z",
-        "idleMinutes": 26
-      },
-      {
-        "equipment": "R08",
-        "login": "FJL",
-        "operator": "FABIANO JOSE LIMA",
-        "moves": 9,
-        "productivity": 8.99,
-        "firstMove": "2026-10-31T16:00:00.000Z",
-        "lastMove": "2026-10-31T16:41:00.000Z",
-        "idleMinutes": 19
+        "idleMinutes": 30
       }
     ]
   },
@@ -138,19 +128,19 @@
     "export": {
       "receival": 320,
       "load": 280,
-      "housekeeping": 185,
-      "housekeepingRatio": 0.66
+      "housekeeping": 188,
+      "housekeepingRatio": 0.67
     },
     "import": {
       "discharge": 250,
-      "delivery": 97,
-      "housekeeping": 532,
-      "housekeepingRatio": 5.48
+      "delivery": 98,
+      "housekeeping": 534,
+      "housekeepingRatio": 5.45
     }
   },
   "stats": {
-    "moveRowsInput": 2913,
-    "rsEventsCurrentPeriod": 94,
+    "moveRowsInput": 2910,
+    "rsEventsCurrentPeriod": 105,
     "ttEventsCurrentPeriod": 0
   }
 }
