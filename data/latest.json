@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T16:23:13.198Z",
-  "reportReferenceTime": "2026-10-31T16:20:04.000Z",
+  "generatedAt": "2026-10-31T16:28:13.301Z",
+  "reportReferenceTime": "2026-10-31T16:24:04.000Z",
   "timezone": "America/Sao_Paulo",
   "source": {
     "occupancy": {
-      "fileName": "REP_YARDOCCUPANCYDASHBOARD_-41838192.csv",
-      "receivedAt": "2026-10-31T16:20:05.000Z",
+      "fileName": "REP_YARDOCCUPANCYDASHBOARD_773123192.csv",
+      "receivedAt": "2026-10-31T16:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     },
     "moveHistory": {
-      "fileName": "REP_YARDDASHBOARDMOVES_651498148.csv",
-      "receivedAt": "2026-10-31T16:20:05.000Z",
+      "fileName": "REP_YARDDASHBOARDMOVES_-87553215.csv",
+      "receivedAt": "2026-10-31T16:24:04.000Z",
       "messageSubject": "YARD DASHBOARD"
     }
   },
@@ -22,9 +22,9 @@
   },
   "occupancy": {
     "general": {
-      "occupiedTeus": 9376,
+      "occupiedTeus": 9374,
       "capacityTeus": 13158,
-      "occupancyPct": 0.7126
+      "occupancyPct": 0.7124
     },
     "reefer": {
       "occupiedUnits": 904,
@@ -43,9 +43,29 @@
   },
   "rs": {
     "target": 15,
-    "averageProductivity": 15.39,
-    "top": [],
-    "lowest": []
+    "averageProductivity": 14.09,
+    "top": [
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-31T16:12:00.000Z",
+        "lastMove": "2026-10-31T16:22:00.000Z",
+        "productivity": 24.86
+      }
+    ],
+    "lowest": [
+      {
+        "equipment": "R12",
+        "login": "MOV",
+        "operator": "MOISES VIEIRA",
+        "moves": 5,
+        "firstMove": "2026-10-31T16:12:00.000Z",
+        "lastMove": "2026-10-31T16:22:00.000Z",
+        "productivity": 24.86
+      }
+    ]
   },
   "tt": {
     "top": [],
@@ -53,13 +73,24 @@
   },
   "idle": {
     "alertMinutes": 15,
-    "rsCount": 0,
+    "rsCount": 1,
     "ttCount": 0,
-    "equipment": []
+    "equipment": [
+      {
+        "equipment": "R08",
+        "login": "FJL",
+        "operator": "FABIANO JOSE LIMA",
+        "moves": 3,
+        "productivity": 7.48,
+        "firstMove": "2026-10-31T16:00:00.000Z",
+        "lastMove": "2026-10-31T16:08:00.000Z",
+        "idleMinutes": 16
+      }
+    ]
   },
   "dailyFlows": {
     "export": {
-      "receival": 301,
+      "receival": 303,
       "load": 280,
       "housekeeping": 167,
       "housekeepingRatio": 0.6
@@ -72,8 +103,8 @@
     }
   },
   "stats": {
-    "moveRowsInput": 2906,
-    "rsEventsCurrentPeriod": 8,
+    "moveRowsInput": 2896,
+    "rsEventsCurrentPeriod": 10,
     "ttEventsCurrentPeriod": 0
   }
 }
